@@ -4,7 +4,9 @@ const generateHeader = (block) => {
     const header = `
         <header class="masthead mb-auto">
             <div class="inner">
-                <h3 class="masthead-brand">MICSECS</h3>
+                <img class="d-block d-sm-none masthead-brand" src="./img/face_logo.png" />
+                <h1 class="d-none d-sm-block masthead-brand">MICSECS</h1>
+                
                 <div class="btn-menu">
                     <div class="btn-burger"></div>
                 </div>
@@ -16,7 +18,7 @@ const generateHeader = (block) => {
                     <a class="nav-link" href="contacts.html">Contacts</a>
                 </nav>
 
-                <nav class="mobail-nav">
+                <nav class="nav flex-column mobail-nav py-2">
                     <a class="nav-link" href="index.html">Home</a>
                     <a class="nav-link" href="call.html">Call for Papers</a>
                     <a class="nav-link" href="publications.html">Publications</a>
