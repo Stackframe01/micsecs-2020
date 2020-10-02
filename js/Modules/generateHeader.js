@@ -5,7 +5,7 @@ const generateHeader = (block) => {
         <header class="masthead mb-auto">
             <div class="inner">
                 <div class="d-block d-sm-none masthead-brand">
-                    <img class="img-fluid" src="./img/face_logo_new.png" />
+                    <img class="img-fluid" src="./img/face_logo_new2.png" />
                 </div>
                 <h1 class="d-none d-sm-block masthead-brand">MICSECS</h1>
                 
