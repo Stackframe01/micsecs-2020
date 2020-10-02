@@ -43,19 +43,27 @@
     background-color: #fff;
     transition: transform 0.2s;
 }
+.btn-menu.active{
+    position: absolute;
+    top: 10px;
+}
 
 .btn-menu.active .btn-burger {
     height: 0;
 }
 
 .btn-menu.active .btn-burger::before {
+    margin: -20px;
+    position: absolute;
     transform: rotate(45deg);
-    top: 0;
+    top: 10px;
 }
 
 .btn-menu.active .btn-burger::after {
+    margin: -20px;
+    position: absolute;
     transform: rotate(-45deg);
-    top: 0;
+    top: 10px;
 }
 
 .mobail-nav {
