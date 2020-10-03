@@ -13,7 +13,7 @@ const generateHeader = (block) => {
                     <div class="btn-burger"></div>
                 </div>
                 <nav class="nav nav-masthead justify-content-center">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Main</a>
                     <a class="nav-link" href="call.html">Call for Papers</a>
                     <a class="nav-link" href="publications.html">Publications</a>
                     <a class="nav-link" href="organization.html">Organization</a>
@@ -21,7 +21,7 @@ const generateHeader = (block) => {
                 </nav>
 
                 <nav class="nav flex-column mobail-nav py-2">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Main</a>
                     <a class="nav-link" href="call.html">Call for Papers</a>
                     <a class="nav-link" href="publications.html">Publications</a>
                     <a class="nav-link" href="organization.html">Organization</a>
