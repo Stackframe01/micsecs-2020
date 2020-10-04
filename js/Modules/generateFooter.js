@@ -3,7 +3,7 @@ const generateFooter = block => {
         <footer class="mastfoot mt-auto">
             <div class="inner">
                 <p>©  MICSECS 2020 - The Majorov International Conference on Software Engineering and Computer Systems</p>
-                Date and place will be announced soon
+                <p>Conference date: December 17-18, Saint Petersburg, Russia</p>
             </div>
         </footer>
     `;
