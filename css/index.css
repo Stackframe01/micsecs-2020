@@ -9,6 +9,14 @@ a:hover {
     color: #fff;
 }
 
+p{
+    margin-bottom: 2rem;
+}
+
+.mastfoot > .inner > p {
+    margin-bottom: 1rem;
+}
+
 a {
     color: #f21010;
 }
@@ -97,7 +105,19 @@ body {
     }
 }
 
+@media (max-width: 425px){
+    html,
+    body {
+        height: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/background-rotate.jpg");
+        background-size: cover;
+        background-repeat: repeat-y;
+        background-clip: content-box;
+        background-position: center;
+        font-family: "Schlange Sans", "Open Sans", sans-serif
+    }
 
+}
 /*
  * Cover
  */
