@@ -1,139 +1,80 @@
-/*
- * Globals
- */
-
-/* Links */
-a,
-a:focus,
-a:hover {
-    color: #fff;
+.brand{
+    font-family: "Poiret One", sans-serif, Arial, serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    border-bottom: 3px double rgba( 0, 0, 0, 0.1 );
 }
 
-p{
-    margin-bottom: 2rem;
+.menu-item{
+    margin: 5px 10px;
+    color: black;
+    text-transform: uppercase;
 }
 
-.mastfoot > .inner > p {
-    margin-bottom: 1rem;
+.menu-item:hover{
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
 }
 
-a {
-    color: #f21010;
+.header{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    font-weight: bold;
 }
 
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-    color: #333;
-    text-shadow: none;
-    /* Prevent inheritance from `body` */
-    background-color: #fff;
-    border: .05rem solid #fff;
+.navbar-toggler-icon{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-
-/*
- * Base structure
- */
-
-html,
-body {
-    height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/background.jpg");
+.content{
+    font-family: "Schlange Sans", "Open Sans", sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url("../img/background-light.png");
     background-size: cover;
     background-repeat: repeat-y;
     background-clip: content-box;
     background-position: center;
-    font-family: "Schlange Sans", "Open Sans", sans-serif
+    min-height: 504px;
+    color: black;
+    box-shadow: inset 0 0px 3px 3px rgba( 0, 0, 0, 0.08 )
 }
 
-body {
-    display: -ms-flexbox;
-    display: flex;
-    color: #fff;
-    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+.content-page{
+    font-family: "Schlange Sans", "Open Sans", sans-serif;
+    color: black;
+    box-shadow: inset 0 0px 3px 3px rgba( 0, 0, 0, 0.08);
+    background-color: #f5f5f5;
+    min-height: 504px;
+}
+
+.footer{
+    font-weight: bold;
+}
+
+.active>.menu-item{
+    background-color: red;
+    color:white;
+}
+
+.active>.menu-item:hover{
+    background-color: white;
+    color:black;
+}
+
+.sponsors>img{
+    max-height: 80px;
 }
 
 
-
-.cover-container {
-    max-width: 52em;
+body{
+    font-family: "Poiret One", sans-serif, Arial, serif;
+    color: black;
 }
 
-/*
- * Header
- */
-.masthead {
-    margin-bottom: 2rem;
-}
-
-.masthead-brand {
-    margin-bottom: 0;
-}
-
-.nav-masthead .nav-link {
-    padding: .25rem 0;
-    font-weight: 700;
-    color: rgba(255, 255, 255, .5);
-    background-color: transparent;
-    border-bottom: .25rem solid transparent;
-}
-
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-    border-bottom-color: rgba(255, 255, 255, .25);
-}
-
-.nav-masthead .nav-link+.nav-link {
-    margin-left: 1rem;
-}
-
-.nav-masthead .active {
-    color: #fff;
-    border-bottom-color: #fff;
-}
-
-@media (min-width: 48em) {
-    .masthead-brand {
-        float: left;
-    }
-
-    .nav-masthead {
-        float: right;
-    }
-}
-
-@media (max-width: 425px){
-    html,
-    body {
-        height: 100%;
-        background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/background-rotate.jpg");
-        background-size: cover;
-        background-repeat: repeat-y;
-        background-clip: content-box;
-        background-position: center;
-        font-family: "Schlange Sans", "Open Sans", sans-serif
-    }
-
-}
-/*
- * Cover
- */
-/*
-.cover {
-    padding: 0 1.5rem;
-}
-.cover .btn-lg {
-    padding: .75rem 1.25rem;
-    font-weight: 700;
-}
-*/
-
-/*
- * Footer
- */
-.mastfoot {
-    color: rgba(255, 255, 255, .5);
-}

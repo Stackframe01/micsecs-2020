@@ -7,47 +7,28 @@
     <meta name="description" content="">
     <title>Contacts</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet"
-          crossorigin="anonymous">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" id="materialize-google-font-1-css"
+          href="//fonts.googleapis.com/css?family=Poiret+One&amp;ver=0.0.21" type="text/css" media="all">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <!-- Favicons -->
-    <meta name="theme-color" content="#563d7c">
-    <link rel="icon" type="image/png" href="./favicon.png"/>
-    <script src="js/index.js" defer type="module"></script>
-
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="./css/menu.css" rel="stylesheet">
-    <link href="./css/index.css" rel="stylesheet">
-    <script src="./js/index.js" defer type="module"></script>
+    <script src="./js/jquery-3.2.1.slim.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/index.js" type="module" defer></script>
+    <script src="./js/generateDates.js" defer></script>
 </head>
 
-<body class="text-center">
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+<body>
+<div class="layout w-100 h-100 d-flex flex-column align-items-center">
 
-    <main role="main" class="inner cover">
-        <h1 class=" cover-heading">Contacts</h1>
-        <div class="lead">Address: ITMO University, 49 Kronverksky Pr., St. Petersburg, 197101, Russia</div>
-        <div class="lead">
-            <strong>E-mail</strong>: <a href="mailto:mr@itmo.ru">mr@itmo.ru</a>
-        </div>
+    <main class="content w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+            <h1 class=" cover-heading">Contacts</h1>
+            <div class="lead">Address: ITMO University, 49 Kronverksky Pr., St. Petersburg, 197101, Russia</div>
+            <div class="lead">
+                <strong>E-mail</strong>: <a href="mailto:mr@itmo.ru">mr@itmo.ru</a>
+            </div>
     </main>
+
 </div>
 </body>
 

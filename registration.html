@@ -5,116 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <title>Registration</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/cover/">
-
-    <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet"
-          crossorigin="anonymous">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" id="materialize-google-font-1-css"
+          href="//fonts.googleapis.com/css?family=Poiret+One&amp;ver=0.0.21" type="text/css" media="all">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <!-- Favicons -->
-    <meta name="theme-color" content="#563d7c">
-    <link rel="icon" type="image/png" href="./favicon.png" />
-    <script src="js/index.js" defer type="module"></script>
+    <script src="./js/jquery-3.2.1.slim.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/index.js" type="module" defer></script>
+    <script src="./js/generateDates.js" defer></script>
 
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        .cover-container {
-            min-height: 100vh;
-            justify-content: space-between;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="css/page.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/menu.css">
-    <script src="js/index.js" defer type="module"></script>
 </head>
-<body class="text-center">
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <main role="main" class="inner cover text-justify pt-5">
+<body>
+<div class="layout w-100 h-100 d-flex flex-column align-items-center">
 
-        <h2 id="listeners-registration">Listeners registration</h2>
+    <main class="content-page w-100 h-100 d-flex flex-column align-items-center">
+        <div class="w-50 my-2 mx-2">
 
-        <p>To take part in the conference as a listener, you need to fill the
-            <a href="https://forms.yandex.ru/u/5f79dee91a1a54869a490804/" target="_blank"><strong>registration form</strong></a>.
-        </p>
+            <h2 id="listeners-registration">Listeners registration</h2>
 
-        <p>
-            By filling this form, you agree to the personal data processing policy.
-        </p>
+            <p>To take part in the conference as a listener, you need to fill the
+                <a href="https://forms.yandex.ru/u/5f79dee91a1a54869a490804/" target="_blank"><strong>registration
+                    form</strong></a>.
+            </p>
 
-        <h2 id="registration-on-oral-and-poster-presentation">Registration on Oral <!-- and Poster --> presentation</h2>
+            <p>
+                By filling this form, you agree to the personal data processing policy.
+            </p>
 
-        <p>
-            To apply to the conference <strong>Research Tracks</strong> you
-            need to send the abstract of your oral <!-- or poster -->
-            presentation via
-            <a href="https://easychair.org/conferences/?conf=micsecs2020" target="_blank">Easy Chair</a>.
-        </p>
+            <h2 id="registration-on-oral-and-poster-presentation">Registration on Oral <!-- and Poster -->
+                presentation</h2>
 
-        <p>
-            Your paper:
-        </p>
+            <p>
+                To apply to the conference <strong>Research Tracks</strong> you
+                need to send the abstract of your oral <!-- or poster -->
+                presentation via
+                <a href="https://easychair.org/conferences/?conf=micsecs2020" target="_blank">Easy Chair</a>.
+            </p>
 
-        <ul>
-            <li>
-                should be prepared using LNCS format
-                (<a href="https://ru.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj"
-                    target="_blank"><strong>instructions</strong></a>);
-            </li>
-            <li>should content 4-6 pages;</li>
-            <li>language: English.</li>
-        </ul>
+            <p>
+                Your paper:
+            </p>
 
-        <!-- <p>
-             The authors should add the type of presentation (oral presentation or
-             poster session) to the abstract. The type of presentation should be
-             put after <strong>Keywords</strong> in the paper.
-             </p>
-        -->
+            <ul>
+                <li>
+                    should be prepared using LNCS format
+                    (<a href="https://ru.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj"
+                        target="_blank"><strong>instructions</strong></a>);
+                </li>
+                <li>should content 4-6 pages;</li>
+                <li>language: English.</li>
+            </ul>
 
-        <p>
-            Instruction of the abstract submission (ENGLISH version):
-            <a href="/media/MICSECS2019_Easy_Chair_Reg_Manual_RUS.pdf" target="_blank">download</a>
-        </p>
+            <!-- <p>
+                 The authors should add the type of presentation (oral presentation or
+                 poster session) to the abstract. The type of presentation should be
+                 put after <strong>Keywords</strong> in the paper.
+                 </p>
+            -->
 
-        <p>
-            Instruction of the abstract submission (RUSSIAN version):
-            <a href="/media/MICSECS2019_Easy_Chair_Reg_Manual_EN.pdf" target="_blank">download</a>
-        </p>
+            <p>
+                Instruction of the abstract submission (ENGLISH version):
+                <a href="/media/MICSECS2019_Easy_Chair_Reg_Manual_RUS.pdf" target="_blank">download</a>
+            </p>
+
+            <p>
+                Instruction of the abstract submission (RUSSIAN version):
+                <a href="/media/MICSECS2019_Easy_Chair_Reg_Manual_EN.pdf" target="_blank">download</a>
+            </p>
 
 
-        <h2>Student colloquium</h2>
-        <p>
-            To apply to the Student colloquium session, you should send the description of your
-            project to the organization team by <a href="mailto:mr@itmo.ru">mr@itmo.ru</a>.
-            The description should contain the main points of your project,
-            current state, and future plans. It will be preferable if it will be
-            a project presentation.
-        </p>
+            <h2>Student colloquium</h2>
+            <p>
+                To apply to the Student colloquium session, you should send the description of your
+                project to the organization team by <a href="mailto:mr@itmo.ru">mr@itmo.ru</a>.
+                The description should contain the main points of your project,
+                current state, and future plans. It will be preferable if it will be
+                a project presentation.
+            </p>
 
-        <!-- <h2>Registration on Demo session</h2>
-             <p>
-             To apply to the Demo session, you should send the description of
-             your project to the organization team by <a href="mailto:mr@itmo.ru">mr@itmo.ru</a>.
-             The materials should contain your results and describe the obtained
-             executable models, devices, etc. during your research.
-             </p>
-        -->
+            <!-- <h2>Registration on Demo session</h2>
+                 <p>
+                 To apply to the Demo session, you should send the description of
+                 your project to the organization team by <a href="mailto:mr@itmo.ru">mr@itmo.ru</a>.
+                 The materials should contain your results and describe the obtained
+                 executable models, devices, etc. during your research.
+                 </p>
+            -->
 
     </main>
 

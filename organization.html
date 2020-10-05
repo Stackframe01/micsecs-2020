@@ -1,406 +1,385 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
     <title>Organization</title>
 
-
-    <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet"
-          crossorigin="anonymous">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" id="materialize-google-font-1-css"
+          href="//fonts.googleapis.com/css?family=Poiret+One&amp;ver=0.0.21" type="text/css" media="all">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <!-- Favicons -->
-    <meta name="theme-color" content="#563d7c">
-    <link rel="icon" type="image/png" href="./favicon.png" />
-    <link rel="stylesheet" href="css/menu.css">
-    <script src="js/index.js" defer type="module"></script>
-
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="css/menu.css" rel="stylesheet">
-    <link href="css/page.css" rel="stylesheet">
-    <script src="js/index.js" defer type="module"></script>
+    <script src="./js/jquery-3.2.1.slim.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/index.js" type="module" defer></script>
+    <script src="./js/generateDates.js" defer></script>
 </head>
-<body class="text-center">
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+<body>
+<div class="layout w-100 h-100 d-flex flex-column align-items-center">
 
-    <main role="main" class="inner cover text-justify pt-5">
-        <h1 id="organization">Organization</h1>
+    <main class="content-page w-100 h-100 d-flex flex-column align-items-center">
+        <div class="w-50 my-2 mx-2">
 
-        <p><strong>General Chair</strong>: Pavel Kustarev, ITMO University, Russia</p>
+            <h1 id="organization">Organization</h1>
 
-        <p><strong>Program Chair</strong>: Aleksandr Penskoi, ITMO University, Russia</p>
+            <p><strong>General Chair</strong>: Pavel Kustarev, ITMO University, Russia</p>
 
-        <p><strong>Proceeding Сhair</strong>: Olga Parkhimovich, ITMO University, Russia</p>
+            <p><strong>Program Chair</strong>: Aleksandr Penskoi, ITMO University, Russia</p>
 
-        <p><strong>Organizing Сhair</strong>: Tatiana Markina, ITMO University, Russia</p>
+            <p><strong>Proceeding Сhair</strong>: Olga Parkhimovich, ITMO University, Russia</p>
 
-        <h2 id="local-organization-team">Local organization team</h2>
+            <p><strong>Organizing Сhair</strong>: Tatiana Markina, ITMO University, Russia</p>
 
-        <table class="table table-transparent">
-            <thead>
-            <tr>
-                <th>Name</th>
-                <th style="text-align: center">Company</th>
-                <th>Country</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Dmitry Mouromtsev</td>
-                <td style="text-align: center">ITMO University</td>
-                <td>Russia</td>
-            </tr>
-            <tr>
-                <td>Artem Smolin</td>
-                <td style="text-align: center">ITMO University</td>
-                <td>Russia</td>
-            </tr>
-            <tr>
-                <td>Andrey Dergachev</td>
-                <td style="text-align: center">ITMO University</td>
-                <td>Russia</td>
-            </tr>
-            <tr>
-                <td>Elena Boldyreva</td>
-                <td style="text-align: center">ITMO University</td>
-                <td>Russia</td>
-            </tr>
-            <tr>
-                <td>Sergei Bikovskii</td>
-                <td style="text-align: center">ITMO University</td>
-                <td>Russia</td>
-            </tr>
-            <tr>
-                <td>Vladislav Shmatkov</td>
-                <td style="text-align: center">ITMO University</td>
-                <td>Russia</td>
-            </tr>
-            <tr>
-                <td>Ivan Shilin</td>
-                <td style="text-align: center">ITMO University</td>
-                <td>Russia</td>
-            </tr>
-            <tr>
-                <td>Marina Kudriavtceva</td>
-                <td style="text-align: center">ITMO University</td>
-                <td>Russia</td>
-            </tr>
-            <tr>
-                <td>Rezeda Khaydarova</td>
-                <td style="text-align: center">ITMO University</td>
-                <td>Russia</td>
-            </tr>
-            <tr>
-                <td>Assel Romanova</td>
-                <td style="text-align: center">ITMO University</td>
-                <td>Russia</td>
-            </tr>
-            </tbody>
-        </table>
+            <h2 id="local-organization-team">Local organization team</h2>
 
-        <!-- <h2 id="program-committee">Program committee</h2>
+            <table class="table table-transparent">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th style="text-align: center">Company</th>
+                    <th>Country</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Dmitry Mouromtsev</td>
+                    <td style="text-align: center">ITMO University</td>
+                    <td>Russia</td>
+                </tr>
+                <tr>
+                    <td>Artem Smolin</td>
+                    <td style="text-align: center">ITMO University</td>
+                    <td>Russia</td>
+                </tr>
+                <tr>
+                    <td>Andrey Dergachev</td>
+                    <td style="text-align: center">ITMO University</td>
+                    <td>Russia</td>
+                </tr>
+                <tr>
+                    <td>Elena Boldyreva</td>
+                    <td style="text-align: center">ITMO University</td>
+                    <td>Russia</td>
+                </tr>
+                <tr>
+                    <td>Sergei Bikovskii</td>
+                    <td style="text-align: center">ITMO University</td>
+                    <td>Russia</td>
+                </tr>
+                <tr>
+                    <td>Vladislav Shmatkov</td>
+                    <td style="text-align: center">ITMO University</td>
+                    <td>Russia</td>
+                </tr>
+                <tr>
+                    <td>Ivan Shilin</td>
+                    <td style="text-align: center">ITMO University</td>
+                    <td>Russia</td>
+                </tr>
+                <tr>
+                    <td>Marina Kudriavtceva</td>
+                    <td style="text-align: center">ITMO University</td>
+                    <td>Russia</td>
+                </tr>
+                <tr>
+                    <td>Rezeda Khaydarova</td>
+                    <td style="text-align: center">ITMO University</td>
+                    <td>Russia</td>
+                </tr>
+                <tr>
+                    <td>Assel Romanova</td>
+                    <td style="text-align: center">ITMO University</td>
+                    <td>Russia</td>
+                </tr>
+                </tbody>
+            </table>
 
-             <table class="table table-transparent">
-             <thead>
-             <tr>
-             <th>Name</th>
-             <th style="text-align: center">Company</th>
-             <th>Country</th>
-             </tr>
-             </thead>
-             <tbody>
-             <tr>
-             <td>Jussi Okkonen</td>
-             <td style="text-align: center">Tampere University</td>
-             <td>Finland</td>
-             </tr>
-             <tr>
-             <td>Juergen Sieck</td>
-             <td style="text-align: center">HTW Berlin</td>
-             <td>Germany</td>
-             </tr>
-             <tr>
-             <td>Nelson Zagalo</td>
-             <td style="text-align: center">University of Aveiro</td>
-             <td>Portugal</td>
-             </tr>
-             <tr>
-             <td>Paolo Falcarin</td>
-             <td style="text-align: center">University of East London</td>
-             <td>England</td>
-             </tr>
-             <tr>
-             <td>Alexei Lisitsa</td>
-             <td style="text-align: center">University of Liverpool</td>
-             <td>England</td>
-             </tr>
-             <tr>
-             <td>Pavel Balakshin</td>
-             <td style="text-align: center">Pegasystems</td>
-             <td>USA</td>
-             </tr>
-             <tr>
-             <td>Anatoly Bogatyrev</td>
-             <td style="text-align: center">SPCC NEO</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Andrei Chugunov</td>
-             <td style="text-align: center">E-Government Center</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Oleslav Antamoshkin</td>
-             <td style="text-align: center">Siberian Federal University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Ivan Rudov</td>
-             <td style="text-align: center">Siberian Federal University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Pavel Braslavski</td>
-             <td style="text-align: center">Ural Federal University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Vladimir Ivanov</td>
-             <td style="text-align: center">Innopolis University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Tatiana Tatarnikova</td>
-             <td style="text-align: center">ETU «LETI»</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Mikhail Kolbanev</td>
-             <td style="text-align: center">ETU «LETI»</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Natalya Verzun</td>
-             <td style="text-align: center">ETU «LETI»</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Nadegda Shchegoleva</td>
-             <td style="text-align: center">ETU «LETI»</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Nataly Zhukova</td>
-             <td style="text-align: center">SPIIRAS</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Alexandr Nikitin</td>
-             <td style="text-align: center">SUAI</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Andrey Turlikov</td>
-             <td style="text-align: center">SUAI</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Sergey Bezzateev</td>
-             <td style="text-align: center">SUAI</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Nikolay Borisov</td>
-             <td style="text-align: center">SPbU</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Pavel Shcherbakov</td>
-             <td style="text-align: center">SPbU</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Maxim Mironenko</td>
-             <td style="text-align: center">MSU</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Gleb Rogozinsky</td>
-             <td style="text-align: center">SUT</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Liubov Lisitsyna</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Dmitriy Zhdanov</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Igor Potemin</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Aglaia Ilina</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Gerhard Wohlgenannt</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Alexey Platunov</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Igor Bessmertny</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Artem Smolin</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Aleksandr Mezhenin</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Vladimir Bogatyrev</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Vladimir Polyakov</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Julia Koroleva</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Alena Rusak</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Aleksander Antonov</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Aleksei Lavrov</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Liubov Kovriguina</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Alena Dzhumagulova</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Anna Spiridonova</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Andrei Balkanskii</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Vasiliy Pinkevich</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Evgenij Tsopa</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Alexey Shikov</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Alexander Belozubov</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Taufik Aliev</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Andrei Iuganson</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Viktoria Korzhuk</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Arkady Kluchev</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Dmitry Makhlai</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Lidia Korpan</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             <tr>
-             <td>Polina Belimova</td>
-             <td style="text-align: center">ITMO University</td>
-             <td>Russia</td>
-             </tr>
-             </tbody>
-             </table>
-        -->
+            <!-- <h2 id="program-committee">Program committee</h2>
 
+                 <table class="table table-transparent">
+                 <thead>
+                 <tr>
+                 <th>Name</th>
+                 <th style="text-align: center">Company</th>
+                 <th>Country</th>
+                 </tr>
+                 </thead>
+                 <tbody>
+                 <tr>
+                 <td>Jussi Okkonen</td>
+                 <td style="text-align: center">Tampere University</td>
+                 <td>Finland</td>
+                 </tr>
+                 <tr>
+                 <td>Juergen Sieck</td>
+                 <td style="text-align: center">HTW Berlin</td>
+                 <td>Germany</td>
+                 </tr>
+                 <tr>
+                 <td>Nelson Zagalo</td>
+                 <td style="text-align: center">University of Aveiro</td>
+                 <td>Portugal</td>
+                 </tr>
+                 <tr>
+                 <td>Paolo Falcarin</td>
+                 <td style="text-align: center">University of East London</td>
+                 <td>England</td>
+                 </tr>
+                 <tr>
+                 <td>Alexei Lisitsa</td>
+                 <td style="text-align: center">University of Liverpool</td>
+                 <td>England</td>
+                 </tr>
+                 <tr>
+                 <td>Pavel Balakshin</td>
+                 <td style="text-align: center">Pegasystems</td>
+                 <td>USA</td>
+                 </tr>
+                 <tr>
+                 <td>Anatoly Bogatyrev</td>
+                 <td style="text-align: center">SPCC NEO</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Andrei Chugunov</td>
+                 <td style="text-align: center">E-Government Center</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Oleslav Antamoshkin</td>
+                 <td style="text-align: center">Siberian Federal University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Ivan Rudov</td>
+                 <td style="text-align: center">Siberian Federal University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Pavel Braslavski</td>
+                 <td style="text-align: center">Ural Federal University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Vladimir Ivanov</td>
+                 <td style="text-align: center">Innopolis University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Tatiana Tatarnikova</td>
+                 <td style="text-align: center">ETU «LETI»</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Mikhail Kolbanev</td>
+                 <td style="text-align: center">ETU «LETI»</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Natalya Verzun</td>
+                 <td style="text-align: center">ETU «LETI»</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Nadegda Shchegoleva</td>
+                 <td style="text-align: center">ETU «LETI»</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Nataly Zhukova</td>
+                 <td style="text-align: center">SPIIRAS</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Alexandr Nikitin</td>
+                 <td style="text-align: center">SUAI</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Andrey Turlikov</td>
+                 <td style="text-align: center">SUAI</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Sergey Bezzateev</td>
+                 <td style="text-align: center">SUAI</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Nikolay Borisov</td>
+                 <td style="text-align: center">SPbU</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Pavel Shcherbakov</td>
+                 <td style="text-align: center">SPbU</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Maxim Mironenko</td>
+                 <td style="text-align: center">MSU</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Gleb Rogozinsky</td>
+                 <td style="text-align: center">SUT</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Liubov Lisitsyna</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Dmitriy Zhdanov</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Igor Potemin</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Aglaia Ilina</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Gerhard Wohlgenannt</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Alexey Platunov</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Igor Bessmertny</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Artem Smolin</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Aleksandr Mezhenin</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Vladimir Bogatyrev</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Vladimir Polyakov</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Julia Koroleva</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Alena Rusak</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Aleksander Antonov</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Aleksei Lavrov</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Liubov Kovriguina</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Alena Dzhumagulova</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Anna Spiridonova</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Andrei Balkanskii</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Vasiliy Pinkevich</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Evgenij Tsopa</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Alexey Shikov</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Alexander Belozubov</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Taufik Aliev</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Andrei Iuganson</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Viktoria Korzhuk</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Arkady Kluchev</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Dmitry Makhlai</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Lidia Korpan</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 <tr>
+                 <td>Polina Belimova</td>
+                 <td style="text-align: center">ITMO University</td>
+                 <td>Russia</td>
+                 </tr>
+                 </tbody>
+                 </table>
+            -->
+        </div>
     </main>
 </div>
 </body>

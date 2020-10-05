@@ -1,46 +1,55 @@
 const generateHeader = (block) => {
-    const pathname = location.pathname.slice(1);
-
+    const pathname = location.pathname.slice(1).split('/')[1];
+    console.log(pathname);
     const header = `
-        <header class="masthead mb-auto">
-            <div class="inner">
-                <div class="d-block d-sm-none masthead-brand">
-                    <img class="img-fluid" src="./img/face_logo_new3.png" />
-                </div>
-                <h1 class="d-none d-sm-block masthead-brand">MICSECS</h1>
-                
-                <div class="btn-menu">
-                    <div class="btn-burger"></div>
-                </div>
-                <nav class="nav nav-masthead justify-content-center">
-                    <a class="nav-link" href="index.html">Main</a>
-                    <a class="nav-link" href="call.html">Call for Papers</a>
-                    <a class="nav-link" href="publications.html">Publications</a>
-                    <a class="nav-link" href="organization.html">Organization</a>
-                    <a class="nav-link" href="contacts.html">Contacts</a>
-                </nav>
-
-                <nav class="nav flex-column mobail-nav py-2">
-                    <a class="nav-link" href="index.html">Main</a>
-                    <a class="nav-link" href="call.html">Call for Papers</a>
-                    <a class="nav-link" href="publications.html">Publications</a>
-                    <a class="nav-link" href="organization.html">Organization</a>
-                    <a class="nav-link" href="contacts.html">Contacts</a>
-                </nav>
+    <div class="header w-100 d-flex flex-column align-items-center">
+        <div class="brand d-flex flex-column align-items-center text-center mt-2">
+            <img class="img-fluid" src="./img/face_logo_new.png"/>
+            <h1>MICSECS 2020</h1>
+            <div>The Majorov International Conference on Software Engineering and Computer Systems</div>
+        </div>
+        <nav class="navbar navbar-expand-md text-center">
+            <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link menu-item" href="./index.html">Main</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-item" href="./call.html">Call for Papers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-item" href="./publications.html">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-item" href="./organization.html">Organization</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-item" href="./contacts.html">Contacts</a>
+                    </li>
+                </ul>
             </div>
-        </header>
+        </nav>
+    </div>
     `;
+
     block.insertAdjacentHTML('afterbegin', header);
 
     const navLink = document.querySelectorAll('.nav-link');
 
     navLink.forEach(item => {
+        console.log(item.href, item.href.includes(pathname))
         if (item.href.includes(pathname)) {
-            item.classList.add('active');
+            console.log(item.parentElement)
+            item.parentElement.classList.add('active');
         } else {
-            item.classList.remove('active');
+            item.parentElement.classList.remove('active');
         }
     });
+
 };
 
 export default generateHeader;
