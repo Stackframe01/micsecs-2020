@@ -6,7 +6,7 @@ const generateFooter = block => {
             </div>
             <div>
                 <p>©  MICSECS 2020 - The Majorov International Conference on Software Engineering and Computer Systems</p>
-                <p>Conference date: December 17-18, Saint Petersburg, Russia</p>
+                <p>Conference date: December 10-11, Online &amp; Saint Petersburg, Russia</p>
             </div>
         </footer>
     `;
