@@ -72,6 +72,9 @@
     max-height: 80px;
 }
 
+h1,h2{
+    text-align: left;
+}
 
 body{
     font-family: "Poiret One", sans-serif, Arial, serif;
