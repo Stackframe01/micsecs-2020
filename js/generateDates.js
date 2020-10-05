@@ -6,8 +6,8 @@ const generateDates = () => {
             let html = `
                 <ul class="list-unstyled">
                     ${datesList.join('')}
-                </ul>
-                <p>
+                </ul>               
+                <p> 
                     <strong>All deadlines are for the Moscow time zone, 23:59.</strong>
                 </p>
             `
