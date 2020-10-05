@@ -42,7 +42,7 @@ body {
     height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/background.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-clip: content-box;
     background-position: center;
     font-family: "Schlange Sans", "Open Sans", sans-serif
