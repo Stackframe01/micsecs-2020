@@ -36,7 +36,7 @@
 
 .content{
     font-family: "Schlange Sans", "Open Sans", sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url("../img/background-light.png");
+    background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url("../img/background-light.jpg");
     background-size: cover;
     background-repeat: repeat-y;
     background-clip: content-box;
@@ -68,7 +68,7 @@
     color:black;
 }
 
-.sponsors>img{
+.sponsors>a>img{
     max-height: 80px;
 }
 

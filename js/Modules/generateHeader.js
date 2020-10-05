@@ -4,7 +4,7 @@ const generateHeader = (block) => {
     const header = `
     <div class="header w-100 d-flex flex-column align-items-center">
         <div class="brand d-flex flex-column align-items-center text-center mt-2">
-            <img class="img-fluid" src="./img/face_logo_new.png"/>
+            <a href="./index.html"><img class="img-fluid" src="./img/face_logo_new.png"/></a>
             <h1>MICSECS 2020</h1>
             <div>The Majorov International Conference on Software Engineering and Computer Systems</div>
         </div>
