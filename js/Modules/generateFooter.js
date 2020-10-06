@@ -1,6 +1,6 @@
 const generateFooter = block => {
     const footer = `
-        <footer class="mt-2 text-center footer">
+        <footer class="w-100 mt-2 text-center footer">
             <div class="sponsors">
                 <a href="//itmo.ru"><img class="mx-auto d-block" src="./img/itmo_logo_horiz_white_en.png"/></a>
             </div>

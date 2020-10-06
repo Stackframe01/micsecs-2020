@@ -10,6 +10,7 @@
     margin: 5px 10px;
     color: black;
     text-transform: uppercase;
+    font-family: "Schlange Sans", "Open Sans", sans-serif;
 }
 
 .menu-item:hover{
@@ -55,11 +56,11 @@
 }
 
 .footer{
-    font-weight: bold;
+    font-family: "Schlange Sans", "Open Sans", sans-serif;
 }
 
 .active>.menu-item{
-    background-color: red;
+    background-color: #6c757d;
     color:white;
 }
 
@@ -81,3 +82,18 @@ body{
     color: black;
 }
 
+@media only screen and (max-width: 350px){
+    .header{
+        box-shadow: none;
+    }
+    .content{
+        box-shadow: none;
+    }
+    .content-page{
+        box-shadow: none;
+        background-color: white;
+    }
+    .sponsors>a>img{
+        max-width: 300px;
+    }
+}
