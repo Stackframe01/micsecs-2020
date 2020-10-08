@@ -1,6 +1,5 @@
 const generateHeader = (block) => {
     const pathname = location.pathname.slice(1).split('/')[1];
-    console.log(pathname);
     const header = `
     <div class="header w-100 d-flex flex-column align-items-center">
         <div class="brand d-flex flex-column align-items-center text-center mt-2">
@@ -44,9 +43,7 @@ const generateHeader = (block) => {
     const navLink = document.querySelectorAll('.nav-link');
 
     navLink.forEach(item => {
-        console.log(item.href, item.href.includes(pathname))
         if (item.href.includes(pathname)) {
-            console.log(item.parentElement)
             item.parentElement.classList.add('active');
         } else {
             item.parentElement.classList.remove('active');
