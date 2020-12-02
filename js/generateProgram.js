@@ -76,8 +76,7 @@ const generateProgram = async () => {
                             return `
                                 <tr>
                                     <td>${events[0].startTime}</td>
-                                    <td>${events[0].author}</td>
-                                    <td>${events[0].title}</td>
+                                    <td class="text-center">${events[0].author} - ${events[0].title}</td>
                                 </tr>`
                         }
                     } else {

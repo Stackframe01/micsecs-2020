@@ -97,6 +97,14 @@
         "title": "Closing Ceremony",
         "startTime": "10:00",
         "link": "https://zoom.us"
+      },{
+        "type": "Speech",
+        "title": "Some necessary and very longnamed speech one",
+        "author": "Someone",
+        "annotation": "Some tooltips",
+        "organization": "ITMO University",
+        "startTime": "11:00",
+        "link": "https://zoom.us"
       }
     ]
   }
