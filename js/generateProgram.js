@@ -30,11 +30,10 @@ const generateProgram = () => {
                         <h3 class="text-center font-weight-bold">${event.date}</h3>
                         <h3 class="text-center font-weight-bold">${event.time}</h3>
                         <h4  class="text-center">${event.title}</h4>
-                        <br/>
-                        <h4 class="font-weight-bold">${event.presenter ? event.presenter : ""}  </h4>
+                        ${event.presenter ? `<br/><h4 class="font-weight-bold">${event.presenter}</h4>` : ""}
                         <h5>${event.organization ? event.organization : ""}</h5>
                         ${event.annotation ? `<br/><div>${event.annotation}</div>` : ""}
-                        ${event.link ? `<div class="text-center"><a class="btn btn-secondary" href="${event.link}">Watch online</a></div>` : ""}
+                        ${event.link ? `<br/><div class="text-center"><a class="btn btn-secondary" href="${event.link}">Watch online</a></div>` : ""}
                         <br/>
                     </div>
                 `).join("")
