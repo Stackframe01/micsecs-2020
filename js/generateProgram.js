@@ -38,13 +38,13 @@ const generateProgram = async () => {
                             <div>
                                 <h3 class="text-center font-weight-bold">${event.time}</h3>
                                 <h4  class="text-center">${event.title}</h4>
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <div class="w-25 text-center">
+                                <div class="d-xs-block d-md-flex align-items-center justify-content-center">
+                                    <div class="text-center w-25">
                                         ${event.author ? `<h5 class="text-center">${event.author}</h5>` : ""}
                                         ${event.organization ? `<h5 class="text-center">${event.organization}</h5>` : ""}
                                         ${event.photo ? `<img src="img/${event.photo}" class="schedule-img my-2 img-fluid text-center" alt="Photo of ${event.author}"/>` : ""}
                                     </div>
-                                    ${event.annotation ? `<div class="ml-5 w-25">${event.annotation}</div>` : ""}
+                                    ${event.annotation ? `<div class="ml-md-5 w-25">${event.annotation}</div>` : ""}
                                 </div>
                                 ${event.link ? `<br/><div class=${event.type !== 'Section' ? "text-center" : ''}><a class="btn btn-secondary" href="${event.link}">Watch online</a></div>` : ""}
                                 <br/>

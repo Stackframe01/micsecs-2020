@@ -7,7 +7,7 @@ const generateHeader = (block) => {
             <h1>MICSECS 2020</h1>
             <div>The Majorov International Conference on Software Engineering and Computer Systems</div>
         </div>
-        <nav class="navbar navbar-expand-md text-center">
+        <nav class="navbar navbar-expand-lg text-center">
             <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarToggler"
                     aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
