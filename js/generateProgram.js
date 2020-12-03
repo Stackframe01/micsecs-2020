@@ -75,36 +75,36 @@ const generateProgram = async () => {
                 })
                 console.log(tmp1);
                 let tableDailyFragmentHTML = tmp1.map(day => `
-                    <tr><td class="d-block d-sm-none text-center font-weight-bold" colspan="3">${day[0][0].date}</td></tr>
+                    <tr><td class="d-table-cell d-sm-none text-center font-weight-bold" colspan="3">${day[0][0].date}</td></tr>
                     ${day.map((events, index, array) => {
                     if (array.indexOf(events) == 0) {
                         if (events.length == 1) {
                             if (events[0].type.toLowerCase() == "section") {
                                 return `
                                 <tr>
-                                    <td class="d-none d-sm-block" rowspan="${day.length}">${events[0].date}</td>
-                                    <td class="d-none d-sm-block">${events[0].time.split('-')[0]}</td>
+                                    <td class="d-none d-sm-table-cell" rowspan="${day.length}">${events[0].date}</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].time.split('-')[0]}</td>
                                     <td data-toggle="tooltip" data-placement="top" title="${events[0].time}" class="text-center" colspan="2">${events[0].title}</td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "event") {
                                 return `
                                 <tr>
-                                    <td class="d-none d-sm-block" rowspan="${day.length}">${events[0].date}</td>
-                                    <td class="d-none d-sm-block">${events[0].time.split('-')[0]}</td>
+                                    <td class="d-none d-sm-table-cell" rowspan="${day.length}">${events[0].date}</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].time.split('-')[0]}</td>
                                     <td data-toggle="tooltip" data-placement="top" title="${events[0].time}" class="text-center">${events[0].title}</td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "speech") {
                                 return `
                                 <tr>
-                                    <td class="d-none d-sm-block" rowspan="${day.length}">${events[0].date}</td>
-                                    <td class="d-none d-sm-block">${events[0].time.split('-')[0]}</td>
+                                    <td class="d-none d-sm-table-cell" rowspan="${day.length}">${events[0].date}</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].time.split('-')[0]}</td>
                                     <td data-toggle="tooltip" data-placement="top" title="${events[0].time}" class="text-center"><b>${events[0].author}:</b> ${events[0].title}</td>
                                 </tr>`
                             }
                         } else {
-                            let time = `<td class="d-none d-sm-block">${events[0].time.split('-')[0]}</td>`
+                            let time = `<td class="d-none d-sm-table-cell">${events[0].time.split('-')[0]}</td>`
                             let string = `
                             <td>
                             <div class="d-flex justify-content-around">
@@ -114,7 +114,7 @@ const generateProgram = async () => {
                             </div></td>`
                             return `
                             <tr>
-                                <td class="d-none d-sm-block" rowspan="${day.length}">${events[0].date}</td>
+                                <td class="d-none d-sm-table-cell" rowspan="${day.length}">${events[0].date}</td>
                                 ${time}
                                 ${string}
                             </tr>
@@ -125,26 +125,26 @@ const generateProgram = async () => {
                             if (events[0].type.toLowerCase() == "section") {
                                 return `
                                 <tr>
-                                    <td class="d-none d-sm-block">${events[0].time.split('-')[0]}</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].time.split('-')[0]}</td>
                                     <td data-toggle="tooltip" data-placement="top" title="${events[0].time}" class="text-center" colspan="2">${events[0].title}</td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "event") {
                                 return `
                                 <tr>
-                                    <td class="d-none d-sm-block">${events[0].time.split('-')[0]}</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].time.split('-')[0]}</td>
                                     <td data-toggle="tooltip" data-placement="top" title="${events[0].time}" class="text-center">${events[0].title}</td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "speech") {
                                 return `
                                 <tr>
-                                    <td class="d-none d-sm-block">${events[0].time.split('-')[0]}</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].time.split('-')[0]}</td>
                                     <td data-toggle="tooltip" data-placement="top" title="${events[0].time}" class="text-center"><b>${events[0].author}:</b> ${events[0].title}</td>
                                 </tr>`
                             }
                         } else {
-                            let time = `<td class="d-none d-sm-block">${events[0].time.split('-')[0]}</td>`
+                            let time = `<td class="d-none d-sm-table-cell">${events[0].time.split('-')[0]}</td>`
                             let string = `
                             <td>
                             <div class="d-flex justify-content-around">
@@ -164,8 +164,8 @@ const generateProgram = async () => {
                 `).join("")
                 let timetableHTML = `<hr/><div><table class="table table-bordered">
                     <tr>
-                        <th class="d-none d-sm-block">Date</th>
-                        <th class="d-none d-sm-block">Time</th>
+                        <th class="d-none d-sm-table-cell">Date</th>
+                        <th class="d-none d-sm-table-cell">Time</th>
                         <th class="text-center">Activity</th>
                     </tr>
                     ${tableDailyFragmentHTML}
