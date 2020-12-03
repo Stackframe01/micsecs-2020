@@ -4,72 +4,79 @@
     "events": [
       {
         "type": "Event",
-        "title": "Event One (Opening)",
-        "startTime": "10:00",
+        "title": "Opening",
+        "time": "10:00-11:30",
         "link": "https://zoom.us"
       },
       {
         "type": "Speech",
-        "title": "Some necessary and very longnamed speech one",
-        "author": "Someone",
-        "annotation": "Some tooltips",
-        "organization": "ITMO University",
-        "startTime": "11:00",
+        "title": "Regularization in Imaging Science",
+        "author": "Prof. Byung-Woo Hong",
+        "annotation": "In this tutorial I will present an adaptive regularization scheme for optimizing a composite energy functionals arising in image analysis. The adaptive regularization scheme is designed to balance data fidelity and regularization depending on the current data fit during the iterative optimization, so that regularization is strongest initially and wanes as data fidelity improves. The adaptive regularization algorithm can be applied to a variety of imaging applications such as reconstruction, segmentation and registration.",
+        "organization": "Computer Science Department, Chung-Ang University, Seoul, Korea",
+        "time": "11:00",
         "link": "https://zoom.us"
-      },{
+      },
+      {
         "type": "Speech",
-        "title": "Speech Two",
-        "author": "Someone",
-        "organization": "ITMO University",
-        "annotation": "Some tooltips",
-        "startTime": "11:00",
+        "title": "Digitalization of digital media: a shift in human-device interaction that will reshape the concept of media industry",
+        "author": "Самсонов Максим Станиславович",
+        "organization": "GS Labs",
+        "annotation": "We analyze the applicability of the term digitalization to modern television and justify  the concept of digitalization of digital media as a transformation of user experience towards control of converged media realm from new environment created by portable devices, voice assistants and emerging emotional interfaces.",
+        "time": "11:30",
         "link": "https://zoom.us"
-      },{
+      },
+      {
         "type": "Speech",
-        "title": "Speech Three",
-        "author": "Someone",
-        "organization": "ITMO University",
-        "annotation": "Some tooltips",
-        "startTime": "11:00",
+        "title": "Challenging Issues in Development and Integration of Modern Kinematics with Components and Images Obtained from Different Sources in Biomechanical Applications",
+        "author": "Гутман Евсей Израилевич",
+        "organization": "GEI Systems, Minneapolis, USA",
+        "annotation": "Challenging Issues in Development and Integration of Modern Kinematics with Components and Images Obtained from Different Sources in Biomechanical Applications.",
+        "time": "12:00",
         "link": "https://zoom.us"
-      },{
+      },
+      {
         "type": "Speech",
         "title": "Speech Four",
         "author": "Someone",
         "organization": "ITMO University",
         "annotation": "Some tooltips",
-        "startTime": "11:00",
+        "time": "11:00",
         "link": "https://zoom.us"
       },
       {
         "type": "Section",
         "title": "Section 1",
-        "startTime": "10:00",
+        "time": "10:00",
         "chairman": "Someone",
+        "vice-chairman": "Another someone",
+        "commentary": "Some commentary",
         "link": "https://zoom.us",
         "presentations": [
           {
             "theme": "Test poster",
             "authors": "Test S. Test",
-            "startTime": "12:00"
-          }, {
+            "time": "12:00"
+          },
+          {
             "theme": "Test poster",
             "authors": "Test S. Test",
-            "startTime": "12:00"
+            "time": "12:00"
           }
         ]
       },
       {
         "type": "Section",
         "title": "Section 2",
-        "startTime": "11:00",
+        "time": "11:00",
         "chairman": "Someone",
+        "commentary": "Some commentary",
         "link": "https://zoom.us",
         "presentations": [
           {
             "theme": "Test poster",
             "authors": "Test S. Test",
-            "startTime": "12:00"
+            "time": "12:00"
           }
         ]
       }
@@ -79,31 +86,89 @@
     "day": "11.12.2020",
     "events": [
       {
+        "type": "Speech",
+        "title": "Pravega",
+        "author": "Павел Липский",
+        "organization": "Dell",
+        "annotation": "На семинаре Павел Липский (Ведущий инженер-разработчик ПО в Dell Technologies) познакомит слушателей с концепцией потоков и open-source проектом Pravega. Павел расскажет об Apache Flink, компонентах и развертывании Pravega, а также покажет демо сервиса.",
+        "time": "10:00-12:00",
+        "link": "https://zoom.us"
+      },
+
+      {
+        "type": "Speech",
+        "title": "Pravega",
+        "author": "Павел Липский",
+        "photo": "Gleb_1.jpg",
+        "organization": "Dell",
+        "annotation": "",
+        "time": "11:00",
+        "link": "https://zoom.us"
+      },
+      {
         "type": "Section",
-        "title": "Section 3",
-        "startTime": "12:00",
-        "chairman": "Someone",
+        "title": "Cyber-phisical Systems #3",
+        "time": "12:00",
+        "chairman": "Dr. Ivanov Ivan Ivanovich",
+        "commentary": "Some commentary",
         "link": "https://zoom.us",
         "presentations": [
           {
-            "theme": "Test poster",
-            "authors": "Test S. Test",
-            "startTime": "12:00"
+            "time": "12:00",
+            "authors": "Valery Sizikov, Polina Loseva, Egor Medvedev, Daniil Sharifullin, Aleksandra Dovgan and Nina Rushchenko",
+            "theme": "Removal of complex image distortions via solving integral equations using the \"spectral method\""
+          },
+          {
+            "time": "12:00",
+            "authors": "Sergey Verevkin, Ksenia Naumova, Tatiana Tatarnikova, Pavel Bogdanov and Ekaterina Kraeva",
+            "theme": "Using Network Vulnerability Scanners to Train How to Find and Fix Existing Security Problems"
+          },
+          {
+            "time": "12:00",
+            "authors": "Ekaterina Mashina",
+            "theme": "Taking into account the peculiarities of converting highly specialized professional texts to a conceptual series that is understandable to unskilled users when choosing machine translation technologies implemented within a single language"
+          }
+        ]
+      },
+      {
+        "type": "Section",
+        "title": "Cyber-phisical Systems #4",
+        "time": "12:00",
+        "chairman": "Dr. Ivanov Ivan Ivanovich",
+        "vice-chairman": "PhD Sergeev Sergey Sergeevich",
+        "commentary": "Some commentary",
+        "link": "https://zoom.us",
+        "presentations": [
+          {
+            "time": "12:00",
+            "authors": "Valery Sizikov, Polina Loseva, Egor Medvedev, Daniil Sharifullin, Aleksandra Dovgan and Nina Rushchenko",
+            "theme": "Removal of complex image distortions via solving integral equations using the \"spectral method\""
+          },
+          {
+            "time": "12:00",
+            "authors": "Sergey Verevkin, Ksenia Naumova, Tatiana Tatarnikova, Pavel Bogdanov and Ekaterina Kraeva",
+            "theme": "Using Network Vulnerability Scanners to Train How to Find and Fix Existing Security Problems"
+          },
+          {
+            "time": "12:00",
+            "authors": "Ekaterina Mashina",
+            "theme": "Taking into account the peculiarities of converting highly specialized professional texts to a conceptual series that is understandable to unskilled users when choosing machine translation technologies implemented within a single language"
           }
         ]
       },
       {
         "type": "Event",
         "title": "Closing Ceremony",
-        "startTime": "10:00",
+        "time": "16:00",
         "link": "https://zoom.us"
-      },{
+      },
+      {
         "type": "Speech",
         "title": "Some necessary and very longnamed speech one",
         "author": "Someone",
         "annotation": "Some tooltips",
         "organization": "ITMO University",
-        "startTime": "11:00",
+        "time": "11:00",
         "link": "https://zoom.us"
       }
     ]
