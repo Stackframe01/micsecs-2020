@@ -16,7 +16,7 @@ const generateProgram = async () => {
                     return newDay
                 })
                 let daysHTML = tmp.map(day => `
-                <div id="day${day.day.replace(/\./g, "")}" class="tab-pane" role="tabpanel">
+                <div id="day${day.day.replace(/\./g, "")}" class="tab-pane w-75" role="tabpanel">
                         ${day.events.map(event => {
                         if (event.type.toLowerCase() == 'section') {
                             return `
@@ -25,7 +25,7 @@ const generateProgram = async () => {
                                 <h4 class="text-left">Time: ${event.time}</h4>
                                 <h4 class="text-left">Chairman: ${event.chairman}</h4>
                                 ${event["vice-chairman"] ? `<h4 class="text-left">Vice-Chairman: ${event["vice-chairman"]}</h4>` : ""}
-                                ${event.commentary?`<div>${event.commentary}</div>`:""}
+                                ${event.commentary ? `<div>${event.commentary}</div>` : ""}
                                 <div><a class="btn btn-secondary" href="${event.link}">Zoom room</a></div>
                                 <ol>
                                     ${event.presentations.map(presentation => `
@@ -38,11 +38,15 @@ const generateProgram = async () => {
                             <div>
                                 <h3 class="text-center font-weight-bold">${event.time}</h3>
                                 <h4  class="text-center">${event.title}</h4>
-                                ${event.author ? `<br/><h5>${event.author}</h5>` : ""}
-                                ${event.organization ? `<h5>${event.organization}</h5>` : ""}
-                                ${event.annotation ? `<br/><div>${event.annotation}</div>` : ""}
-                                ${event.photo ? `<img src="img/${event.photo}" class="schedule-img my-2 img-fluid" alt="Photo of ${event.author}"/>` : ""}
-                                ${event.link ? `<br/><div class=${event.type == 'Event' ? "text-center" : ''}><a class="btn btn-secondary" href="${event.link}">Watch online</a></div>` : ""}
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <div class="w-25 text-center">
+                                        ${event.author ? `<h5 class="text-center">${event.author}</h5>` : ""}
+                                        ${event.organization ? `<h5 class="text-center">${event.organization}</h5>` : ""}
+                                        ${event.photo ? `<img src="img/${event.photo}" class="schedule-img my-2 img-fluid text-center" alt="Photo of ${event.author}"/>` : ""}
+                                    </div>
+                                    ${event.annotation ? `<div class="ml-5 w-25">${event.annotation}</div>` : ""}
+                                </div>
+                                ${event.link ? `<br/><div class=${event.type !== 'Section' ? "text-center" : ''}><a class="btn btn-secondary" href="${event.link}">Watch online</a></div>` : ""}
                                 <br/>
                             </div>`
                         }
@@ -73,7 +77,6 @@ const generateProgram = async () => {
                     }
                     return tmpArrray.filter(el => el != null)
                 })
-                console.log(tmp1);
                 let tableDailyFragmentHTML = tmp1.map(day => `
                     <tr><td class="d-table-cell d-sm-none text-center font-weight-bold" colspan="3">${day[0][0].date}</td></tr>
                     ${day.map((events, index, array) => {
@@ -108,8 +111,13 @@ const generateProgram = async () => {
                             let string = `
                             <td>
                             <div class="d-flex justify-content-around">
-                                ${events.reduce((accumulator, event) => {
-                                return accumulator += `<div data-toggle="tooltip" data-placement="top" title="${event.time}" class="col-xs-12 col-md-6 col-lg text-center border-right border-left">${event.title}</div>`
+                                ${events.reduce((accumulator, event, index) => {
+                                console.log(event,index);    
+                                if (index == 0) {
+                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" title="${event.time}" class="col-xs-12 col-md-6 col-lg text-center">${event.title}</div>`
+                                } else {
+                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" title="${event.time}" class="col-xs-12 col-md-6 col-lg text-center border-left">${event.title}</div>`
+                                }
                             }, ``)}
                             </div></td>`
                             return `
@@ -148,8 +156,13 @@ const generateProgram = async () => {
                             let string = `
                             <td>
                             <div class="d-flex justify-content-around">
-                                ${events.reduce((accumulator, event) => {
-                                return accumulator += `<div data-toggle="tooltip" data-placement="top" title="${event.time}" class="col-xs-12 col-md-6 col-lg text-center border-right border-left">${event.title}</div>`
+                                ${events.reduce((accumulator, event, index) => {
+                                console.log(event, index);
+                                if (index == 0) {
+                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" title="${event.time}" class="col-xs-12 col-md-6 col-lg text-center">${event.title}</div>`
+                                } else {
+                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" title="${event.time}" class="col-xs-12 col-md-6 col-lg text-center border-left">${event.title}</div>`
+                                }
                             }, ``)}
                             </div></td>`
                             return `
@@ -179,7 +192,7 @@ const generateProgram = async () => {
                     return `<hr/>
                             <div>
                                 <h3 class="text-center font-weight-bold">${event.time}</h3>
-                                <h4  class="text-center">${event.title}</h4>
+                                <h4 class="text-center">${event.title}</h4>
                                 ${event.author ? `<br/><h4 class="font-weight-bold">${event.author}</h4>` : ""}
                                 <h5>${event.organization ? event.organization : ""}</h5>
                                 ${event.annotation ? `<br/><div>${event.annotation}</div>` : ""}
@@ -190,7 +203,7 @@ const generateProgram = async () => {
                     </div>
                 `).join("")
 
-                let bodyHTML = `<div class="tab-content">
+                let bodyHTML = `<div class="tab-content d-flex justify-content-center">
                                     <div id="timetable" class="tab-pane" role="tabpanel">
                                         ${timetableHTML}
                                     </div>
@@ -205,7 +218,6 @@ const generateProgram = async () => {
             }
         ).then(() => {
         $(document).ready(function () {
-            console.log("initializing tooltips");
             $('[data-toggle="tooltip"]').tooltip({container: document.body});
         });
 

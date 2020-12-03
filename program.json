@@ -90,6 +90,7 @@
         "title": "Pravega",
         "author": "Павел Липский",
         "organization": "Dell",
+        "photo": "photo_2020-12-03_18-32-33.jpg",
         "annotation": "На семинаре Павел Липский (Ведущий инженер-разработчик ПО в Dell Technologies) познакомит слушателей с концепцией потоков и open-source проектом Pravega. Павел расскажет об Apache Flink, компонентах и развертывании Pravega, а также покажет демо сервиса.",
         "time": "10:00-12:00",
         "link": "https://zoom.us"
@@ -99,9 +100,8 @@
         "type": "Speech",
         "title": "Pravega",
         "author": "Павел Липский",
-        "photo": "Gleb_1.jpg",
         "organization": "Dell",
-        "annotation": "",
+        "annotation": "На семинаре Павел Липский (Ведущий инженер-разработчик ПО в Dell Technologies) познакомит слушателей с концепцией потоков и open-source проектом Pravega. Павел расскажет об Apache Flink, компонентах и развертывании Pravega, а также покажет демо сервиса.",
         "time": "11:00",
         "link": "https://zoom.us"
       },
@@ -166,7 +166,7 @@
         "type": "Speech",
         "title": "Some necessary and very longnamed speech one",
         "author": "Someone",
-        "annotation": "Some tooltips",
+        "annotation": "Some annotation",
         "organization": "ITMO University",
         "time": "11:00",
         "link": "https://zoom.us"
