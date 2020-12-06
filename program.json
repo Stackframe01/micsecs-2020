@@ -435,6 +435,7 @@
         "type": "Section",
         "title": "Artificial Intelligence, Texts and Bots",
         "time": "14:30-16:00",
+        "chairman": "Pavel Balakshin",
         "presentations": [
           {
             "lang": "ru",
@@ -539,10 +540,6 @@
         "type": "Section",
         "title": "Posters",
         "time": "16:15-17:15",
-        "chairman": "Dr. Ivanov Ivan Ivanovich",
-        "vice-chairman": "PhD Sergeev Sergey Sergeevich",
-        "commentary": "Some commentary",
-        "link": "https://zoom.us",
         "presentations": [
           {
             "lang": "ru",
@@ -572,9 +569,9 @@
       },
       {
         "type": "Section",
-        "title": "Student Colloquium",
+        "title": "Student Colloquium 2",
         "time": "16:15-17:45",
-        "commentaty": "Will be updated soon...",
+        "commentary": "Will be updated soon...",
         "presentations": []
       },
       {
