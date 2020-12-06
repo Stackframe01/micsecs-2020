@@ -2,9 +2,19 @@ const generateProgram = async () => {
     fetch('./program.json')
         .then(res => res.json())
         .then(program => {
+                let language = {
+                    en: 'English only',
+                    ru: 'Russian only',
+                    "en+ru": 'English with translation to Russian',
+                    "ru+en": 'Russian with translation to English'
+                }
+                let time = {
+                    long: "10 min - speech, 5 min - questions",
+                    short: "5 min - speech, 5 min - questions",
+                }
                 let buttons = program.map(day => day.day).map((day, index) => `<a data-toggle="list" role="tab" href="#day${day.replace(/\./g, "")}" class="list-group-item list-group-item-secondary">Day ${index + 1} (${day})</a>`).join("")
                 let headHTML = `<div class="list-group list-group-horizontal-md justify-content-center" role="tablist">
-                                    <a id="timetableToggler" data-toggle="list" role="tab" href="#timetable" class="list-group-item list-group-item-secondary">Schedule</a>
+                                    <a id="timetableToggler" data-toggle="list" role="tab" href="#timetable" class="list-group-item list-group-item-secondary active">Schedule</a>
                                     ${buttons}
                                 </div>
                                 <div class="mt-2 small text-center">All times specified for the Moscow timezone (UTC+3)</div>
@@ -16,35 +26,35 @@ const generateProgram = async () => {
                     return newDay
                 })
                 let daysHTML = tmp.map(day => `
-                <div id="day${day.day.replace(/\./g, "")}" class="tab-pane w-75" role="tabpanel">
+                <div id="day${day.day.replace(/\./g, "")}" class="tab-pane w-50" role="tabpanel">
                         ${day.events.map(event => {
                         if (event.type.toLowerCase() == 'section') {
                             return `
                                 <hr/>
                                 <h2>${event.title}</h2>
                                 <h4 class="text-left">Time: ${event.time}</h4>
-                                <h4 class="text-left">Chairman: ${event.chairman}</h4>
+                                ${event.chairman ? `<h4 class="text-left">Chairman: ${event.chairman}</h4>` : ""}
                                 ${event["vice-chairman"] ? `<h4 class="text-left">Vice-Chairman: ${event["vice-chairman"]}</h4>` : ""}
                                 ${event.commentary ? `<div>${event.commentary}</div>` : ""}
-                                <div><a class="btn btn-secondary" href="${event.link}">Zoom room</a></div>
+                                ${event.commentary ? `<div><a class="btn btn-secondary" href="${event.link}">Zoom room</a></div>`:""}
                                 <ol>
                                     ${event.presentations.map(presentation => `
-                                        <hr><li><b>${presentation.time}</b> - ${presentation.theme} <br/><em>${presentation.authors}</em></li>
+                                        <hr><li data-toggle="tooltip" data-placement="top" data-html="true" title="${language[presentation.lang]} <br/> ${time[presentation.time]}"><span class="badge badge-info">${presentation.time}</span> - ${presentation.theme} <br/><em>${presentation.authors}</em></li>
                                     `).join("")}
                                 </ol>
                         `
                         } else {
                             return `<hr/>
-                            <div>
+                            <div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.lang ? language[event.lang] : ''}">
                                 <h3 class="text-center font-weight-bold">${event.time}</h3>
                                 <h4  class="text-center">${event.title}</h4>
                                 <div class="d-xs-block d-md-flex align-items-center justify-content-center">
-                                    <div class="text-center w-25">
+                                    <div class="text-center w-50">
                                         ${event.author ? `<h5 class="text-center">${event.author}</h5>` : ""}
                                         ${event.organization ? `<h5 class="text-center">${event.organization}</h5>` : ""}
                                         ${event.photo ? `<img src="img/${event.photo}" class="schedule-img my-2 img-fluid text-center" alt="Photo of ${event.author}"/>` : ""}
                                     </div>
-                                    ${event.annotation ? `<div class="ml-md-5 w-25">${event.annotation}</div>` : ""}
+                                    ${event.annotation ? `<div class="ml-md-5 w-50">${event.annotation}</div>` : ""}
                                 </div>
                                 ${event.link ? `<br/><div class=${event.type !== 'Section' ? "text-center" : ''}><a class="btn btn-secondary" href="${event.link}">Watch online</a></div>` : ""}
                                 <br/>
@@ -78,51 +88,51 @@ const generateProgram = async () => {
                     return tmpArrray.filter(el => el != null)
                 })
                 let tableDailyFragmentHTML = tmp1.map(day => `
-                    <tr><td class="d-table-cell d-sm-none text-center font-weight-bold" colspan="3">${day[0][0].date}</td></tr>
+                    <tr><td class="d-table-cell d-sm-none text-center font-weight-bold" colspan="3">${day[0][0].date} <br/> (Day ${tmp1.indexOf(day)+1})</td></tr>
                     ${day.map((events, index, array) => {
                     if (array.indexOf(events) == 0) {
                         if (events.length == 1) {
                             if (events[0].type.toLowerCase() == "section") {
                                 return `
                                 <tr>
-                                    <td class="d-none d-sm-table-cell" rowspan="${day.length}">${events[0].date}</td>
-                                    <td class="d-none d-sm-table-cell">${events[0].time.split('-')[0]}</td>
-                                    <td data-toggle="tooltip" data-placement="top" title="${events[0].time}" class="text-center" colspan="2">${events[0].title}</td>
+                                    <td class="d-none d-sm-table-cell" rowspan="${day.length}">${day[0][0].date} <br/> (Day ${tmp1.indexOf(day)+1})</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].time}</td>
+                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="Section ${events[0].chairman ? `<br/> Chairman: ${events[0].chairman}` : ''}" class="text-center" colspan="2">${events[0].title}</td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "event") {
                                 return `
                                 <tr>
-                                    <td class="d-none d-sm-table-cell" rowspan="${day.length}">${events[0].date}</td>
-                                    <td class="d-none d-sm-table-cell">${events[0].time.split('-')[0]}</td>
-                                    <td data-toggle="tooltip" data-placement="top" title="${events[0].time}" class="text-center">${events[0].title}</td>
+                                    <td class="d-none d-sm-table-cell" rowspan="${day.length}">${day[0][0].date} <br/> (Day ${tmp1.indexOf(day)+1})</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].time}</td>
+                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].type} <br/> ${events[0].lang ? language[events[0].lang] : ''}" class="text-center font-weight-bold">${events[0].title}</td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "speech") {
                                 return `
                                 <tr>
-                                    <td class="d-none d-sm-table-cell" rowspan="${day.length}">${events[0].date}</td>
-                                    <td class="d-none d-sm-table-cell">${events[0].time.split('-')[0]}</td>
-                                    <td data-toggle="tooltip" data-placement="top" title="${events[0].time}" class="text-center"><b>${events[0].author}:</b> ${events[0].title}</td>
+                                    <td class="d-none d-sm-table-cell" rowspan="${day.length}">${day[0][0].date} <br/> (Day ${tmp1.indexOf(day)+1})</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].time}</td>
+                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].type} <br/> ${events[0].lang ? language[events[0].lang] : ''}" class="text-center"><div class="font-weight-bold">${events[0].title}</div>${events[0].author} (${events[0].organization})</td>
                                 </tr>`
                             }
                         } else {
-                            let time = `<td class="d-none d-sm-table-cell">${events[0].time.split('-')[0]}</td>`
+                            let time = `<td class="d-none d-sm-table-cell">${events[0].time}</td>`
                             let string = `
                             <td>
                             <div class="d-flex justify-content-around">
                                 ${events.reduce((accumulator, event, index) => {
-                                console.log(event,index);    
+                                console.log(event,index);
                                 if (index == 0) {
-                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" title="${event.time}" class="col-xs-12 col-md-6 col-lg text-center">${event.title}</div>`
+                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.type} <br/> ${event.lang ? language[event.lang] : ''}" class="col-xs-12 col-md-6 col-lg text-center"><div class="font-weight-bold">${event.title}</div> ${event.author ? event.author : ""}</div>`
                                 } else {
-                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" title="${event.time}" class="col-xs-12 col-md-6 col-lg text-center border-left">${event.title}</div>`
+                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.type} <br/> ${event.lang ? language[event.lang] : ''}" class="col-xs-12 col-md-6 col-lg text-center border-left"><div class="font-weight-bold">${event.title}</div> ${event.author ? event.author : ""}</div>`
                                 }
-                            }, ``)}
+                                }, ``)}
                             </div></td>`
                             return `
                             <tr>
-                                <td class="d-none d-sm-table-cell" rowspan="${day.length}">${events[0].date}</td>
+                                <td class="d-none d-sm-table-cell" rowspan="${day.length}">${day[0][0].date} <br/> (Day ${tmp1.indexOf(day)+1})</td>
                                 ${time}
                                 ${string}
                             </tr>
@@ -133,35 +143,34 @@ const generateProgram = async () => {
                             if (events[0].type.toLowerCase() == "section") {
                                 return `
                                 <tr>
-                                    <td class="d-none d-sm-table-cell">${events[0].time.split('-')[0]}</td>
-                                    <td data-toggle="tooltip" data-placement="top" title="${events[0].time}" class="text-center" colspan="2">${events[0].title}</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].time}</td>
+                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="Section ${events[0].chairman ? `<br/> Chairman: ${events[0].chairman}` : ''}" class="text-center" colspan="2">${events[0].title}</td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "event") {
                                 return `
                                 <tr>
-                                    <td class="d-none d-sm-table-cell">${events[0].time.split('-')[0]}</td>
-                                    <td data-toggle="tooltip" data-placement="top" title="${events[0].time}" class="text-center">${events[0].title}</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].time}</td>
+                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].type} <br/> ${events[0].lang ? language[events[0].lang] : ''}" class="text-center font-weight-bold">${events[0].title}</td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "speech") {
                                 return `
                                 <tr>
-                                    <td class="d-none d-sm-table-cell">${events[0].time.split('-')[0]}</td>
-                                    <td data-toggle="tooltip" data-placement="top" title="${events[0].time}" class="text-center"><b>${events[0].author}:</b> ${events[0].title}</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].time}</td>
+                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].type} <br/> ${events[0].lang ? language[events[0].lang] : ''}" class="text-left"><div class="font-weight-bold">${events[0].title}</div>${events[0].author} (${events[0].organization})</td>
                                 </tr>`
                             }
                         } else {
-                            let time = `<td class="d-none d-sm-table-cell">${events[0].time.split('-')[0]}</td>`
+                            let time = `<td class="d-none d-sm-table-cell">${events[0].time}</td>`
                             let string = `
                             <td>
                             <div class="d-flex justify-content-around">
                                 ${events.reduce((accumulator, event, index) => {
-                                console.log(event, index);
                                 if (index == 0) {
-                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" title="${event.time}" class="col-xs-12 col-md-6 col-lg text-center">${event.title}</div>`
+                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.type} <br/> ${event.lang ? language[event.lang] : ''}" class="col-xs-12 col-md-6 col-lg text-center"><div class="font-weight-bold">${event.title}</div> ${event.author ? event.author: ""}</div>`
                                 } else {
-                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" title="${event.time}" class="col-xs-12 col-md-6 col-lg text-center border-left">${event.title}</div>`
+                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.type} <br/> ${event.lang ? language[event.lang] : ''}" class="col-xs-12 col-md-6 col-lg text-center border-left"><div class="font-weight-bold">${event.title}</div> ${event.author ? event.author: ""}</div>`
                                 }
                             }, ``)}
                             </div></td>`
@@ -175,40 +184,19 @@ const generateProgram = async () => {
                     }
                 }).join("")}
                 `).join("")
-                let timetableHTML = `<hr/><div><table class="table table-bordered">
+                let timetableHTML = `<br/><div><table class="table table-bordered">
                     <tr>
                         <th class="d-none d-sm-table-cell">Date</th>
-                        <th class="d-none d-sm-table-cell">Time</th>
+                        <th class="d-none d-sm-table-cell time-width">Time</th>
                         <th class="text-center">Activity</th>
                     </tr>
                     ${tableDailyFragmentHTML}
                 </table></div>`;
 
-                let mainHTML = program.map(day => `
-                    <hr/>
-                    <h1 class="text-center">${day.day}</h1>
-                    <div>
-                        ${day.events.filter(event => event.type !== 'Section').map(event => {
-                    return `<hr/>
-                            <div>
-                                <h3 class="text-center font-weight-bold">${event.time}</h3>
-                                <h4 class="text-center">${event.title}</h4>
-                                ${event.author ? `<br/><h4 class="font-weight-bold">${event.author}</h4>` : ""}
-                                <h5>${event.organization ? event.organization : ""}</h5>
-                                ${event.annotation ? `<br/><div>${event.annotation}</div>` : ""}
-                                ${event.link ? `<br/><div class="text-center"><a class="btn btn-secondary" href="${event.link}">Watch online</a></div>` : ""}
-                                <br/>
-                            </div>`
-                }).join("")}
-                    </div>
-                `).join("")
 
                 let bodyHTML = `<div class="tab-content d-flex justify-content-center">
-                                    <div id="timetable" class="tab-pane" role="tabpanel">
+                                    <div id="timetable" class="tab-pane active" role="tabpanel">
                                         ${timetableHTML}
-                                    </div>
-                                    <div id="main" class="tab-pane" role="tabpanel">
-                                        ${mainHTML}
                                     </div>
                                    
                                     ${daysHTML}
