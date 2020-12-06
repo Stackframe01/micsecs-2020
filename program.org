@@ -67,7 +67,7 @@ Trong The Quan
 Tatyana Tatarnikova, Ekaterina Poymanova and Ekaterina Kraeva
 ** [#A] <<10>> Spatial-energy Model of a Wireless Sensor Network :CS:
 Tatyana Astakhova, Darya Kirilova and Mikhail Kolbanev
-** [#A] <<6>> Risk Analysis Method of Authentication Systems For Swarms of UAV :CS:
+** <<6>> Risk Analysis Method of Authentication Systems For Swarms of UAV :CS:
 Tran D. Khanh, Le D. Don and Komarov I. Ivanovich
 ** <<73>> PROWN:Pattern Oriented Routing in Wireless Network: Concept & Challenges :CS:en:
 Rahul Johari, Riya Bhatia and Kanika Gupta
@@ -77,6 +77,8 @@ Vladimir Bogatyrev, Stanislav Bogatyrev and Anatoy Bogatyrev
 Vladimir Bogatyrev, Anatoly Bogatyrev and Stanislav Bogatyrev
 ** <<62>> Evaluation of Network Reliability and Element Importance Metrics :CS:
 Aleksandr Moshnikov
+** <<85>> Organization of UDP Transmissions Reservation in Real-Time Computer Networks :CS:
+Ilya Noskov and Vladimir Bogatyrev
 * Computer Systems and Networks 2
 ** [#A] <<40>> Replication of Requests when Dividing Cluster Nodes Between Threads of Different Criticality to Delays in Queues :CS:
 Vladimir Bogatyrev, Stanislav Bogatyrev and Anatoy Bogatyrev
