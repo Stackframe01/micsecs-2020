@@ -542,7 +542,6 @@
         "chairman": "Dr. Ivanov Ivan Ivanovich",
         "vice-chairman": "PhD Sergeev Sergey Sergeevich",
         "commentary": "Some commentary",
-        "link": "https://zoom.us",
         "presentations": [
           {
             "lang": "ru",
@@ -574,7 +573,7 @@
         "type": "Section",
         "title": "Student Colloquium",
         "time": "16:15-17:45",
-        "commentaty": "Will be updated soon...",
+        "commentary": "Will be updated soon...",
         "presentations": []
       },
       {
