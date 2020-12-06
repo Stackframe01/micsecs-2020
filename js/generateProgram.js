@@ -36,7 +36,7 @@ const generateProgram = async () => {
                                 ${event.chairman ? `<h4 class="text-left">Chairman: ${event.chairman}</h4>` : ""}
                                 ${event["vice-chairman"] ? `<h4 class="text-left">Vice-Chairman: ${event["vice-chairman"]}</h4>` : ""}
                                 ${event.commentary ? `<div>${event.commentary}</div>` : ""}
-                                ${event.commentary ? `<div><a class="btn btn-secondary" href="${event.link}">Zoom room</a></div>` : ""}
+                                ${event.link ? `<div><a class="btn btn-secondary" href="${event.link}">Zoom room</a></div>` : ""}
                                 <ol>
                                     ${event.presentations.map(presentation => `
                                         <br/>
