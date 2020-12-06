@@ -21,10 +21,10 @@ const generateHeader = (block) => {
                         <a class="nav-link menu-item" href="./call.html">Call for Papers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu-item" href="./program.html">Program</a>
+                        <a class="nav-link menu-item" href="./registration.html">Registration</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu-item" href="./registration.html">Registration</a>
+                        <a class="nav-link menu-item" href="./program.html">Program</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link menu-item" href="./publications.html">Publications</a>
