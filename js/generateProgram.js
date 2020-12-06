@@ -144,7 +144,7 @@ const generateProgram = async () => {
                                 return `
                                 <tr>
                                     <td class="d-none d-sm-table-cell">${events[0].time}</td>
-                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="Section ${events[0].chairman ? `<br/> Chairman: ${events[0].chairman}` : ''}" class="text-center" colspan="2">${events[0].title}</td>
+                                    <td  data-toggle="tooltip" data-placement="top" data-html="true" title="Section ${events[0].chairman ? `<br/> Chairman: ${events[0].chairman}` : ''}" class="text-center" colspan="2">${events[0].title}</td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "event") {
@@ -158,7 +158,7 @@ const generateProgram = async () => {
                                 return `
                                 <tr>
                                     <td class="d-none d-sm-table-cell">${events[0].time}</td>
-                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].type} <br/> ${events[0].lang ? language[events[0].lang] : ''}" class="text-left"><div class="font-weight-bold">${events[0].title}</div>${events[0].author} (${events[0].organization})</td>
+                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].type} <br/> ${events[0].lang ? language[events[0].lang] : ''}" class="text-center"><div class="font-weight-bold">${events[0].title}</div>${events[0].author} (${events[0].organization})</td>
                                 </tr>`
                             }
                         } else {
