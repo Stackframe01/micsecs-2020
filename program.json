@@ -25,6 +25,7 @@
         "organization": "GEI Systems, Minneapolis, USA",
         "annotation": "Challenging Issues in Development and Integration of Modern Kinematics with Components and Images Obtained from Different Sources in Biomechanical Applications.",
         "time": "11:45-12:30",
+        "photo": "gutman.jpg",
         "lang": "en+ru"
       },
       {
@@ -59,6 +60,7 @@
       {
         "type": "Section",
         "title": "Artificial Intelligence and Machine Learning 1",
+        "chairman": "Dmitry Mouromtsev",
         "time": "15:15-16:45",
         "presentations": [{"lang": "en", "theme": "[2] Raga Classification using Convolutional Neural Network", "authors": "Dr. Remya K. Sasi and Athul Krishnan", "time": "long"}, {"lang": "ru", "theme": "[51] Visual Objects Tracking on Road Sequences Using Information about Scene Perspective Transform", "authors": "Nikolay Nemcev and Nickolay Kozyrev", "time": "long"}, {"lang": "ru", "theme": "[93] Formation Recognition by Clustering-Based Method in Virtual Soccer", "authors": "Aleksandr Khodos and Michail Panteleyev", "time": "long"}, {"lang": "ru", "theme": "[35] Prediction of Potentially Hazardous Coal Dust Concentration Level using Machine Learning Methods", "authors": "Iuliia Kim, Ilya Viksnin, Nikita Tursukov and Evgenii Neverov", "time": "short"}, {"lang": "ru", "theme": "[94] Comparative Analysis of Stochastic Optimization Methods", "authors": "Anton Changalidi", "time": "short"}, {"lang": "ru", "theme": "[63] Neural network cascading as a tool for improving the accuracy of a specialized forecasting system", "authors": "Alexander Krutikov, Nataly Zhukova and Vasily Meltsov", "time": "short"}, {"lang": "ru", "theme": "[26] Skin Lesion Analysis Using Ensemble of CNN with Dermoscopic Images and Metadata", "authors": "Sergey Milantev, Vyacheslav Olyunin, Ilya Bykov, Natalya Milanteva and Igor Bessmertny", "time": "short"}]
       }
@@ -87,19 +89,19 @@
       },
       {
         "type": "Speech",
-        "title": "Tutorial",
+        "title": "Tutorial: ITMO.cLAB",
         "author": "Arkady Kluchev",
         "organization": "ITMO University",
-        "annotation": "",
+        "annotation": "Облачная лаборатория ITMO.cLAB это сервис для обеспечения дистанционного доступа студентов и преподавателей к разнообразному учебному лабораторному оборудованию из любой точки земного шара при помощи обычных ноутбуков, планшетов или смартфонов. С помощью ITMO.cLAB студенты получают доступ к реальному оборудованию и могут удаленно выполнять учебные задания в рамках лабораторных, курсовых, дипломных работ или просто заниматься своими исследованиями. В настоящий момент сервис обеспечивает работу по двум направлениям: встроенные/киберфизические системы и теплофизика. Особенности организации ITMO.cLAB позволяют подключать новое оборудование и увеличивать количество пользователей.",
         "time": "10:00-11:00",
         "lang": "ru"
       },
       {
         "type": "Speech",
-        "title": "Tutorial",
-        "author": "Igor Klimov",
+        "title": "Tutorial: Automatic Speech Recognition",
+        "author": "Nikolay Klimov",
         "organization": "ITMO University",
-        "annotation": "",
+        "annotation": "Системы автоматического распознавания речи, или ASR (Automatic Speech Recognition) на сегодняшний день получают всё большее распространение в таких сферах, как голосовые помошники и Интернет Вещей. Для исследования систем ASR был разработан виртуальный лабораторный комплекс ITMO.CVoA, предназначенная для комплексного изучения различных аспектов распознавания речи, таких как подготовка и зашумление входных данных, параметризация процесса распознавания, а также рассчёт метрик и сравнительный анализ полученных расшифровок. <br/>В рамках туториала вас ждёт:<br/>- обзор возможностей виртуальной лаборатории ITMO.CVoA;<br/>- совместное выполнение простейшего сценария работы по полному циклу (зашумление - распознавание - подсчёт метрик).",
         "time": "11:15-12:15",
         "lang": "ru"
       },
