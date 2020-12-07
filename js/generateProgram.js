@@ -70,7 +70,7 @@ const generateProgram = async () => {
                                         ${event.organization ? `<h5 class="text-center">${event.organization}</h5>` : ""}
                                         ${event.photo ? `<img src="img/${event.photo}" class="schedule-img my-2 img-fluid text-center" alt="Photo of ${event.author}"/>` : ""}
                                     </div>
-                                    ${event.annotation ? `<div class="ml-md-5 w-50 text-justify">${event.annotation}</div>` : ""}
+                                    ${event.annotation ? `<div class="ml-md-5 w-50 text-left">${event.annotation}</div>` : ""}
                                 </div>
                                 ${event.link ? `<br/><div class=${event.type !== 'Section' ? "text-center" : ''}><a class="btn btn-secondary" href="${event.link}">Watch online</a></div>` : ""}
                                 <br/>
