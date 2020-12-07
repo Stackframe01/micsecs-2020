@@ -3,126 +3,126 @@
 * Artificial Intelligence and Machine Learning 1
 ** [#A] <<2>> Raga Classification using Convolutional Neural Network :AI:en:
 Dr. Remya K. Sasi and Athul Krishnan
-** [#A] <<51>> Visual Objects Tracking on Road Sequences Using Information about Scene Perspective Transform :AI:
+** [#A] <<51>> Visual Objects Tracking on Road Sequences Using Information about Scene Perspective Transform :AI:en:
 Nikolay Nemcev and Nickolay Kozyrev
 ** [#B] <<93>> Formation Recognition by Clustering-Based Method in Virtual Soccer :AI:SW:
 Aleksandr Khodos and Michail Panteleyev
-** <<35>> Prediction of Potentially Hazardous Coal Dust Concentration Level using Machine Learning Methods :AI:
-Iuliia Kim, Ilya Viksnin, Nikita Tursukov and Evgenii Neverov
+** <<67>> Revealing the Application of Steganography Algorithms to the Text Using Linguistic Identification Methods :AI:CS:CPS:en:
+Alexander Khazagarov and Alisa A Vorobeva
 ** <<94>> Comparative Analysis of Stochastic Optimization Methods :AI:
 Anton Changalidi
-** <<63>> Neural network cascading as a tool for improving the accuracy of a specialized forecasting system :AI:
+** <<63>> Neural Network Cascading as a Tool for Improving the Accuracy of a Specialized Forecasting System :AI:en:
 Alexander Krutikov, Nataly Zhukova and Vasily Meltsov
-** <<26>> Skin Lesion Analysis Using Ensemble of CNN with Dermoscopic Images and Metadata :AI:SW:
+** <<26>> Skin Lesion Analysis Using Ensemble of CNN with Dermoscopic Images and Metadata :AI:SW:en:
 Sergey Milantev, Vyacheslav Olyunin, Ilya Bykov, Natalya Milanteva and Igor Bessmertny
 * Artificial Intelligence and Machine Learning 2
 ** [#A] <<81>> Directional and Qualitative Feature Classification for Speaker Diarization with Dual Microphone Arrays :AI:CPS:UX:
 Sergei Astapov, Dmitry Popov and Vladimir Kabarov
-** [#A] <<34>> Detection of defective speech using convolutional neural networks :SW:
+** [#A] <<34>> Detection of Defective Speech Using Convolutional Neural Networks :SW:
 Mikhail Belenko, Nikita Burym and Pavel Balakshin
-** [#B] <<53>> Computer vision technologies at hazardous industrial facilities :AI:CS:SW:
+** [#B] <<53>> Computer Vision Technologies at Hazardous Industrial Facilities :AI:CS:SW:
 Dmitriy Zhdanov, German Gebel and Renat Narbekov
+** <<35>> Prediction of Potentially Hazardous Coal Dust Concentration Level using Machine Learning Methods :AI:
+Iuliia Kim, Ilya Viksnin, Nikita Tursukov and Evgenii Neverov
 ** <<89>> Artificial Intelligence Methods Effectiveness Evaluation for Man-made Threats Detection at Critical Infrastructure Facilities :AI:
 Evgenii Neverov, Ilya Viksnin, Iuliia Kim and Nikita Tursukov
-** <<87>> Research of Neural Network Algorithms in Reading Comprehension with Commonsense Reasoning Dataset (ReCoRD) :AI:UX:
-Vyacheslav Olyunin, Alexey Platonov, Ilya Bykov and Sergey Milantev
-** <<67>> Revealing the Application of Steganography Algorithms to the Text Using Linguistic Identification Methods :AI:CS:CPS:
-Alexander Khazagarov and Alisa A Vorobeva
 ** <<36>> Methods for detecting patterns in the routing cluster data of an automated monitoring system based on IoT technologies :AI:CS:
 Evgenii Milenin
+** <<87>> Research of Neural Network Algorithms in Reading Comprehension with Commonsense Reasoning Dataset (ReCoRD) :AI:UX:
+Vyacheslav Olyunin, Alexey Platonov, Ilya Bykov and Sergey Milantev
 * Artificial Intelligence, Texts and Bots
-** [#A] <<66>> Detection of Toxic Comments in Russian Text Messages :AI:UX:
+** [#A] <<66>> Detection of Toxic Comments in Russian Text Messages :AI:UX:en:
 Darya Bogoradnikova, Olesia Makhnytkina and Anton Matveev
 ** [#A] <<52>> Application of Parametric Rectified Linear Unit into Speech Recognition Model :AI:en:
 Dr. Robin Singh Bhadoria, Atharva Nimbalkar, Ram Korde and Varun Mishra
-** <<43>> The Effectiveness of Using Bell Inequality Test for Information Retrieval in Arabic Texts :AI:
-Alaa Shaker and Igor Bessmertny
-** <<78>> Research of voice assistants safety :UX:
-Nikita Burym, Mikhail Belenko and Pavel Balakshin
-** <<57>> Researching modern chat bots :AI:UX:
+** <<57>> Researching Modern Chat Bots :AI:UX:en:
 Uliana Muratova and Pavel Balakshin
-** <<70>> Using of Deep Neural Networks for Yes/No Natural Questions Task :AI:CS:UX:
-Ilya Bykov, Alexey Platonov, Vyacheslav Olyunin and Sergey Milantev
-** <<95>> Sentiment Analysis of Russian Text Using the Semantic Network :SW:
-Andrey Mileshin, Evgenij Tsopa, Serge Klimenkov and Aleksandr Slapoguzov
-** <<91>> On Continual Learning for Topic Classification of Texts :AI:UX:
+** <<78>> Research of Voice Assistants Safety :UX:en:
+Nikita Burym, Mikhail Belenko and Pavel Balakshin
+** <<43>> The Effectiveness of Using Bell Inequality Test for Information Retrieval in Arabic Texts :AI:en:
+Alaa Shaker and Igor Bessmertny
+** <<91>> On Continual Learning for Topic Classification of Texts :AI:UX:en:
 Nikita Mamaev and Sergey Maslyukhin
+** <<95>> Sentiment Analysis of Russian Text Using the Semantic Network :SW:en:
+Andrey Mileshin, Evgenij Tsopa, Serge Klimenkov and Aleksandr Slapoguzov
+** <<70>> Using of Deep Neural Networks for Yes/No Natural Questions Task :AI:CS:UX:en:
+Ilya Bykov, Alexey Platonov, Vyacheslav Olyunin and Sergey Milantev
 * Multimedia and Computer Graphics
 ** [#A] <<84>> Point Cloud Registration Hybrid Method :GR:
 Aleksandr Mezhenin, Vera Izvozchikova, Anna Grigoreva and Vladimir Shardakov
 ** [#A] <<8>> Simulation of the BSDF Measurements for Scattering Materials with GP-200 Gonio-Photometer :GR:CPS:
 Vadim Sokolov, Igor Potemin and Dmitry Zhdanov
-** <<3>> Removal Of Complex Image Distortions Via Solving Integral Equations Using The "Spectral Method" :GR:
-Valery Sizikov, Polina Loseva, Egor Medvedev, Daniil Sharifullin, Aleksandra Dovgan and Nina Rushchenko
-** <<90>> Efficient space partitioning data structure on the sphere surface :GR:
-Andrew Lemeshev
 ** <<99>> Applying Custom Baked Global Illumination Techniques in Unity to Render Realistic Interior Scenes in Real Time :GR:
 Artem Smolin, Pavel Vorobev and Ignat Mezhentsev
-** <<33>> A Speech Enhancement In Diffuse Noise Field Using MVDR Filter :GR:
+** <<3>> Removal of Complex Image Distortions via Solving Integral Equations Using the "Spectral Method" :GR:
+Valery Sizikov, Polina Loseva, Egor Medvedev, Daniil Sharifullin, Aleksandra Dovgan and Nina Rushchenko
+** <<90>> Efficient Space Partitioning Data Structure on the Sphere Surface :GR:
+Andrew Lemeshev
+** <<32>> A Method for Extracting Target Speaker in Dual–Microphone System :GR:
 Trong The Quan
-** <<32>> A Method For Extracting Target Speaker In Dual–Microphone System :GR:
+** <<33>> A Speech Enhancement in Diffuse Noise Field Using MVDR Filter :GR:
 Trong The Quan
 * Computer Systems and Networks 1
-** [#A] <<80>> Recording and Storage Traffic Management in Storage Systems :CS:
+** [#A] <<80>> Recording and Storage Traffic Management in Storage Systems :CS:en:
 Tatyana Tatarnikova, Ekaterina Poymanova and Ekaterina Kraeva
-** [#A] <<10>> Spatial-energy Model of a Wireless Sensor Network :CS:
+** [#A] <<10>> Spatial-energy Model of a Wireless Sensor Network :CS:en:
 Tatyana Astakhova, Darya Kirilova and Mikhail Kolbanev
-** <<6>> Risk Analysis Method of Authentication Systems For Swarms of UAV :CS:
-Tran D. Khanh, Le D. Don and Komarov I. Ivanovich
 ** <<73>> PROWN:Pattern Oriented Routing in Wireless Network: Concept & Challenges :CS:en:
 Rahul Johari, Riya Bhatia and Kanika Gupta
-** <<75>> Priority Serving of Heterogeneous Traffic with Replication of Waiting-Critical Requests  :CS:
+** <<75>> Priority Serving of Heterogeneous Traffic with Replication of Waiting-Critical Requests  :CS:en:
 Vladimir Bogatyrev, Stanislav Bogatyrev and Anatoy Bogatyrev
-** <<1>> Cross-Cluster Redistribution with Replication of Heterogeneous Request Flow :CS:
+** <<6>> Risk Analysis Method of Authentication Systems for Swarms of UAV :CS:en:
+Tran D. Khanh, Le D. Don and Komarov I. Ivanovich
+** <<1>> Cross-Cluster Redistribution with Replication of Heterogeneous Request Flow :CS:en:
 Vladimir Bogatyrev, Anatoly Bogatyrev and Stanislav Bogatyrev
-** <<62>> Evaluation of Network Reliability and Element Importance Metrics :CS:
-Aleksandr Moshnikov
-** <<85>> Organization of UDP Transmissions Reservation in Real-Time Computer Networks :CS:
+** <<85>> Organization of UDP Transmissions Reservation in Real-Time Computer Networks :CS:en:
 Ilya Noskov and Vladimir Bogatyrev
+** <<62>> Evaluation of Network Reliability and Element Importance Metrics :CS:en:
+Aleksandr Moshnikov
 * Computer Systems and Networks 2
 ** [#A] <<40>> Replication of Requests when Dividing Cluster Nodes Between Threads of Different Criticality to Delays in Queues :CS:
 Vladimir Bogatyrev, Stanislav Bogatyrev and Anatoy Bogatyrev
 ** [#A] <<15>> Logic Graphs: complete, semantic oriented and easy to learn visualization method for OWL DL language :SW:
 Ngoc Than Nguyen and Ildar Baimuratov
-** <<101>> Algorithm for Persons Cross-identification Across Social Networks :CS:
-Irina Dmitrieva and Sergey Chuprov
-** <<102>> Target algorithm optimisation for a custom processor unit in the ASIP :CS:CPS:SW:
-Daniil Prohorov and Aleksandr Penskoi
-** <<60>> Forecasting network exchange time series :CS:
+** <<60>> Forecasting Network Exchange Time Series :CS:
 Aleksandr Moshnikov and Aleksandr Syrov
-** <<45>> Evaluating efficiency of artificial neural networks for solving symmetric cryptography issues :CS:
-Denis Roenko
 ** <<21>> Emotion Recognition Software based on Facial Expressions :CS:UX:
 Darya Panarina and Pavel Balakshin
 ** <<48>> Multimedia Data Model and Experimental Technique to Improve Human-Computer Graphic Interface :GR:
 Ekaterina Borevich, Serg Mescheryakov and Victor Yanchus
+** <<102>> Target Algorithm Optimisation for a Custom Processor Unit in the ASIP :CS:CPS:SW:
+Daniil Prohorov and Aleksandr Penskoi
+** <<101>> Algorithm for Persons Cross-identification Across Social Networks :CS:
+Irina Dmitrieva and Sergey Chuprov
+** <<45>> Evaluating Efficiency of Artificial Neural Networks for Solving Symmetric Cryptography Issues :CS:
+Denis Roenko
 * Cyber-Physical Systems 1
 ** [#A] <<59>> Training laboratories with online access on the ITMO.cLAB platform :CPS:EDU:
 Alexey Platunov, Arkady Kluchev, Vasiliy Pinkevich, Vladislav Kluchev and Maxim Kolchurin
 ** [#A] <<25>> Integrating Smart Contracts into Smart Factory Elements' Informational Interaction Model :CPS:
 Julia Lyakhovenko, Ilia Viksnin and Sergey Chuprov
-** [#A] <<92>> Practical Comparison of High-Level Synthesis and Hardware Generation Frameworks: CPU Floating Point Unit Case :CPS:
-Oleg Morozov and Alexander Antonov
-** <<98>> Development of a Linear Actuator Controller For a Hand Prosthesis :CPS:
-Pavel Rozhkin, Kirill Markin and Alexey Platunov
+** [#A] <<23>> Informational Messages and Space Models Application in Smart Factory Concept :CPS:
+Maria Usova, Ilya Viksnin and Sergey Chuprov
 ** <<16>> A Two-phase Model of Information Interaction in a Heterogeneous Internet of Things Network at the Last Mile
 Anna Romanova, Mikhail Kolbanev and Natalya Verzun
 ** <<97>> Method for Environmental Monitoring in the Incomplete Data Conditions :AI:CPS:
 Nikita Tursukov, Ilya Viksnin, Iuliia Kim and Evgenii Neverov
+** <<98>> Development of a Linear Actuator Controller For a Hand Prosthesis :CPS:
+Pavel Rozhkin, Kirill Markin and Alexey Platunov
 ** <<110>> Scalable Simulation Environment of Microcontrollers with Remote Access :CPS:
 Sergei Bykovskii, Tatyana Prilutskaya and Elizaveta Kormilitsyna
 * Cyber-Physical Systems 2
-** [#A] <<65>> Design of embedded and cyber-physical systems using a cross-level microarchitectural patterns of the computational process organization :CS:CPS:
+** [#A] <<65>> Design of Embedded and Cyber-Physical Systems using a Cross-Level Microarchitectural Patterns of the Computational Process Organization :CS:CPS:
 Vasiliy Pinkevich and Alexey Platunov
-** [#A] <<23>> Informational Messages and Space Models Application in Smart Factory Concept :CPS:
-Maria Usova, Ilya Viksnin and Sergey Chuprov
+** [#A] <<92>> Practical Comparison of High-Level Synthesis and Hardware Generation Frameworks: CPU Floating Point Unit Case :CPS:
+Oleg Morozov and Alexander Antonov
 ** [#A] <<49>> Panorama Stitching Method Using Sensor Fusion :CPS:
 Aleksei Goncharov and Sergei Bykovskii
 ** <<86>> Software Module for Unmanned Autonomous Vehicle's On-board Camera Faults Detection and Correction :AI:GR:CPS:
 Egor Domnitsky, Vladimir Mikhailov, Evgeniy Zoloedov, Danila Alyukov, Sergey Chuprov, Egor Marinenkov and Ilia Viksnin
 ** <<108>> One Approach To Construct Ambient Intelligence System’s (AmIS) Models Based On Fog Platforms :CS:CPS:SW:
 Saddam Abbas, Alexander Vodyaho, Vladimir Chernokulsky and Natalia Zhukova
-** <<50>> Optimization of hardware neural networks using queuing theory :CPS:
+** <<50>> Optimization of Hardware Neural Networks Using Queuing Theory :CPS:
 Konstantin Kormilitsyn and Pavel Kustarev
 ** <<79>> Method for Predicting the Result of Applications Submitted to Scientific Tenders from the Criteria for their Assessment :CS:EDU:
 Galina Markina, Olga Kuznetsova, Mikhail Shley and Tatiana Markina
@@ -131,14 +131,14 @@ Galina Markina, Olga Kuznetsova, Mikhail Shley and Tatiana Markina
 Nikita Tomilov
 ** [#A] <<103>> Analysing PHP Source Codes Using Syntax-Directed Translation :AI:SW:
 Daniil Sadyrin, Andrey Dergachev and Aglaia Ilina
+** <<22>> Web Languages Typing and Optimization of the Web Application Development Process :GR:SW:
+Nikita Vozisov, Ilya Gosudarev, Irina Gotskaya and Alina Firsova
 ** <<46>> Deterministic Thread Management Tool Based on Google Thread Sanitizer :CS:SW:
 Matvey Chudakov, Oleg Doronin, Karina Dergun, Andrey Dergachev and Aglaia Ilina
 ** <<100>> The Identification and Research of Simulation Models of Business Processes in a Large Company Using Data of Corporate Information Systems :CS:SW:
 Alexander Kshenin and Sergey Kovalchuk
 ** <<88>> Development of a Tool for Automating the Collection and Analysis of Open Data GitHub Users :SW:
 Sergei Isaev, Ilya Gosudarev and Irina Gotskaya
-** <<22>> Web languages typing and optimization of the web application development process :GR:SW:
-Nikita Vozisov, Ilya Gosudarev, Irina Gotskaya and Alina Firsova
 ** <<105>> Debugger Infrastructure for the Portable Runtime Environment :CS:
 Elizaveta Kuzenkova, Yuriy Korenkov, Ivan Loginov, Andrey Dergachev and Aglaya Ilina
 ** <<44>> Intellectual Method of Programs Interactions Visualization for Information Security Audit of the Operating System :SW:
