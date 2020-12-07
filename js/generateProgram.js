@@ -6,7 +6,9 @@ const generateProgram = async () => {
                     en: 'English only',
                     ru: 'Russian only',
                     "en+ru": 'English with translation to Russian',
-                    "ru+en": 'Russian with translation to English'
+                    "ru+en": 'Russian with translation to English',
+                    "ru&en": 'Russian and English language',
+                    "en&ru": 'English and Russian language'
                 }
                 let time = {
                     long: "10 min - speech, 5 min - questions",

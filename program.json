@@ -74,6 +74,7 @@
         "title": "Student Colloquium",
         "time": "16:30-18:00",
         "commentary": "Will be updated soon...",
+        "lang": "ru&en",
         "presentations": []
       },
       {
@@ -81,6 +82,7 @@
         "title": "Posters",
         "time": "16:30-17:15",
         "tableTime": "16:30",
+        "lang": "ru&en",
         "presentations": [{"lang": "ru", "theme": "[5] Automated measurement system with sensor signal processing control", "authors": "Svetlana Kolmogorova", "time": "short"}, {"lang": "ru", "theme": "[11] Using OpenMP to Optimize model training process in machine learning algorithms", "authors": "Omar Mohammed, Moeid Heidari and Alexey Paznikov", "time": "short"}, {"lang": "ru", "theme": "[38] Development of Algorithm for Improving Accuracy of Probability Coefficient of Threat Implementation in Personal Data Information Systems", "authors": "Sergey Verevkin, Ksenia Naumova, Tatiana Tatarnikova, Pavel Bogdanov and Ekaterina Kraeva", "time": "short"}, {"lang": "ru", "theme": "[54] Development of Means for Assessing the Level of Student Satisfaction with the Distance Learning Process through Video Conferencing", "authors": "Adelina Ismagilova, Sofia Sorokina and Oleg Basov", "time": "short"}]
       }
 
@@ -169,7 +171,7 @@
         "title": "Artificial Intelligence, Texts and Bots",
         "chairman": "Pavel Balakshin",
         "time": "15:30-17:00",
-        "lang": "en",
+        "lang": "en&ru",
         "presentations": [{"lang": "en", "theme": "[66] Detection of Toxic Comments in Russian Text Messages", "authors": "Darya Bogoradnikova, Olesia Makhnytkina and Anton Matveev", "time": "long"}, {"lang": "en", "theme": "[52] Application of Parametric Rectified Linear Unit into Speech Recognition Model", "authors": "Dr. Robin Singh Bhadoria, Atharva Nimbalkar, Ram Korde and\u00a0Varun Mishra", "time": "long"}, {"lang": "en", "theme": "[57] Researching Modern Chat Bots", "authors": "Uliana Muratova and Pavel Balakshin", "time": "short"}, {"lang": "en", "theme": "[78] Research of Voice Assistants Safety", "authors": "Nikita Burym, Mikhail Belenko and Pavel Balakshin", "time": "short"}, {"lang": "en", "theme": "[43] The Effectiveness of Using Bell Inequality Test for Information Retrieval in Arabic Texts", "authors": "Alaa Shaker and\u00a0Igor Bessmertny", "time": "short"}, {"lang": "en", "theme": "[91] On Continual Learning for Topic Classification of Texts", "authors": "Nikita Mamaev and Sergey Maslyukhin", "time": "short"}, {"lang": "en", "theme": "[95] Sentiment Analysis of Russian Text Using the Semantic Network", "authors": "Andrey Mileshin, Evgenij Tsopa, Serge Klimenkov and Aleksandr Slapoguzov", "time": "short"}, {"lang": "en", "theme": "[70] Using of Deep Neural Networks for Yes/No Natural Questions Task", "authors": "Ilya Bykov, Alexey Platonov, Vyacheslav Olyunin and Sergey Milantev", "time": "short"}]
       },
       {
