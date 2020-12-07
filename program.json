@@ -63,16 +63,16 @@
 
       {
         "type": "Section",
-        "title": "Posters",
-        "time": "16:30-17:15",
-        "presentations": [{"lang": "ru", "theme": "[5] Automated measurement system with sensor signal processing control", "authors": "Svetlana Kolmogorova", "time": "short"}, {"lang": "ru", "theme": "[11] Using OpenMP to Optimize model training process in machine learning algorithms", "authors": "Omar Mohammed, Moeid Heidari and Alexey Paznikov", "time": "short"}, {"lang": "ru", "theme": "[38] Development of Algorithm for Improving Accuracy of Probability Coefficient of Threat Implementation in Personal Data Information Systems", "authors": "Sergey Verevkin, Ksenia Naumova, Tatiana Tatarnikova, Pavel Bogdanov and Ekaterina Kraeva", "time": "short"}, {"lang": "ru", "theme": "[54] Development of Means for Assessing the Level of Student Satisfaction with the Distance Learning Process through Video Conferencing", "authors": "Adelina Ismagilova, Sofia Sorokina and Oleg Basov", "time": "short"}]
-      },
-      {
-        "type": "Section",
         "title": "Student Colloquium",
         "time": "16:30-18:00",
         "commentary": "Will be updated soon...",
         "presentations": []
+      },
+      {
+        "type": "Section",
+        "title": "Posters",
+        "time": "16:30-17:15",
+        "presentations": [{"lang": "ru", "theme": "[5] Automated measurement system with sensor signal processing control", "authors": "Svetlana Kolmogorova", "time": "short"}, {"lang": "ru", "theme": "[11] Using OpenMP to Optimize model training process in machine learning algorithms", "authors": "Omar Mohammed, Moeid Heidari and Alexey Paznikov", "time": "short"}, {"lang": "ru", "theme": "[38] Development of Algorithm for Improving Accuracy of Probability Coefficient of Threat Implementation in Personal Data Information Systems", "authors": "Sergey Verevkin, Ksenia Naumova, Tatiana Tatarnikova, Pavel Bogdanov and Ekaterina Kraeva", "time": "short"}, {"lang": "ru", "theme": "[54] Development of Means for Assessing the Level of Student Satisfaction with the Distance Learning Process through Video Conferencing", "authors": "Adelina Ismagilova, Sofia Sorokina and Oleg Basov", "time": "short"}]
       }
 
     ]
