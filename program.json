@@ -86,7 +86,7 @@
     "events": [
       {
         "type": "Speech",
-        "title": "Pravega (part 1)",
+        "title": "Tutorial: Pravega (part 1)",
         "author": "Pavel Lipskii",
         "organization": "Dell",
         "annotation": "На семинаре Павел Липский (Ведущий инженер-разработчик ПО в Dell Technologies) познакомит слушателей с концепцией потоков и open-source проектом Pravega. Павел расскажет об Apache Flink, компонентах и развертывании Pravega, а также покажет демо сервиса.",
@@ -95,7 +95,7 @@
       },
       {
         "type": "Speech",
-        "title": "Pravega (part 2)",
+        "title": "Tutorial: Pravega (part 2)",
         "author": "Pavel Lipskii",
         "organization": "Dell",
         "annotation": "На семинаре Павел Липский (Ведущий инженер-разработчик ПО в Dell Technologies) познакомит слушателей с концепцией потоков и open-source проектом Pravega. Павел расскажет об Apache Flink, компонентах и развертывании Pravega, а также покажет демо сервиса.",
