@@ -17,6 +17,7 @@ const generateProgram = async () => {
                                     <a id="timetableToggler" data-toggle="list" role="tab" href="#timetable" class="list-group-item list-group-item-secondary active">Schedule</a>
                                     ${buttons}
                                 </div>
+                                <div class="mt-2 text-center"><strong>Online conference - Preliminary version</strong></div>
                                 <div class="mt-2 small text-center">All times specified for the Moscow timezone (UTC+3)</div>
                                 `
 
@@ -43,13 +44,13 @@ const generateProgram = async () => {
                                         <li>
                                             <div class="clearfix">
                                                 <span >${presentation.theme}</span>
+                                            </div>
+                                            <div>
+                                                <em>${presentation.authors}</em>
                                                 <div class="float-right">
                                                     <span data-toggle="tooltip" data-placement="top" title="${language[presentation.lang]}" class="badge badge-info">${presentation.lang}</span>
                                                     <span data-toggle="tooltip" data-placement="top" title="${time[presentation.time]}" class="badge badge-info">${presentation.time}</span>
                                                 </div>
-                                            </div>
-                                            <div>
-                                                <em>${presentation.authors}</em>
                                             </div>
                                         </li>
                                     `).join("")}
@@ -59,15 +60,17 @@ const generateProgram = async () => {
                             return `<hr/>
                             <div class="text-center">
                                 <h3 class="text-center font-weight-bold">${event.time}</h3>
-                                <h4  class="text-center">${event.title}</h4>
-                                ${event.lang ? `<div  data-toggle="tooltip" data-placement="top" title="${event.lang ? language[event.lang] : ''}" class="badge badge-info text-center">${event.lang}</div>` : ""}
+                                <h4 class="text-center">
+                                    ${event.title}
+                                    ${event.lang ? `<div  data-toggle="tooltip" data-placement="top" title="${event.lang ? language[event.lang] : ''}" class="badge badge-info text-center">${event.lang}</div>` : ""}
+                                </h4>
                                 <div class="d-xs-block d-md-flex align-items-center justify-content-center">
                                     <div class="text-center w-50">
                                         ${event.author ? `<h5 class="text-center">${event.author}</h5>` : ""}
                                         ${event.organization ? `<h5 class="text-center">${event.organization}</h5>` : ""}
                                         ${event.photo ? `<img src="img/${event.photo}" class="schedule-img my-2 img-fluid text-center" alt="Photo of ${event.author}"/>` : ""}
                                     </div>
-                                    ${event.annotation ? `<div class="ml-md-5 w-50 text-justify">${event.annotation}</div>` : ""}
+                                    ${event.annotation ? `<div class="ml-md-5 w-50 text-left">${event.annotation}</div>` : ""}
                                 </div>
                                 ${event.link ? `<br/><div class=${event.type !== 'Section' ? "text-center" : ''}><a class="btn btn-secondary" href="${event.link}">Watch online</a></div>` : ""}
                                 <br/>
@@ -77,6 +80,13 @@ const generateProgram = async () => {
                 </div>
                 `
                 ).join("");
+
+                function langLabel(o) {
+                    if (!o.lang) return "";
+                    return `<div class="float-right">`
+                        + `<span data-toggle="tooltip" data-placement="top" title="${language[o.lang]}" class="badge badge-info">${o.lang}</span>`
+                        + `</div>`
+                }
 
                 let tmp1 = program.map(day => {
                     let tmpArrray = [...day.events]
@@ -110,7 +120,7 @@ const generateProgram = async () => {
                                 <tr>
                                     <td class="d-none d-sm-table-cell" rowspan="${day.length}">${day[0][0].date} <br/> (Day ${tmp1.indexOf(day) + 1})</td>
                                     <td class="d-none d-sm-table-cell">${events[0].time}</td>
-                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="Section ${events[0].chairman ? `<br/> Chairman: ${events[0].chairman}` : ''}" class="text-center" colspan="2">${events[0].title}</td>
+                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="Section ${events[0].chairman ? `<br/> Chairman: ${events[0].chairman}` : ''}" class="text-center" colspan="2">${events[0].title}${ langLabel(events[0]) }</td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "event") {
@@ -118,7 +128,7 @@ const generateProgram = async () => {
                                 <tr>
                                     <td class="d-none d-sm-table-cell" rowspan="${day.length}">${day[0][0].date} <br/> (Day ${tmp1.indexOf(day) + 1})</td>
                                     <td class="d-none d-sm-table-cell">${events[0].time}</td>
-                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].type} <br/> ${events[0].lang ? language[events[0].lang] : ''}" class="text-center font-weight-bold">${events[0].title}</td>
+                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].type} <br/> ${events[0].lang ? language[events[0].lang] : ''}" class="text-center font-weight-bold">${events[0].title}${ langLabel(events[0]) }</td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "speech") {
@@ -126,7 +136,7 @@ const generateProgram = async () => {
                                 <tr>
                                     <td class="d-none d-sm-table-cell" rowspan="${day.length}">${day[0][0].date} <br/> (Day ${tmp1.indexOf(day) + 1})</td>
                                     <td class="d-none d-sm-table-cell">${events[0].time}</td>
-                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].type} <br/> ${events[0].lang ? language[events[0].lang] : ''}" class="text-center"><div class="font-weight-bold">${events[0].title}</div>${events[0].author} (${events[0].organization})</td>
+                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].type} <br/> ${events[0].lang ? language[events[0].lang] : ''}" class="text-center"><div class="font-weight-bold">${events[0].title}</div>${events[0].author} (${events[0].organization}) ${ langLabel(events[0]) }</td>
                                 </tr>`
                             }
                         } else {
@@ -137,9 +147,9 @@ const generateProgram = async () => {
                                 ${events.reduce((accumulator, event, index) => {
                                 console.log(event, index);
                                 if (index == 0) {
-                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.type} <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''} ${event.lang ? language[event.lang] : ''}" class="col-xs-12 col-lg text-center"><div class="font-weight-bold">${event.title}</div> ${event.author ? event.author : ""}</div>`
+                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.type} <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''} ${event.lang ? language[event.lang] : ''}" class="col-xs-12 col-lg text-center"><div class="font-weight-bold">${event.title}</div> ${event.author ? event.author : ""}${ langLabel(event) } </div>`
                                 } else {
-                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.type} <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''} ${event.lang ? language[event.lang] : ''}" class="col-xs-12 col-lg text-center border-left"><div class="font-weight-bold">${event.title}</div> ${event.author ? event.author : ""}</div>`
+                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.type} <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''} ${event.lang ? language[event.lang] : ''}" class="col-xs-12 col-lg text-center border-left"><div class="font-weight-bold">${event.title}</div> ${event.author ? event.author : ""} ${ langLabel(event) }</div>`
                                 }
                             }, ``)}
                             </div></td>`
@@ -157,21 +167,21 @@ const generateProgram = async () => {
                                 return `
                                 <tr>
                                     <td class="d-none d-sm-table-cell">${events[0].time}</td>
-                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="Section ${events[0].chairman ? `<br/> Chairman: ${events[0].chairman}` : ''}" class="text-center" colspan="2">${events[0].title}</td>
+                                                      <td data-toggle="tooltip" data-placement="top" data-html="true" title="Section ${events[0].chairman ? `<br/> Chairman: ${events[0].chairman}` : ''}" class="text-center" colspan="2">${events[0].title} ${ langLabel(events[0]) }</td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "event") {
                                 return `
                                 <tr>
                                     <td class="d-none d-sm-table-cell">${events[0].time}</td>
-                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].type} <br/> ${events[0].lang ? language[events[0].lang] : ''}" class="text-center font-weight-bold">${events[0].title}</td>
+                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].type} <br/> ${events[0].lang ? language[events[0].lang] : ''}" class="text-center font-weight-bold">${events[0].title} ${ langLabel(events[0]) }</td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "speech") {
                                 return `
                                 <tr>
                                     <td class="d-none d-sm-table-cell">${events[0].time}</td>
-                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].type} <br/> ${events[0].lang ? language[events[0].lang] : ''}" class="text-center"><div class="font-weight-bold">${events[0].title}</div>${events[0].author} (${events[0].organization})</td>
+                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].type} <br/> ${events[0].lang ? language[events[0].lang] : ''}" class="text-center"><div class="font-weight-bold">${events[0].title}</div>${events[0].author} (${events[0].organization}) ${ langLabel(events[0]) } </td>
                                 </tr>`
                             }
                         } else {
@@ -181,9 +191,21 @@ const generateProgram = async () => {
                             <div class="d-flex justify-content-around">
                                 ${events.reduce((accumulator, event, index) => {
                                 if (index == 0) {
-                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.type} <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''} ${event.lang ? language[event.lang] : ''}" class="col-xs-12 col-lg text-center"><div class="font-weight-bold">${event.title}</div> ${event.author ? event.author : ""}</div>`
+                                    var buf = "";
+                                    buf += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.type} <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''} ${event.lang ? language[event.lang] : ''}" class="col-xs-12 col-lg text-center">`
+                                         + `<div class="font-weight-bold">${event.title}</div>`
+                                         + `${event.author ? event.author : ""}`
+                                         + `${ langLabel(event) }`
+                                         + `</div>`
+                                    return accumulator += buf;
                                 } else {
-                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.type} <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''}  ${event.lang ? language[event.lang] : ''}" class="col-xs-12 col-lg text-center border-left"><div class="font-weight-bold">${event.title}</div> ${event.author ? event.author : ""}</div>`
+                                    var buf = "";
+                                    buf += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.type} <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''}  ${event.lang ? language[event.lang] : ''}" class="col-xs-12 col-lg text-center border-left">`
+                                         + `<div class="font-weight-bold">${event.title}</div>`
+                                         + ` ${event.author ? event.author : ""}`
+                                         + `${ langLabel(event) }`
+                                         + `</div>`
+                                    return accumulator += buf;
                                 }
                             }, ``)}
                             </div></td>`
