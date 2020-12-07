@@ -83,9 +83,9 @@ const generateProgram = async () => {
 
                 function langLabel(o) {
                     if (!o.lang) return "";
-                    return `<div class="${o.type == "Speech" ? "float-right" : "text-center"}">`
+                    return `<span class="float-right">`
                         + `<span data-toggle="tooltip" data-placement="bottom" title="${language[o.lang]}" class="badge badge-info">${o.lang}</span>`
-                        + `</div>`
+                        + `</span>`
                 }
 
                 let tmp1 = program.map(day => {
@@ -144,12 +144,12 @@ const generateProgram = async () => {
                             let string = `
                             <td>
                             <div class="d-flex justify-content-around">
-                                ${events.reduce((accumulator, event, index) => {
+                                ${events.reduce((accumulator, event, index,array) => {
                                 console.log(event, index);
                                 if (index == 0) {
                                     return accumulator += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.time ? event.time : ''} <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''}" class="col-xs-12 col-lg text-center"><div class="font-weight-bold">${event.title}</div> ${event.author ? event.author : ""}${ langLabel(event) } </div>`
                                 } else {
-                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.time ? event.time : ''} <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''}" class="col-xs-12 col-lg text-center border-left pr-0"><div class="font-weight-bold">${event.title}</div> ${event.author ? event.author : ""} ${ langLabel(event) }</div>`
+                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.time ? event.time : ''} <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''}" class="col-xs-12 col-lg text-center border-left ${index == array.length-1 ? 'pr-0' : ""}"><div class="font-weight-bold">${event.title}</div> ${event.author ? event.author : ""} ${ langLabel(event) }</div>`
                                 }
                             }, ``)}
                             </div></td>`
@@ -189,20 +189,20 @@ const generateProgram = async () => {
                             let string = `
                             <td>
                             <div class="d-flex justify-content-around">
-                                ${events.reduce((accumulator, event, index) => {
+                                ${events.reduce((accumulator, event, index, array) => {
                                 if (index == 0) {
                                     var buf = "";
                                     buf += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${ event.type != "Event" ? (event.time ? event.time : "") : ""} <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''}" class="col-xs-12 col-lg text-center clearfix">`
-                                         + `<div class="font-weight-bold">${event.title}</div>`
-                                         + `${event.author ? event.author : ""}`
+                                         + `<span class="font-weight-bold">${event.title}</span>`
+                                         + `${event.author ? `<br/>${event.author}` : ""}`
                                          + `${ langLabel(event) }`
                                          + `</div>`
                                     return accumulator += buf;
                                 } else {
                                     var buf = "";
-                                    buf += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${ event.type != "Event" ? (event.time ? event.time : "") : ""}  <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''}" class="col-xs-12 col-lg text-center border-left clearfix pr-0">`
-                                         + `<div class="font-weight-bold">${event.title}</div>`
-                                         + ` ${event.author ? event.author : ""}`
+                                    buf += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${ event.type != "Event" ? (event.time ? event.time : "") : ""}  <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''}" class="col-xs-12 col-lg text-center border-left clearfix ${index == array.length-1 ? "pr-0" : ""}">`
+                                         + `<span class="font-weight-bold">${event.title}</span>`
+                                         + `${event.author ? `<br/>${event.author}` : ""}`
                                          + `${ langLabel(event) }`
                                          + `</div>`
                                     return accumulator += buf;
