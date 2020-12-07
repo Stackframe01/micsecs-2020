@@ -80,6 +80,7 @@
         "type": "Section",
         "title": "Posters",
         "time": "16:30-17:15",
+        "tableTime": "16:30",
         "presentations": [{"lang": "ru", "theme": "[5] Automated measurement system with sensor signal processing control", "authors": "Svetlana Kolmogorova", "time": "short"}, {"lang": "ru", "theme": "[11] Using OpenMP to Optimize model training process in machine learning algorithms", "authors": "Omar Mohammed, Moeid Heidari and Alexey Paznikov", "time": "short"}, {"lang": "ru", "theme": "[38] Development of Algorithm for Improving Accuracy of Probability Coefficient of Threat Implementation in Personal Data Information Systems", "authors": "Sergey Verevkin, Ksenia Naumova, Tatiana Tatarnikova, Pavel Bogdanov and Ekaterina Kraeva", "time": "short"}, {"lang": "ru", "theme": "[54] Development of Means for Assessing the Level of Student Satisfaction with the Distance Learning Process through Video Conferencing", "authors": "Adelina Ismagilova, Sofia Sorokina and Oleg Basov", "time": "short"}]
       }
 
@@ -123,7 +124,7 @@
         "author": "Nikolay Klimov",
         "organization": "ITMO University",
         "time": "11:15-12:15",
-        "annotation": "Системы автоматического распознавания речи, или ASR (Automatic Speech Recognition) на сегодняшний день получают всё большее распространение в таких сферах, как голосовые помошники и Интернет Вещей. Для исследования систем ASR был разработан виртуальный лабораторный комплекс ITMO.CVoA, предназначенная для комплексного изучения различных аспектов распознавания речи, таких как подготовка и зашумление входных данных, параметризация процесса распознавания, а также рассчёт метрик и сравнительный анализ полученных расшифровок.",        "time": "11:15-12:15",
+        "annotation": "Системы автоматического распознавания речи, или ASR (Automatic Speech Recognition) на сегодняшний день получают всё большее распространение в таких сферах, как голосовые помошники и Интернет Вещей. Для исследования систем ASR был разработан виртуальный лабораторный комплекс ITMO.CVoA, предназначенная для комплексного изучения различных аспектов распознавания речи, таких как подготовка и зашумление входных данных, параметризация процесса распознавания, а также рассчёт метрик и сравнительный анализ полученных расшифровок.",
         "lang": "ru"
       },
 

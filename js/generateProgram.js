@@ -119,7 +119,7 @@ const generateProgram = async () => {
                                 return `
                                 <tr>
                                     <td class="d-none d-sm-table-cell" rowspan="${day.length}">${day[0][0].date} <br/> (Day ${tmp1.indexOf(day) + 1})</td>
-                                    <td class="d-none d-sm-table-cell">${events[0].time}</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].tableTime ? events[0].tableTime : events[0].time}</td>
                                     <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].time ? ` ${events[0].time}`: ""} <br/> ${events[0].chairman ? `Chairman: ${events[0].chairman}` : ''}" class="text-center" colspan="2">${events[0].title}${ langLabel(events[0]) }</td>
                                 </tr>
                             `
@@ -127,7 +127,7 @@ const generateProgram = async () => {
                                 return `
                                 <tr>
                                     <td class="d-none d-sm-table-cell" rowspan="${day.length}">${day[0][0].date} <br/> (Day ${tmp1.indexOf(day) + 1})</td>
-                                    <td class="d-none d-sm-table-cell">${events[0].time}</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].tableTime ? events[0].tableTime : events[0].time}</td>
                                     <td class="text-center font-weight-bold">${events[0].title} ${langLabel(events[0])}</td>
                                 </tr>
                             `
@@ -135,12 +135,12 @@ const generateProgram = async () => {
                                 return `
                                 <tr>
                                     <td class="d-none d-sm-table-cell" rowspan="${day.length}">${day[0][0].date} <br/> (Day ${tmp1.indexOf(day) + 1})</td>
-                                    <td class="d-none d-sm-table-cell">${events[0].time}</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].tableTime ? events[0].tableTime : events[0].time}</td>
                                     <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].time ? events[0].time : ''}" class="text-center"><div class="font-weight-bold">${events[0].title}</div>${events[0].author} (${events[0].organization}) ${ langLabel(events[0]) }</td>
                                 </tr>`
                             }
                         } else {
-                            let time = `<td class="d-none d-sm-table-cell">${events[0].time}</td>`
+                            let time = `<td class="d-none d-sm-table-cell">${events[0].tableTime ? events[0].tableTime : events[0].time}</td>`
                             let string = `
                             <td>
                             <div class="d-flex justify-content-around">
@@ -166,26 +166,26 @@ const generateProgram = async () => {
                             if (events[0].type.toLowerCase() == "section") {
                                 return `
                                 <tr>
-                                    <td class="d-none d-sm-table-cell">${events[0].time}</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].tableTime ? events[0].tableTime : events[0].time}</td>
                                                       <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].time ? `${events[0].time}`: ""} <br/> ${events[0].chairman ? `Chairman: ${events[0].chairman}` : ''}" class="text-center" colspan="2">${events[0].title} ${ langLabel(events[0]) }</td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "event") {
                                 return `
                                 <tr>
-                                    <td class="d-none d-sm-table-cell">${events[0].time}</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].tableTime ? events[0].tableTime : events[0].time}</td>
                                     <td class="text-center font-weight-bold">${events[0].title} ${ langLabel(events[0]) }</td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "speech") {
                                 return `
                                 <tr>
-                                    <td class="d-none d-sm-table-cell">${events[0].time}</td>
+                                    <td class="d-none d-sm-table-cell">${events[0].tableTime ? events[0].tableTime : events[0].time}</td>
                                     <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].time ? `${events[0].time}`: ""}"  class="text-center"><div class="font-weight-bold">${events[0].title}</div>${events[0].author} (${events[0].organization}) ${ langLabel(events[0]) } </td>
                                 </tr>`
                             }
                         } else {
-                            let time = `<td class="d-none d-sm-table-cell">${events[0].time}</td>`
+                            let time = `<td class="d-none d-sm-table-cell">${events[0].tableTime ? events[0].tableTime : events[0].time}</td>`
                             let string = `
                             <td>
                             <div class="d-flex justify-content-around">
