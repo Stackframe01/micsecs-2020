@@ -16,6 +16,7 @@
         "organization": "Computer Science Department, Chung-Ang University, Korea",
         "annotation": "In this tutorial I will present an adaptive regularization scheme for optimizing a composite energy functionals arising in image analysis. The adaptive regularization scheme is designed to balance data fidelity and regularization depending on the current data fit during the iterative optimization, so that regularization is strongest initially and wanes as data fidelity improves. The adaptive regularization algorithm can be applied to a variety of imaging applications such as reconstruction, segmentation and registration.",
         "time": "11:00-11:45",
+        "photo": "byungwoo.hong.png",
         "lang": "en+ru"
       },
 
