@@ -3,33 +3,33 @@
 * Artificial Intelligence and Machine Learning 1
 ** [#A] <<2>> Raga Classification using Convolutional Neural Network :AI:en:
 Dr. Remya K. Sasi and Athul Krishnan
-** [#A] <<51>> Visual Objects Tracking on Road Sequences Using Information about Scene Perspective Transform :AI:en:
+** [#A] <<81>> Directional and Qualitative Feature Classification for Speaker Diarization with Dual Microphone Arrays :AI:CPS:ok:en:ru:UX:
+Sergei Astapov, Dmitry Popov and Vladimir Kabarov
+** [#A] <<51>> Visual Objects Tracking on Road Sequences Using Information about Scene Perspective Transform :AI:ok:ru:en:
 Nikolay Nemcev and Nickolay Kozyrev
-** [#B] <<93>> Formation Recognition by Clustering-Based Method in Virtual Soccer :AI:SW:
-Aleksandr Khodos and Michail Panteleyev
+** <<94>> Comparative Analysis of Stochastic Optimization Methods :AI:ok:en:ru:
+Anton Changalidi
+** <<87>> Research of Neural Network Algorithms in Reading Comprehension with Commonsense Reasoning Dataset (ReCoRD) :AI:UX:ok:ru:en:
+Vyacheslav Olyunin, Alexey Platonov, Ilya Bykov and Sergey Milantev
+** <<89>> Artificial Intelligence Methods Effectiveness Evaluation for Man-made Threats Detection at Critical Infrastructure Facilities :AI:ok:en:
+Evgenii Neverov, Ilya Viksnin, Iuliia Kim and Nikita Tursukov
 ** <<67>> Revealing the Application of Steganography Algorithms to the Text Using Linguistic Identification Methods :AI:CS:CPS:en:
 Alexander Khazagarov and Alisa A Vorobeva
-** <<94>> Comparative Analysis of Stochastic Optimization Methods :AI:
-Anton Changalidi
-** <<63>> Neural Network Cascading as a Tool for Improving the Accuracy of a Specialized Forecasting System :AI:en:
-Alexander Krutikov, Nataly Zhukova and Vasily Meltsov
-** <<26>> Skin Lesion Analysis Using Ensemble of CNN with Dermoscopic Images and Metadata :AI:SW:en:
-Sergey Milantev, Vyacheslav Olyunin, Ilya Bykov, Natalya Milanteva and Igor Bessmertny
 * Artificial Intelligence and Machine Learning 2
-** [#A] <<81>> Directional and Qualitative Feature Classification for Speaker Diarization with Dual Microphone Arrays :AI:CPS:UX:
-Sergei Astapov, Dmitry Popov and Vladimir Kabarov
-** [#A] <<34>> Detection of Defective Speech Using Convolutional Neural Networks :SW:
+** [#A] <<34>> Detection of Defective Speech Using Convolutional Neural Networks :SW:ok:ru:
 Mikhail Belenko, Nikita Burym and Pavel Balakshin
-** [#B] <<53>> Computer Vision Technologies at Hazardous Industrial Facilities :AI:CS:SW:
+** [#A] <<93>> Formation Recognition by Clustering-Based Method in Virtual Soccer :AI:SW:ok:ru:
+Aleksandr Khodos and Michail Panteleyev
+** [#A] <<53>> Computer Vision Technologies at Hazardous Industrial Facilities :AI:CS:SW:
 Dmitriy Zhdanov, German Gebel and Renat Narbekov
 ** <<35>> Prediction of Potentially Hazardous Coal Dust Concentration Level using Machine Learning Methods :AI:
 Iuliia Kim, Ilya Viksnin, Nikita Tursukov and Evgenii Neverov
-** <<89>> Artificial Intelligence Methods Effectiveness Evaluation for Man-made Threats Detection at Critical Infrastructure Facilities :AI:
-Evgenii Neverov, Ilya Viksnin, Iuliia Kim and Nikita Tursukov
+** <<63>> Neural Network Cascading as a Tool for Improving the Accuracy of a Specialized Forecasting System :AI:
+Alexander Krutikov, Nataly Zhukova and Vasily Meltsov
 ** <<36>> Methods for detecting patterns in the routing cluster data of an automated monitoring system based on IoT technologies :AI:CS:
 Evgenii Milenin
-** <<87>> Research of Neural Network Algorithms in Reading Comprehension with Commonsense Reasoning Dataset (ReCoRD) :AI:UX:
-Vyacheslav Olyunin, Alexey Platonov, Ilya Bykov and Sergey Milantev
+** <<26>> Skin Lesion Analysis Using Ensemble of CNN with Dermoscopic Images and Metadata :AI:SW:ok:ru:
+Sergey Milantev, Vyacheslav Olyunin, Ilya Bykov, Natalya Milanteva and Igor Bessmertny
 * Artificial Intelligence, Texts and Bots
 ** [#A] <<66>> Detection of Toxic Comments in Russian Text Messages :AI:UX:en:
 Darya Bogoradnikova, Olesia Makhnytkina and Anton Matveev
@@ -45,7 +45,7 @@ Alaa Shaker and Igor Bessmertny
 Nikita Mamaev and Sergey Maslyukhin
 ** <<95>> Sentiment Analysis of Russian Text Using the Semantic Network :SW:en:
 Andrey Mileshin, Evgenij Tsopa, Serge Klimenkov and Aleksandr Slapoguzov
-** <<70>> Using of Deep Neural Networks for Yes/No Natural Questions Task :AI:CS:UX:en:
+** <<70>> Using of Deep Neural Networks for Yes/No Natural Questions Task :AI:CS:UX:ok:ru:
 Ilya Bykov, Alexey Platonov, Vyacheslav Olyunin and Sergey Milantev
 * Multimedia and Computer Graphics
 ** [#A] <<84>> Point Cloud Registration Hybrid Method :GR:
@@ -63,39 +63,39 @@ Trong The Quan
 ** <<33>> A Speech Enhancement in Diffuse Noise Field Using MVDR Filter :GR:
 Trong The Quan
 * Computer Systems and Networks 1
-** [#A] <<80>> Recording and Storage Traffic Management in Storage Systems :CS:en:
-Tatyana Tatarnikova, Ekaterina Poymanova and Ekaterina Kraeva
-** [#A] <<10>> Spatial-energy Model of a Wireless Sensor Network :CS:en:
+** [#A] <<10>> Spatial-energy Model of a Wireless Sensor Network :CS:ok:ru:en:
 Tatyana Astakhova, Darya Kirilova and Mikhail Kolbanev
-** <<73>> PROWN:Pattern Oriented Routing in Wireless Network: Concept & Challenges :CS:en:
-Rahul Johari, Riya Bhatia and Kanika Gupta
-** <<75>> Priority Serving of Heterogeneous Traffic with Replication of Waiting-Critical Requests  :CS:en:
-Vladimir Bogatyrev, Stanislav Bogatyrev and Anatoy Bogatyrev
-** <<6>> Risk Analysis Method of Authentication Systems for Swarms of UAV :CS:en:
-Tran D. Khanh, Le D. Don and Komarov I. Ivanovich
-** <<1>> Cross-Cluster Redistribution with Replication of Heterogeneous Request Flow :CS:en:
-Vladimir Bogatyrev, Anatoly Bogatyrev and Stanislav Bogatyrev
-** <<85>> Organization of UDP Transmissions Reservation in Real-Time Computer Networks :CS:en:
+** [#A] <<15>> Logic Graphs: complete, semantic oriented and easy to learn visualization method for OWL DL language :SW:ok:en:
+Ngoc Than Nguyen and Ildar Baimuratov
+** <<45>> Evaluating Efficiency of Artificial Neural Networks for Solving Symmetric Cryptography Issues :CS:ok:en:
+Denis Roenko
+** <<101>> Algorithm for Persons Cross-identification Across Social Networks :CS:ok:ru:en:
+Irina Dmitrieva and Sergey Chuprov
+** <<85>> Organization of UDP Transmissions Reservation in Real-Time Computer Networks :CS:ok:ru:en:
 Ilya Noskov and Vladimir Bogatyrev
+** <<48>> Multimedia Data Model and Experimental Technique to Improve Human-Computer Graphic Interface :GR:ok:en:
+Ekaterina Borevich, Serg Mescheryakov and Victor Yanchus
+** <<73>> PROWN: Pattern Oriented Routing in Wireless Network: Concept & Challenges :CS:en:
+Rahul Johari, Riya Bhatia and Kanika Gupta
 ** <<62>> Evaluation of Network Reliability and Element Importance Metrics :CS:en:
 Aleksandr Moshnikov
 * Computer Systems and Networks 2
 ** [#A] <<40>> Replication of Requests when Dividing Cluster Nodes Between Threads of Different Criticality to Delays in Queues :CS:
 Vladimir Bogatyrev, Stanislav Bogatyrev and Anatoy Bogatyrev
-** [#A] <<15>> Logic Graphs: complete, semantic oriented and easy to learn visualization method for OWL DL language :SW:
-Ngoc Than Nguyen and Ildar Baimuratov
+** [#A] <<80>> Recording and Storage Traffic Management in Storage Systems :CS:ok:ru:
+Tatyana Tatarnikova, Ekaterina Poymanova and Ekaterina Kraeva
 ** <<60>> Forecasting Network Exchange Time Series :CS:
 Aleksandr Moshnikov and Aleksandr Syrov
 ** <<21>> Emotion Recognition Software based on Facial Expressions :CS:UX:
 Darya Panarina and Pavel Balakshin
-** <<48>> Multimedia Data Model and Experimental Technique to Improve Human-Computer Graphic Interface :GR:
-Ekaterina Borevich, Serg Mescheryakov and Victor Yanchus
+** <<75>> Priority Serving of Heterogeneous Traffic with Replication of Waiting-Critical Requests  :CS:
+Vladimir Bogatyrev, Stanislav Bogatyrev and Anatoy Bogatyrev
 ** <<102>> Target Algorithm Optimisation for a Custom Processor Unit in the ASIP :CS:CPS:SW:
 Daniil Prohorov and Aleksandr Penskoi
-** <<101>> Algorithm for Persons Cross-identification Across Social Networks :CS:
-Irina Dmitrieva and Sergey Chuprov
-** <<45>> Evaluating Efficiency of Artificial Neural Networks for Solving Symmetric Cryptography Issues :CS:
-Denis Roenko
+** <<1>> Cross-Cluster Redistribution with Replication of Heterogeneous Request Flow :CS:ok:ru:
+Vladimir Bogatyrev, Anatoly Bogatyrev and Stanislav Bogatyrev
+** <<6>> Risk Analysis Method of Authentication Systems for Swarms of UAV :CS:ok:ru:
+Tran D. Khanh, Le D. Don and Komarov I. Ivanovich
 * Cyber-Physical Systems 1
 ** [#A] <<59>> Training laboratories with online access on the ITMO.cLAB platform :CPS:EDU:
 Alexey Platunov, Arkady Kluchev, Vasiliy Pinkevich, Vladislav Kluchev and Maxim Kolchurin
@@ -146,7 +146,7 @@ Mikhail V. Buinevich, Konstantin E. Izrailov and Grigory A. Ganov
 * Posters
 ** <<5>> Automated measurement system with sensor signal processing control :CPS:
 Svetlana Kolmogorova
-** <<11>> Using OpenMP to Optimize model training process in machine learning algorithms :AI:
+** <<11>> Using OpenMP to Optimize model training process in machine learning algorithms :AI:ok:en:
 Omar Mohammed, Moeid Heidari and Alexey Paznikov
 ** <<38>> Development of Algorithm for Improving Accuracy of Probability Coefficient of Threat Implementation in Personal Data Information Systems :CS:
 Sergey Verevkin, Ksenia Naumova, Tatiana Tatarnikova, Pavel Bogdanov and Ekaterina Kraeva
