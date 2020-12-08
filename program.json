@@ -133,6 +133,8 @@
         "title": "Artificial Intelligence and Machine Learning 2",
         "chairman": "Igor Bessmertny",
         "time": "12:30-14:00",
+        "track": 1,
+        "room": "Room A",
         "lang": "ru",
         "presentations": [{"lang": "ru", "theme": "[81] Directional and Qualitative Feature Classification for Speaker Diarization with Dual Microphone Arrays", "authors": "Sergei Astapov, Dmitry Popov and Vladimir Kabarov", "time": "long"}, {"lang": "ru", "theme": "[34] Detection of Defective Speech Using Convolutional Neural Networks", "authors": "Mikhail Belenko, Nikita Burym and Pavel Balakshin", "time": "long"}, {"lang": "ru", "theme": "[53] Computer Vision Technologies at Hazardous Industrial Facilities", "authors": "Dmitriy Zhdanov, German Gebel and Renat Narbekov", "time": "long"}, {"lang": "ru", "theme": "[35] Prediction of Potentially Hazardous Coal Dust Concentration Level using Machine Learning Methods", "authors": "Iuliia Kim, Ilya Viksnin, Nikita Tursukov and Evgenii Neverov", "time": "short"}, {"lang": "ru", "theme": "[89] Artificial Intelligence Methods Effectiveness Evaluation for Man-made Threats Detection at Critical Infrastructure Facilities", "authors": "Evgenii Neverov, Ilya Viksnin, Iuliia Kim and Nikita Tursukov", "time": "short"}, {"lang": "ru", "theme": "[36] Methods for detecting patterns in the routing cluster data of an automated monitoring system based on IoT technologies", "authors": "Evgenii Milenin", "time": "short"}, {"lang": "ru", "theme": "[87] Research of Neural Network Algorithms in Reading Comprehension with Commonsense Reasoning Dataset (ReCoRD)", "authors": "Vyacheslav Olyunin, Alexey Platonov, Ilya Bykov and Sergey Milantev", "time": "short"}]
       },
@@ -141,6 +143,8 @@
         "title": "Computer Systems and Networks 2",
         "chairman": "Vladimir Bogatyrev",
         "time": "12:30-14:00",
+        "track": 2,
+        "room": "Room B",
         "lang": "ru",
         "presentations": [{"lang": "ru", "theme": "[40] Replication of Requests when Dividing Cluster Nodes Between Threads of Different Criticality to Delays in Queues", "authors": "Vladimir Bogatyrev, Stanislav Bogatyrev and Anatoy Bogatyrev", "time": "long"}, {"lang": "ru", "theme": "[15] Logic Graphs: complete, semantic oriented and easy to learn visualization method for OWL DL language", "authors": "Ngoc Than Nguyen and Ildar Baimuratov", "time": "long"}, {"lang": "ru", "theme": "[60] Forecasting Network Exchange Time Series", "authors": "Aleksandr Moshnikov and Aleksandr Syrov", "time": "short"}, {"lang": "ru", "theme": "[21] Emotion Recognition Software based on Facial Expressions", "authors": "Darya Panarina and Pavel Balakshin", "time": "short"}, {"lang": "ru", "theme": "[48] Multimedia Data Model and Experimental Technique to Improve Human-Computer Graphic Interface", "authors": "Ekaterina Borevich, Serg Mescheryakov and Victor Yanchus", "time": "short"}, {"lang": "ru", "theme": "[102] Target Algorithm Optimisation for a Custom Processor Unit in the ASIP", "authors": "Daniil Prohorov and Aleksandr Penskoi", "time": "short"}, {"lang": "ru", "theme": "[101] Algorithm for Persons Cross-identification Across Social Networks", "authors": "Irina Dmitrieva and Sergey Chuprov", "time": "short"}, {"lang": "ru", "theme": "[45] Evaluating Efficiency of Artificial Neural Networks for Solving Symmetric Cryptography Issues", "authors": "Denis Roenko", "time": "short"}]
       },
@@ -149,10 +153,12 @@
         "title": "Software Engineering",
         "chairman": "Ildar Baimuratov",
         "time": "12:30-14:00",
+        "track": 3,
+        "room": "Room C",
         "lang": "ru",
+        "link": "https://zoom.us",
         "presentations": [{"lang": "ru", "theme": "[12] Developing A LSM Tree Time Series Storage Library In Golang", "authors": "Nikita Tomilov", "time": "long"}, {"lang": "ru", "theme": "[103] Analysing PHP Source Codes Using Syntax-Directed Translation", "authors": "Daniil Sadyrin, Andrey Dergachev and Aglaia Ilina", "time": "long"}, {"lang": "ru", "theme": "[22] Web Languages Typing and Optimization of the Web Application Development Process", "authors": "Nikita Vozisov, Ilya Gosudarev, Irina Gotskaya and Alina Firsova", "time": "short"}, {"lang": "ru", "theme": "[46] Deterministic Thread Management Tool Based on Google Thread Sanitizer", "authors": "Matvey Chudakov, Oleg Doronin, Karina Dergun, Andrey Dergachev and Aglaia Ilina", "time": "short"}, {"lang": "ru", "theme": "[100] The Identification and Research of Simulation Models of Business Processes in a Large Company Using Data of Corporate Information Systems", "authors": "Alexander Kshenin and Sergey Kovalchuk", "time": "short"}, {"lang": "ru", "theme": "[88] Development of a Tool for Automating the Collection and Analysis of Open Data GitHub Users", "authors": "Sergei Isaev, Ilya Gosudarev and Irina Gotskaya", "time": "short"}, {"lang": "ru", "theme": "[105] Debugger Infrastructure for the Portable Runtime Environment", "authors": "Elizaveta Kuzenkova, Yuriy Korenkov, Ivan Loginov, Andrey Dergachev and Aglaya Ilina", "time": "short"}, {"lang": "ru", "theme": "[44] Intellectual Method of Programs Interactions Visualization for Information Security Audit of the Operating System", "authors": "Mikhail V. Buinevich,\u00a0Konstantin E. Izrailov\u00a0and Grigory A. Ganov", "time": "short"}]
       },
-
       {
         "type": "Speech",
         "title": "Challenging Issues in Development and Integration of Modern Kinematics with Components and Images Obtained from Different Sources in Biomechanical Applications",
@@ -160,10 +166,11 @@
         "organization": "GEI Systems, Minneapolis, USA",
         "annotation": "Challenging Issues in Development and Integration of Modern Kinematics with Components and Images Obtained from Different Sources in Biomechanical Applications.",
         "time": "14:30-15:15",
+        "link": "https://zoom.us",
+        "room": "Room C",
         "photo": "gutman.jpg",
         "lang": "ru"
       },
-
       {
         "type": "Section",
         "title": "Artificial Intelligence, Texts and Bots",
