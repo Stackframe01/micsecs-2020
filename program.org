@@ -52,10 +52,10 @@ Ilya Bykov, Alexey Platonov, Vyacheslav Olyunin and Sergey Milantev
 Aleksandr Mezhenin, Vera Izvozchikova, Anna Grigoreva and Vladimir Shardakov
 ** [#A] <<8>> Simulation of the BSDF Measurements for Scattering Materials with GP-200 Gonio-Photometer :GR:CPS:
 Vadim Sokolov, Igor Potemin and Dmitry Zhdanov
+** [#A] <<3>> Removal of Complex Image Distortions via Solving Integral Equations Using the "Spectral Method" :GR:
+Valery Sizikov, Polina Loseva, Egor Medvedev, Daniil Sharifullin, Aleksandra Dovgan and Nina Rushchenko
 ** <<99>> Applying Custom Baked Global Illumination Techniques in Unity to Render Realistic Interior Scenes in Real Time :GR:
 Artem Smolin, Pavel Vorobev and Ignat Mezhentsev
-** <<3>> Removal of Complex Image Distortions via Solving Integral Equations Using the "Spectral Method" :GR:
-Valery Sizikov, Polina Loseva, Egor Medvedev, Daniil Sharifullin, Aleksandra Dovgan and Nina Rushchenko
 ** <<90>> Efficient Space Partitioning Data Structure on the Sphere Surface :GR:
 Andrew Lemeshev
 ** <<32>> A Method for Extracting Target Speaker in Dual–Microphone System :GR:
