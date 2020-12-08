@@ -104,7 +104,7 @@ const generateProgram = async () => {
                                 <tr>
                                     <td class="d-none d-sm-table-cell" rowspan="${day.length}">${day[0][0].date} <br/> (Day ${tmp1.indexOf(day) + 1})</td>
                                     <td class="d-none d-sm-table-cell">${events[0].tableTime ? events[0].tableTime : events[0].time}</td>
-                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].time ? ` ${events[0].time}`: ""} <br/> ${events[0].chairman ? `Chairman: ${events[0].chairman}` : ''}" class="text-center" colspan="2">${events[0].title} ${ langLabel(events[0])  ${roomLabel(events[0])} }</td>
+                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].time ? ` ${events[0].time}`: ""} <br/> ${events[0].chairman ? `Chairman: ${events[0].chairman}` : ''}" class="text-center" colspan="2">${events[0].title} ${ langLabel(events[0]) }  ${roomLabel(events[0])}</td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "event") {
@@ -112,7 +112,7 @@ const generateProgram = async () => {
                                 <tr>
                                     <td class="d-none d-sm-table-cell" rowspan="${day.length}">${day[0][0].date} <br/> (Day ${tmp1.indexOf(day) + 1})</td>
                                     <td class="d-none d-sm-table-cell">${events[0].tableTime ? events[0].tableTime : events[0].time}</td>
-                                    <td class="text-center font-weight-bold">${events[0].title}  ${langLabel(events[0]) ${roomLabel(events[0])}}</td>
+                                    <td class="text-center font-weight-bold">${events[0].title}  ${langLabel(events[0])} ${roomLabel(events[0])}</td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "speech") {
@@ -120,7 +120,7 @@ const generateProgram = async () => {
                                 <tr>
                                     <td class="d-none d-sm-table-cell" rowspan="${day.length}">${day[0][0].date} <br/> (Day ${tmp1.indexOf(day) + 1})</td>
                                     <td class="d-none d-sm-table-cell">${events[0].tableTime ? events[0].tableTime : events[0].time}</td>
-                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].time ? events[0].time : ''}" class="text-center"><div class="font-weight-bold">${events[0].title}</div>${events[0].author} (${events[0].organization}) ${ langLabel(events[0]) ${roomLabel(events[0])}  }</td>
+                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].time ? events[0].time : ''}" class="text-center"><div class="font-weight-bold">${events[0].title}</div>${events[0].author} (${events[0].organization}) ${ langLabel(events[0])} ${roomLabel(events[0])}  </td>
                                 </tr>`
                             }
                         } else {
@@ -131,9 +131,9 @@ const generateProgram = async () => {
                             <div class="d-flex justify-content-around">
                                 ${events.reduce((accumulator, event, index,array) => {
                                 if (index == 0) {
-                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.time ? event.time : ''} <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''}" class="col-xs-12 col-lg text-center"><div class="font-weight-bold">${event.title}</div> ${event.author ? event.author : ""} ${ langLabel(event) ${roomLabel(event)} } </div>`
+                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.time ? event.time : ''} <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''}" class="col-xs-12 col-lg text-center"><div class="font-weight-bold">${event.title}</div> ${event.author ? event.author : ""} ${ langLabel(event)} ${roomLabel(event)}  </div>`
                                 } else {
-                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.time ? event.time : ''} <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''}" class="col-xs-12 col-lg text-center border-left ${index == array.length-1 ? 'pr-0' : ""}"><div class="font-weight-bold">${event.title}</div> ${event.author ? event.author : ""} ${ langLabel(event) ${roomLabel(event)} }</div>`
+                                    return accumulator += `<div data-toggle="tooltip" data-placement="top" data-html="true" title="${event.time ? event.time : ''} <br/> ${event.chairman ? `Chairman: ${event.chairman}` : ''}" class="col-xs-12 col-lg text-center border-left ${index == array.length-1 ? 'pr-0' : ""}"><div class="font-weight-bold">${event.title}</div> ${event.author ? event.author : ""} ${ langLabel(event)} ${roomLabel(event)} </div>`
                                 }
                             }, ``)}
                             </div></td>`
@@ -151,21 +151,21 @@ const generateProgram = async () => {
                                 return `
                                 <tr>
                                     <td class="d-none d-sm-table-cell">${events[0].tableTime ? events[0].tableTime : events[0].time}</td>
-                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].time ? `${events[0].time}`: ""} <br/> ${events[0].chairman ? `Chairman: ${events[0].chairman}` : ''}" class="text-center" colspan="2">${events[0].title} ${ langLabel(events[0]) ${roomLabel(events[0])}  }</td>
+                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].time ? `${events[0].time}`: ""} <br/> ${events[0].chairman ? `Chairman: ${events[0].chairman}` : ''}" class="text-center" colspan="2">${events[0].title} ${ langLabel(events[0])} ${roomLabel(events[0])}  </td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "event") {
                                 return `
                                 <tr>
                                     <td class="d-none d-sm-table-cell">${events[0].tableTime ? events[0].tableTime : events[0].time}</td>
-                                    <td class="text-center font-weight-bold">${events[0].title} ${ langLabel(events[0]) ${roomLabel(events[0])}  }</td>
+                                    <td class="text-center font-weight-bold">${events[0].title} ${ langLabel(events[0])} ${roomLabel(events[0])}  </td>
                                 </tr>
                             `
                             } else if (events[0].type.toLowerCase() == "speech") {
                                 return `
                                 <tr>
                                     <td class="d-none d-sm-table-cell">${events[0].tableTime ? events[0].tableTime : events[0].time}</td>
-                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].time ? `${events[0].time}`: ""}"  class="text-center"><div class="font-weight-bold">${events[0].title}</div>${events[0].author} (${events[0].organization}) ${langLabel(events[0]) ${roomLabel(events[0])} } </td>
+                                    <td data-toggle="tooltip" data-placement="top" data-html="true" title="${events[0].time ? `${events[0].time}`: ""}"  class="text-center"><div class="font-weight-bold">${events[0].title}</div>${events[0].author} (${events[0].organization}) ${langLabel(events[0])} ${roomLabel(events[0])}  </td>
                                 </tr>`
                             }
                         } else {
@@ -253,8 +253,11 @@ let language = {
     en: 'English only',
     ru: 'Russian only',
     "en+ru": 'English with translation to Russian',
-    "ru+en": 'Russian with translation to English'
+    "ru+en": 'Russian with translation to English',
+    "ru&en": 'Russian and English language',
+    "en&ru": 'English and Russian language'
 }
+
 let time = {
     long: "10 min - speech, 5 min - questions",
     short: "5 min - speech, 5 min - questions",
