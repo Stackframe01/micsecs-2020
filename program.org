@@ -20,13 +20,13 @@ Alexander Khazagarov and Alisa A Vorobeva
 Mikhail Belenko, Nikita Burym and Pavel Balakshin
 ** [#A] <<93>> Formation Recognition by Clustering-Based Method in Virtual Soccer :AI:SW:ok:ru:
 Aleksandr Khodos and Michail Panteleyev
-** [#A] <<53>> Computer Vision Technologies at Hazardous Industrial Facilities :AI:CS:SW:
+** [#A] <<53>> Computer Vision Technologies at Hazardous Industrial Facilities :AI:CS:SW:ok:ru:
 Dmitriy Zhdanov, German Gebel and Renat Narbekov
 ** <<35>> Prediction of Potentially Hazardous Coal Dust Concentration Level using Machine Learning Methods :AI:
 Iuliia Kim, Ilya Viksnin, Nikita Tursukov and Evgenii Neverov
 ** <<63>> Neural Network Cascading as a Tool for Improving the Accuracy of a Specialized Forecasting System :AI:
 Alexander Krutikov, Nataly Zhukova and Vasily Meltsov
-** <<36>> Methods for detecting patterns in the routing cluster data of an automated monitoring system based on IoT technologies :AI:CS:
+** <<36>> Methods for detecting patterns in the routing cluster data of an automated monitoring system based on IoT technologies :AI:CS:ok:ru:
 Evgenii Milenin
 ** <<26>> Skin Lesion Analysis Using Ensemble of CNN with Dermoscopic Images and Metadata :AI:SW:ok:ru:
 Sergey Milantev, Vyacheslav Olyunin, Ilya Bykov, Natalya Milanteva and Igor Bessmertny
@@ -77,15 +77,15 @@ Ilya Noskov and Vladimir Bogatyrev
 Ekaterina Borevich, Serg Mescheryakov and Victor Yanchus
 ** <<73>> PROWN: Pattern Oriented Routing in Wireless Network: Concept & Challenges :CS:en:
 Rahul Johari, Riya Bhatia and Kanika Gupta
-** <<62>> Evaluation of Network Reliability and Element Importance Metrics :CS:en:
-Aleksandr Moshnikov
+** <<60>> Forecasting Network Exchange Time Series :CS:thu:ok:ru:
+Aleksandr Moshnikov and Aleksandr Syrov
 * Computer Systems and Networks 2
 ** [#A] <<40>> Replication of Requests when Dividing Cluster Nodes Between Threads of Different Criticality to Delays in Queues :CS:
 Vladimir Bogatyrev, Stanislav Bogatyrev and Anatoy Bogatyrev
 ** [#A] <<80>> Recording and Storage Traffic Management in Storage Systems :CS:ok:ru:
 Tatyana Tatarnikova, Ekaterina Poymanova and Ekaterina Kraeva
-** <<60>> Forecasting Network Exchange Time Series :CS:
-Aleksandr Moshnikov and Aleksandr Syrov
+** <<62>> Evaluation of Network Reliability and Element Importance Metrics :CS:ok:ru:
+Aleksandr Moshnikov
 ** <<21>> Emotion Recognition Software based on Facial Expressions :CS:UX:
 Darya Panarina and Pavel Balakshin
 ** <<75>> Priority Serving of Heterogeneous Traffic with Replication of Waiting-Critical Requests  :CS:
