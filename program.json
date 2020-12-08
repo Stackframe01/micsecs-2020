@@ -72,7 +72,7 @@
       {
         "type": "Section",
         "title": "Student Colloquium",
-        "time": "16:30-18:00",
+        "time": "16:30-18:10",
         "commentary": "Will be updated soon...",
         "lang": "ru&en",
         "presentations": []
@@ -84,6 +84,16 @@
         "tableTime": "16:30",
         "lang": "ru&en",
         "presentations": [{"lang": "ru", "theme": "[5] Automated measurement system with sensor signal processing control", "authors": "Svetlana Kolmogorova", "time": "short"}, {"lang": "en", "theme": "[11] Using OpenMP to Optimize model training process in machine learning algorithms", "authors": "Omar Mohammed, Moeid Heidari and Alexey Paznikov", "time": "short"}, {"lang": "ru", "theme": "[38] Development of Algorithm for Improving Accuracy of Probability Coefficient of Threat Implementation in Personal Data Information Systems", "authors": "Sergey Verevkin, Ksenia Naumova, Tatiana Tatarnikova, Pavel Bogdanov and Ekaterina Kraeva", "time": "short"}, {"lang": "ru", "theme": "[54] Development of Means for Assessing the Level of Student Satisfaction with the Distance Learning Process through Video Conferencing", "authors": "Adelina Ismagilova, Sofia Sorokina and Oleg Basov", "time": "short"}]
+      },
+
+      {
+        "type": "Event",
+        "title": "Online excursion: I love you Peter's great creation",
+        "author": "Anna Spiridonova",
+        "time": "18:30-19:30",
+        "lang": "en",
+        "annotation": "During the one-hour tour you will get acquainted with the main sightseeings of the city in a beautifulsunny day. We will start from the panoramic view of the city, then we will walk along Nevsky Prospekt, visit the Hermitage museum, ride along the rivers and canals, visit the main squares and architectural ensembles and the last point will be in Peterhof. You will get the complex feeling of the city: the resourse of Yandex maps gives us an opportunity to travel by balloons, by boats and by feet, also we will be able to come into some famous building and cathedrals. At the end of the tour you’ll be able to answer the questions.",
+        "photo": "Piter2.jpg"
       }
 
     ]
