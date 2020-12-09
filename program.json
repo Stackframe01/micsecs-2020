@@ -6,6 +6,7 @@
         "type": "Event",
         "title": "Opening ceremony",
         "time": "10:15-10:45",
+        "track": 1, "room": "Room A",
         "lang": "ru+en"
       },
 
@@ -17,6 +18,7 @@
         "annotation": "In this tutorial I will present an adaptive regularization scheme for optimizing a composite energy functionals arising in image analysis. The adaptive regularization scheme is designed to balance data fidelity and regularization depending on the current data fit during the iterative optimization, so that regularization is strongest initially and wanes as data fidelity improves. The adaptive regularization algorithm can be applied to a variety of imaging applications such as reconstruction, segmentation and registration.",
         "time": "11:00-11:45",
         "photo": "byungwoo.hong.png",
+        "track": 1, "room": "Room A",
         "lang": "en+ru"
       },
 
@@ -28,6 +30,7 @@
         "chairman": "Vasiliy Pinkevich, Vladimir Bogatyrev",
         "time": "12:00-13:30",
         "lang": "en",
+        "track": 1, "room": "Room A",
         "presentations": [{"lang": "en", "theme": "[10] Spatial-energy Model of a Wireless Sensor Network", "authors": "Tatyana Astakhova, Darya Kirilova and Mikhail Kolbanev", "time": "long"}, {"lang": "en", "theme": "[15] Logic Graphs: complete, semantic oriented and easy to learn visualization method for OWL DL language", "authors": "Ngoc Than Nguyen and Ildar Baimuratov", "time": "long"}, {"lang": "en", "theme": "[45] Evaluating Efficiency of Artificial Neural Networks for Solving Symmetric Cryptography Issues", "authors": "Denis Roenko", "time": "short"}, {"lang": "en", "theme": "[101] Algorithm for Persons Cross-identification Across Social Networks", "authors": "Irina Dmitrieva and Sergey Chuprov", "time": "short"}, {"lang": "en", "theme": "[85] Organization of UDP Transmissions Reservation in Real-Time Computer Networks", "authors": "Ilya Noskov and Vladimir Bogatyrev", "time": "short"}, {"lang": "en", "theme": "[48] Multimedia Data Model and Experimental Technique to Improve Human-Computer Graphic Interface", "authors": "Ekaterina Borevich, Serg Mescheryakov and Victor Yanchus", "time": "short"}, {"lang": "en", "theme": "[73] PROWN: Pattern Oriented Routing in Wireless Network: Concept & Challenges", "authors": "Rahul Johari, Riya Bhatia and Kanika Gupta", "time": "short"}, {"lang": "ru", "theme": "[60] Forecasting Network Exchange Time Series", "authors": "Aleksandr Moshnikov and Aleksandr Syrov", "time": "short"}]
       },
       {
@@ -36,6 +39,7 @@
         "chairman": "Alexey Platunov",
         "time": "12:00-13:30",
         "lang": "ru",
+        "track": 2, "room": "Room B",
         "presentations": [{"lang": "ru", "theme": "[59] Training laboratories with online access on the ITMO.cLAB platform", "authors": "Alexey Platunov, Arkady Kluchev, Vasiliy Pinkevich, Vladislav Kluchev and Maxim Kolchurin", "time": "long"}, {"lang": "ru", "theme": "[25] Integrating Smart Contracts into Smart Factory Elements' Informational Interaction Model", "authors": "Julia Lyakhovenko, Ilia Viksnin and Sergey Chuprov", "time": "long"}, {"lang": "ru", "theme": "[23] Informational Messages and Space Models Application in Smart Factory Concept", "authors": "Maria Usova, Ilya Viksnin and Sergey Chuprov", "time": "long"}, {"lang": "ru", "theme": "[16] A Two-phase Model of Information Interaction in a Heterogeneous Internet of Things Network at the Last Mile", "authors": "Anna Romanova, Mikhail Kolbanev and Natalya Verzun", "time": "short"}, {"lang": "ru", "theme": "[97] Method for Environmental Monitoring in the Incomplete Data Conditions", "authors": "Nikita Tursukov, Ilya Viksnin, Iuliia Kim and Evgenii Neverov", "time": "short"}, {"lang": "ru", "theme": "[98] Development of a Linear Actuator Controller For a Hand Prosthesis", "authors": "Pavel Rozhkin, Kirill Markin and Alexey Platunov", "time": "short"}, {"lang": "ru", "theme": "[110] Scalable Simulation Environment of Microcontrollers with Remote Access", "authors": "Sergei Bykovskii, Tatyana Prilutskaya and Elizaveta Kormilitsyna", "time": "short"}]
       },
 
@@ -49,41 +53,46 @@
         "organization": "GS Labs, Russia",
         "annotation": "We analyze the applicability of the term digitalization to modern television and justify  the concept of digitalization of digital media as a transformation of user experience towards control of converged media realm from new environment created by portable devices, voice assistants and emerging emotional interfaces.",
         "time": "14:00-14:30",
+        "track": 1, "room": "Room A",
         "photo": "photo_2020-12-03_18-32-33.jpg"
       },
 
+      {
+        "type": "Section",
+        "title": "Artificial Intelligence and Machine Learning 1",
+        "chairman": "Dmitry Mouromtsev",
+        "time": "14:45-16:15",
+        "track": 1, "room": "Room A",
+        "lang": "en",
+        "presentations": [{"lang": "en", "theme": "[2] Raga Classification using Convolutional Neural Network", "authors": "Dr. Remya K. Sasi and Athul Krishnan", "time": "long"}, {"lang": "en", "theme": "[81] Directional and Qualitative Feature Classification for Speaker Diarization with Dual Microphone Arrays", "authors": "Sergei Astapov, Dmitry Popov and Vladimir Kabarov", "time": "long"}, {"lang": "en", "theme": "[51] Visual Objects Tracking on Road Sequences Using Information about Scene Perspective Transform", "authors": "Nikolay Nemcev and Nickolay Kozyrev", "time": "long"}, {"lang": "en", "theme": "[94] Comparative Analysis of Stochastic Optimization Methods", "authors": "Anton Changalidi", "time": "short"}, {"lang": "en", "theme": "[87] Research of Neural Network Algorithms in Reading Comprehension with Commonsense Reasoning Dataset (ReCoRD)", "authors": "Vyacheslav Olyunin, Alexey Platonov, Ilya Bykov and Sergey Milantev", "time": "short"}, {"lang": "en", "theme": "[89] Artificial Intelligence Methods Effectiveness Evaluation for Man-made Threats Detection at Critical Infrastructure Facilities", "authors": "Evgenii Neverov, Ilya Viksnin, Iuliia Kim and Nikita Tursukov", "time": "short"}, {"lang": "en", "theme": "[67] Revealing the Application of Steganography Algorithms to the Text Using Linguistic Identification Methods", "authors": "Alexander Khazagarov and Alisa A Vorobeva", "time": "short"}]
+      },
       {
         "type": "Section",
         "title": "Multimedia and Computer Graphics",
         "chairman": "Artem Smolin, Dmitriy Zhdanov",
         "lang": "ru",
         "time": "14:45-16:15",
+        "track": 2, "room": "Room B",
         "presentations": [{"lang": "ru", "theme": "[84] Point Cloud Registration Hybrid Method", "authors": "Aleksandr Mezhenin, Vera Izvozchikova, Anna Grigoreva and Vladimir Shardakov", "time": "long"}, {"lang": "ru", "theme": "[8] Simulation of the BSDF Measurements for Scattering Materials with GP-200 Gonio-Photometer", "authors": "Vadim Sokolov, Igor Potemin and Dmitry Zhdanov", "time": "long"}, {"lang": "ru", "theme": "[99] Applying Custom Baked Global Illumination Techniques in Unity to Render Realistic Interior Scenes in Real Time", "authors": "Artem Smolin,\u00a0Pavel Vorobev\u00a0and\u00a0Ignat Mezhentsev", "time": "short"}, {"lang": "ru", "theme": "[3] Removal of Complex Image Distortions via Solving Integral Equations Using the \"Spectral Method\"", "authors": "Valery Sizikov, Polina Loseva, Egor Medvedev, Daniil Sharifullin, Aleksandra Dovgan and Nina Rushchenko", "time": "short"}, {"lang": "ru", "theme": "[90] Efficient Space Partitioning Data Structure on the Sphere Surface", "authors": "Andrew Lemeshev", "time": "short"}, {"lang": "ru", "theme": "[32] A Method for Extracting Target Speaker in Dual\u2013Microphone System", "authors": "Trong The Quan", "time": "short"}, {"lang": "ru", "theme": "[33] A Speech Enhancement in Diffuse Noise Field Using MVDR Filter", "authors": "Trong The Quan", "time": "short"}]
       },
-      {
-        "type": "Section",
-        "title": "Artificial Intelligence and Machine Learning 1",
-        "chairman": "Dmitry Mouromtsev",
-        "time": "14:45-16:15",
-        "lang": "en",
-        "presentations": [{"lang": "en", "theme": "[2] Raga Classification using Convolutional Neural Network", "authors": "Dr. Remya K. Sasi and Athul Krishnan", "time": "long"}, {"lang": "en", "theme": "[81] Directional and Qualitative Feature Classification for Speaker Diarization with Dual Microphone Arrays", "authors": "Sergei Astapov, Dmitry Popov and Vladimir Kabarov", "time": "long"}, {"lang": "en", "theme": "[51] Visual Objects Tracking on Road Sequences Using Information about Scene Perspective Transform", "authors": "Nikolay Nemcev and Nickolay Kozyrev", "time": "long"}, {"lang": "en", "theme": "[94] Comparative Analysis of Stochastic Optimization Methods", "authors": "Anton Changalidi", "time": "short"}, {"lang": "en", "theme": "[87] Research of Neural Network Algorithms in Reading Comprehension with Commonsense Reasoning Dataset (ReCoRD)", "authors": "Vyacheslav Olyunin, Alexey Platonov, Ilya Bykov and Sergey Milantev", "time": "short"}, {"lang": "en", "theme": "[89] Artificial Intelligence Methods Effectiveness Evaluation for Man-made Threats Detection at Critical Infrastructure Facilities", "authors": "Evgenii Neverov, Ilya Viksnin, Iuliia Kim and Nikita Tursukov", "time": "short"}, {"lang": "en", "theme": "[67] Revealing the Application of Steganography Algorithms to the Text Using Linguistic Identification Methods", "authors": "Alexander Khazagarov and Alisa A Vorobeva", "time": "short"}]
-      },
 
-      {
-        "type": "Section",
-        "title": "Student Colloquium",
-        "time": "16:30-18:10",
-        "commentary": "Will be reordered soon...",
-        "lang": "ru&en",
-        "presentations": [{"lang": "ru", "theme": "Automation of Tool Wear Control on the Flexible Manufacturing System", "authors": "Tatiana Basova", "time": "short"}, {"lang": "en", "theme": "Security Concerns of a Cloud Environment", "authors": "Amit Sanger", "time": "short"}, {"lang": "ru", "theme": "Technologies of modern template photolithography to create single and double layer PCBs: home version", "authors": "Alexandr Shchukin", "time": "short"}, {"lang": "ru", "theme": "User Profiling in Social Media", "authors": "Qi Yang", "time": "short"}, {"lang": "ru", "theme": "UPUPUP: social network for maintaining long-term motivation and achieve goals", "authors": "Ekaterina Makarova", "time": "short"}, {"lang": "ru", "theme": "Synthesizing Sound for Art Projects", "authors": "Irina Zaguzina", "time": "short"}, {"lang": "ru", "theme": "Methods for Improving the Quality of Building 3d Models in Photogrammetry", "authors": "Angelina Prishchepa", "time": "short"}, {"lang": "ru", "theme": "Improving UX of Visualizing Project Documentation by Virtual Reality", "authors": "Liza Volodina", "time": "short"}, {"lang": "ru", "theme": "Framework for Processing Huge Amount of String Data", "authors": "Svetlana Podkolzina", "time": "short"}, {"lang": "ru", "theme": "Virtual Reality Application for Training the Vestibular System", "authors": "Daria Plotnikova", "time": "short"}, {"lang": "ru", "theme": "Multiple Viewpoint Data Visualization in Clinical Medicine", "authors": "Daria Filippova", "time": "short"}, {"lang": "ru", "theme": "Mobile Authentication and Cyrillic Alphabet", "authors": "Aleksandr Volosiuk", "time": "short"}, {"lang": "ru", "theme": "Mobile Authentication and UX Problem of Cyrillic Alphabet Users", "authors": "Semyon Kuznetsov", "time": "short"}, {"lang": "ru", "theme": "Transformation of Point Clouds into 3d Model", "authors": "Polina Loseva", "time": "short"}, {"lang": "ru", "theme": "Evaluation of GUI based on search time for information objects", "authors": "Aleksei Vostrukh", "time": "short"}, {"lang": "ru", "theme": "Hybrid Message Passing Interface in High-Performance Computing", "authors": "Yongyu Chen", "time": "short"}, {"lang": "ru", "theme": "Adaptive Learning in Computer Design of Ship Integrated Management Systems", "authors": "Hoang Kinh", "time": "short"}, {"lang": "ru", "theme": "Normal Mapping in 3d Graphic Engines Acceleration by Message Passing Interface", "authors": "Moeid Heidari", "time": "short"}, {"lang": "ru", "theme": "Highly Specialized Professional Texts Converting to a Conceptual Series for Unskilled Users", "authors": "Ekaterina Mashina", "time": "short"}, {"lang": "ru", "theme": "Predicting of the Urban Space Organization and Determining Usage Scenarios", "authors": "Anna Avdyushina", "time": "short"}]
-      },
       {
         "type": "Section",
         "title": "Posters",
         "time": "16:30-17:15",
         "tableTime": "16:30",
         "lang": "ru&en",
+        "track": 1, "room": "Room A",
         "presentations": [{"lang": "ru", "theme": "[5] Automated measurement system with sensor signal processing control", "authors": "Svetlana Kolmogorova", "time": "short"}, {"lang": "en", "theme": "[11] Using OpenMP to Optimize model training process in machine learning algorithms", "authors": "Omar Mohammed, Moeid Heidari and Alexey Paznikov", "time": "short"}, {"lang": "ru", "theme": "[38] Development of Algorithm for Improving Accuracy of Probability Coefficient of Threat Implementation in Personal Data Information Systems", "authors": "Sergey Verevkin, Ksenia Naumova, Tatiana Tatarnikova, Pavel Bogdanov and Ekaterina Kraeva", "time": "short"}, {"lang": "ru", "theme": "[54] Development of Means for Assessing the Level of Student Satisfaction with the Distance Learning Process through Video Conferencing", "authors": "Adelina Ismagilova, Sofia Sorokina and Oleg Basov", "time": "short"}]
+      },
+      {
+        "type": "Section",
+        "title": "Student Colloquium",
+        "time": "16:30-18:10",
+        "commentary": "Will be reordered soon...",
+        "lang": "ru&en",
+        "track": 2, "room": "Room B",
+        "presentations": [{"lang": "ru", "theme": "Automation of Tool Wear Control on the Flexible Manufacturing System", "authors": "Tatiana Basova", "time": "short"}, {"lang": "en", "theme": "Security Concerns of a Cloud Environment", "authors": "Amit Sanger", "time": "short"}, {"lang": "ru", "theme": "Technologies of modern template photolithography to create single and double layer PCBs: home version", "authors": "Alexandr Shchukin", "time": "short"}, {"lang": "ru", "theme": "User Profiling in Social Media", "authors": "Qi Yang", "time": "short"}, {"lang": "ru", "theme": "UPUPUP: social network for maintaining long-term motivation and achieve goals", "authors": "Ekaterina Makarova", "time": "short"}, {"lang": "ru", "theme": "Synthesizing Sound for Art Projects", "authors": "Irina Zaguzina", "time": "short"}, {"lang": "ru", "theme": "Methods for Improving the Quality of Building 3d Models in Photogrammetry", "authors": "Angelina Prishchepa", "time": "short"}, {"lang": "ru", "theme": "Improving UX of Visualizing Project Documentation by Virtual Reality", "authors": "Liza Volodina", "time": "short"}, {"lang": "ru", "theme": "Framework for Processing Huge Amount of String Data", "authors": "Svetlana Podkolzina", "time": "short"}, {"lang": "ru", "theme": "Virtual Reality Application for Training the Vestibular System", "authors": "Daria Plotnikova", "time": "short"}, {"lang": "ru", "theme": "Multiple Viewpoint Data Visualization in Clinical Medicine", "authors": "Daria Filippova", "time": "short"}, {"lang": "ru", "theme": "Mobile Authentication and Cyrillic Alphabet", "authors": "Aleksandr Volosiuk", "time": "short"}, {"lang": "ru", "theme": "Mobile Authentication and UX Problem of Cyrillic Alphabet Users", "authors": "Semyon Kuznetsov", "time": "short"}, {"lang": "ru", "theme": "Transformation of Point Clouds into 3d Model", "authors": "Polina Loseva", "time": "short"}, {"lang": "ru", "theme": "Evaluation of GUI based on search time for information objects", "authors": "Aleksei Vostrukh", "time": "short"}, {"lang": "ru", "theme": "Hybrid Message Passing Interface in High-Performance Computing", "authors": "Yongyu Chen", "time": "short"}, {"lang": "ru", "theme": "Adaptive Learning in Computer Design of Ship Integrated Management Systems", "authors": "Hoang Kinh", "time": "short"}, {"lang": "ru", "theme": "Normal Mapping in 3d Graphic Engines Acceleration by Message Passing Interface", "authors": "Moeid Heidari", "time": "short"}, {"lang": "ru", "theme": "Highly Specialized Professional Texts Converting to a Conceptual Series for Unskilled Users", "authors": "Ekaterina Mashina", "time": "short"}, {"lang": "ru", "theme": "Predicting of the Urban Space Organization and Determining Usage Scenarios", "authors": "Anna Avdyushina", "time": "short"}]
       },
 
       {
@@ -108,6 +117,7 @@
         "organization": "Dell",
         "annotation": "На семинаре Павел Липский (Ведущий инженер-разработчик ПО в Dell Technologies) познакомит слушателей с концепцией потоков и open-source проектом Pravega. Павел расскажет об Apache Flink, компонентах и развертывании Pravega, а также покажет демо сервиса.",
         "time": "10:00-11:00",
+        "track": 1, "room": "Room A",
         "lang": "ru"
       },
       {
@@ -117,6 +127,7 @@
         "organization": "Dell",
         "annotation": "На семинаре Павел Липский (Ведущий инженер-разработчик ПО в Dell Technologies) познакомит слушателей с концепцией потоков и open-source проектом Pravega. Павел расскажет об Apache Flink, компонентах и развертывании Pravega, а также покажет демо сервиса.",
         "time": "11:15-12:15",
+        "track": 1, "room": "Room A",
         "lang": "ru"
       },
 
@@ -128,6 +139,7 @@
         "annotation": "Облачная лаборатория ITMO.cLAB это сервис для обеспечения дистанционного доступа студентов и преподавателей к разнообразному учебному лабораторному оборудованию из любой точки земного шара при помощи обычных ноутбуков, планшетов или смартфонов. С помощью ITMO.cLAB студенты получают доступ к реальному оборудованию и могут удаленно выполнять учебные задания в рамках лабораторных, курсовых, дипломных работ или просто заниматься своими исследованиями.",
         "time": "10:00-11:00",
         "photo": "kluchev_photo.jpg",
+        "track": 2, "room": "Room B",
         "lang": "ru"
       },
       {
@@ -138,6 +150,7 @@
         "time": "11:15-12:15",
         "photo": "klimov_photo.png",
         "annotation": "Системы автоматического распознавания речи, или ASR (Automatic Speech Recognition) на сегодняшний день получают всё большее распространение в таких сферах, как голосовые помошники и Интернет Вещей. Для исследования систем ASR был разработан виртуальный лабораторный комплекс ITMO.CVoA, предназначенная для комплексного изучения различных аспектов распознавания речи, таких как подготовка и зашумление входных данных, параметризация процесса распознавания, а также рассчёт метрик и сравнительный анализ полученных расшифровок.",
+        "track": 2, "room": "Room B",
         "lang": "ru"
       },
 
@@ -146,19 +159,18 @@
         "title": "Artificial Intelligence and Machine Learning 2",
         "chairman": "Igor Bessmertny",
         "time": "12:30-14:00",
-        "track": 1,
-        "room": "Room A",
+        "track": 1, "room": "Room A",
         "lang": "ru",
         "presentations": [{"lang": "ru", "theme": "[34] Detection of Defective Speech Using Convolutional Neural Networks", "authors": "Mikhail Belenko, Nikita Burym and Pavel Balakshin", "time": "long"}, {"lang": "ru", "theme": "[93] Formation Recognition by Clustering-Based Method in Virtual Soccer", "authors": "Aleksandr Khodos and Michail Panteleyev", "time": "long"}, {"lang": "ru", "theme": "[53] Computer Vision Technologies at Hazardous Industrial Facilities", "authors": "Dmitriy Zhdanov, German Gebel and Renat Narbekov", "time": "long"}, {"lang": "ru", "theme": "[35] Prediction of Potentially Hazardous Coal Dust Concentration Level using Machine Learning Methods", "authors": "Iuliia Kim, Ilya Viksnin, Nikita Tursukov and Evgenii Neverov", "time": "short"}, {"lang": "ru", "theme": "[63] Neural Network Cascading as a Tool for Improving the Accuracy of a Specialized Forecasting System", "authors": "Alexander Krutikov, Nataly Zhukova and Vasily Meltsov", "time": "short"}, {"lang": "ru", "theme": "[36] Methods for detecting patterns in the routing cluster data of an automated monitoring system based on IoT technologies", "authors": "Evgenii Milenin", "time": "short"}, {"lang": "ru", "theme": "[26] Skin Lesion Analysis Using Ensemble of CNN with Dermoscopic Images and Metadata", "authors": "Sergey Milantev, Vyacheslav Olyunin, Ilya Bykov, Natalya Milanteva and Igor Bessmertny", "time": "short"}]
       },
+
       {
         "type": "Section",
         "title": "Computer Systems and Networks 2",
         "chairman": "Vladimir Bogatyrev",
         "time": "12:30-14:00",
-        "track": 2,
-        "room": "Room B",
         "lang": "ru",
+        "track": 2, "room": "Room B",
         "presentations": [{"lang": "ru", "theme": "[40] Replication of Requests when Dividing Cluster Nodes Between Threads of Different Criticality to Delays in Queues", "authors": "Vladimir Bogatyrev, Stanislav Bogatyrev and Anatoy Bogatyrev", "time": "long"}, {"lang": "ru", "theme": "[80] Recording and Storage Traffic Management in Storage Systems", "authors": "Tatyana Tatarnikova, Ekaterina Poymanova and Ekaterina Kraeva", "time": "long"}, {"lang": "ru", "theme": "[62] Evaluation of Network Reliability and Element Importance Metrics", "authors": "Aleksandr Moshnikov", "time": "short"}, {"lang": "ru", "theme": "[21] Emotion Recognition Software based on Facial Expressions", "authors": "Darya Panarina and Pavel Balakshin", "time": "short"}, {"lang": "ru", "theme": "[75] Priority Serving of Heterogeneous Traffic with Replication of Waiting-Critical Requests\u00a0", "authors": "Vladimir Bogatyrev, Stanislav Bogatyrev and Anatoy Bogatyrev", "time": "short"}, {"lang": "ru", "theme": "[102] Target Algorithm Optimisation for a Custom Processor Unit in the ASIP", "authors": "Daniil Prohorov and Aleksandr Penskoi", "time": "short"}, {"lang": "ru", "theme": "[1] Cross-Cluster Redistribution with Replication of Heterogeneous Request Flow", "authors": "Vladimir Bogatyrev,\u00a0Anatoly Bogatyrev\u00a0and\u00a0Stanislav Bogatyrev", "time": "short"}, {"lang": "ru", "theme": "[6] Risk Analysis Method of Authentication Systems for Swarms of UAV", "authors": "Tran D. Khanh, Le D. Don and Komarov I. Ivanovich", "time": "short"}]
       },
       {
@@ -166,12 +178,11 @@
         "title": "Software Engineering",
         "chairman": "Ildar Baimuratov",
         "time": "12:30-14:00",
-        "track": 3,
-        "room": "Room C",
+        "track": 3, "room": "Room C",
         "lang": "ru",
-        "link": "https://zoom.us",
         "presentations": [{"lang": "ru", "theme": "[12] Developing A LSM Tree Time Series Storage Library In Golang", "authors": "Nikita Tomilov", "time": "long"}, {"lang": "ru", "theme": "[103] Analysing PHP Source Codes Using Syntax-Directed Translation", "authors": "Daniil Sadyrin, Andrey Dergachev and Aglaia Ilina", "time": "long"}, {"lang": "ru", "theme": "[22] Web Languages Typing and Optimization of the Web Application Development Process", "authors": "Nikita Vozisov, Ilya Gosudarev, Irina Gotskaya and Alina Firsova", "time": "short"}, {"lang": "ru", "theme": "[46] Deterministic Thread Management Tool Based on Google Thread Sanitizer", "authors": "Matvey Chudakov, Oleg Doronin, Karina Dergun, Andrey Dergachev and Aglaia Ilina", "time": "short"}, {"lang": "ru", "theme": "[100] The Identification and Research of Simulation Models of Business Processes in a Large Company Using Data of Corporate Information Systems", "authors": "Alexander Kshenin and Sergey Kovalchuk", "time": "short"}, {"lang": "ru", "theme": "[88] Development of a Tool for Automating the Collection and Analysis of Open Data GitHub Users", "authors": "Sergei Isaev, Ilya Gosudarev and Irina Gotskaya", "time": "short"}, {"lang": "ru", "theme": "[105] Debugger Infrastructure for the Portable Runtime Environment", "authors": "Elizaveta Kuzenkova, Yuriy Korenkov, Ivan Loginov, Andrey Dergachev and Aglaya Ilina", "time": "short"}, {"lang": "ru", "theme": "[44] Intellectual Method of Programs Interactions Visualization for Information Security Audit of the Operating System", "authors": "Mikhail V. Buinevich,\u00a0Konstantin E. Izrailov\u00a0and Grigory A. Ganov", "time": "short"}]
       },
+
       {
         "type": "Speech",
         "title": "Challenging Issues in Development and Integration of Modern Kinematics with Components and Images Obtained from Different Sources in Biomechanical Applications",
@@ -179,17 +190,18 @@
         "organization": "GEI Systems, Minneapolis, USA",
         "annotation": "Challenging Issues in Development and Integration of Modern Kinematics with Components and Images Obtained from Different Sources in Biomechanical Applications.",
         "time": "14:30-15:15",
-        "link": "https://zoom.us",
-        "room": "Room C",
         "photo": "gutman.jpg",
+        "track": 1, "room": "Room A",
         "lang": "ru"
       },
+
       {
         "type": "Section",
         "title": "Artificial Intelligence, Texts and Bots",
         "chairman": "Pavel Balakshin",
         "time": "15:30-17:00",
         "lang": "en&ru",
+        "track": 1, "room": "Room A",
         "presentations": [{"lang": "en", "theme": "[66] Detection of Toxic Comments in Russian Text Messages", "authors": "Darya Bogoradnikova, Olesia Makhnytkina and Anton Matveev", "time": "long"}, {"lang": "en", "theme": "[52] Application of Parametric Rectified Linear Unit into Speech Recognition Model", "authors": "Dr. Robin Singh Bhadoria, Atharva Nimbalkar, Ram Korde and\u00a0Varun Mishra", "time": "long"}, {"lang": "en", "theme": "[57] Researching Modern Chat Bots", "authors": "Uliana Muratova and Pavel Balakshin", "time": "short"}, {"lang": "en", "theme": "[78] Research of Voice Assistants Safety", "authors": "Nikita Burym, Mikhail Belenko and Pavel Balakshin", "time": "short"}, {"lang": "en", "theme": "[43] The Effectiveness of Using Bell Inequality Test for Information Retrieval in Arabic Texts", "authors": "Alaa Shaker and\u00a0Igor Bessmertny", "time": "short"}, {"lang": "en", "theme": "[91] On Continual Learning for Topic Classification of Texts", "authors": "Nikita Mamaev and Sergey Maslyukhin", "time": "short"}, {"lang": "en", "theme": "[95] Sentiment Analysis of Russian Text Using the Semantic Network", "authors": "Andrey Mileshin, Evgenij Tsopa, Serge Klimenkov and Aleksandr Slapoguzov", "time": "short"}, {"lang": "ru", "theme": "[70] Using of Deep Neural Networks for Yes/No Natural Questions Task", "authors": "Ilya Bykov, Alexey Platonov, Vyacheslav Olyunin and Sergey Milantev", "time": "short"}]
       },
       {
@@ -198,6 +210,7 @@
         "time": "15:30-17:00",
         "chairman": "Sergey Bikovsky",
         "lang": "ru",
+        "track": 2, "room": "Room B",
         "presentations": [{"lang": "ru", "theme": "[65] Design of Embedded and Cyber-Physical Systems using a Cross-Level Microarchitectural Patterns of the Computational Process Organization", "authors": "Vasiliy Pinkevich and Alexey Platunov", "time": "long"}, {"lang": "ru", "theme": "[92] Practical Comparison of High-Level Synthesis and Hardware Generation Frameworks: CPU Floating Point Unit Case", "authors": "Oleg Morozov and Alexander Antonov", "time": "long"}, {"lang": "ru", "theme": "[49] Panorama Stitching Method Using Sensor Fusion", "authors": "Aleksei Goncharov and Sergei Bykovskii", "time": "long"}, {"lang": "ru", "theme": "[86] Software Module for Unmanned Autonomous Vehicle's On-board Camera Faults Detection and Correction", "authors": "Egor Domnitsky, Vladimir Mikhailov, Evgeniy Zoloedov, Danila Alyukov, Sergey Chuprov, Egor Marinenkov and Ilia Viksnin", "time": "short"}, {"lang": "ru", "theme": "[108] One Approach To Construct Ambient Intelligence System\u2019s (AmIS) Models Based On Fog Platforms", "authors": "Saddam Abbas, Alexander Vodyaho, Vladimir Chernokulsky and Natalia Zhukova", "time": "short"}, {"lang": "ru", "theme": "[50] Optimization of Hardware Neural Networks Using Queuing Theory", "authors": "Konstantin Kormilitsyn and\u00a0Pavel Kustarev", "time": "short"}, {"lang": "ru", "theme": "[79] Method for Predicting the Result of Applications Submitted to Scientific Tenders from the Criteria for their Assessment", "authors": "Galina Markina, Olga Kuznetsova, Mikhail Shley and Tatiana Markina", "time": "short"}]
       },
 
