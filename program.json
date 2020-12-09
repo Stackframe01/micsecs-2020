@@ -101,6 +101,7 @@
         "author": "Anna Spiridonova",
         "time": "18:30-19:30",
         "lang": "en",
+        "track": 1, "room": "Room A",
         "annotation": "During the one-hour tour you will get acquainted with the main sightseeings of the city in a beautifulsunny day. We will start from the panoramic view of the city, then we will walk along Nevsky Prospekt, visit the Hermitage museum, ride along the rivers and canals, visit the main squares and architectural ensembles and the last point will be in Peterhof. You will get the complex feeling of the city: the resourse of Yandex maps gives us an opportunity to travel by balloons, by boats and by feet, also we will be able to come into some famous building and cathedrals.",
         "photo": "Piter2.jpg"
       }
@@ -114,7 +115,7 @@
         "type": "Speech",
         "title": "Tutorial: Pravega (part 1)",
         "author": "Pavel Lipskii", "photo": "Lipskii.png",
-        "organization": "Dell",
+        "organization": "Dell Technologies",
         "annotation": "На семинаре Павел Липский (Ведущий инженер-разработчик ПО в Dell Technologies) познакомит слушателей с концепцией потоков и open-source проектом Pravega. Павел расскажет об Apache Flink, компонентах и развертывании Pravega, а также покажет демо сервиса.",
         "time": "10:00-11:00",
         "track": 1, "room": "Room A",
@@ -124,7 +125,7 @@
         "type": "Speech",
         "title": "Tutorial: Pravega (part 2)",
         "author": "Pavel Lipskii", "photo": "Lipskii.png",
-        "organization": "Dell",
+        "organization": "Dell Technologies",
         "annotation": "На семинаре Павел Липский (Ведущий инженер-разработчик ПО в Dell Technologies) познакомит слушателей с концепцией потоков и open-source проектом Pravega. Павел расскажет об Apache Flink, компонентах и развертывании Pravega, а также покажет демо сервиса.",
         "time": "11:15-12:15",
         "track": 1, "room": "Room A",
