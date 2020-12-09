@@ -159,12 +159,16 @@ Tatiana Basova
 Amit Sanger
 ** Technologies of modern template photolithography to create single and double layer PCBs: home version
 Alexandr Shchukin
-** User Profiling in Social Media
-Qi Yang
 ** UPUPUP: social network for maintaining long-term motivation and achieve goals
 Ekaterina Makarova
+** User Profiling in Social Media
+Qi Yang
+** Hybrid MPI Programming in High-Performance Computing :en:
+Yongyu Chen
 ** Synthesizing Sound for Art Projects
 Irina Zaguzina
+** Mobile Authentication and UX Problem of Cyrillic Alphabet Users
+Semyon Kuznetsov
 ** Methods for Improving the Quality of Building 3d Models in Photogrammetry
 Angelina Prishchepa
 ** Improving UX of Visualizing Project Documentation by Virtual Reality
@@ -177,19 +181,15 @@ Daria Plotnikova
 Daria Filippova
 ** Mobile Authentication and Cyrillic Alphabet
 Aleksandr Volosiuk
-** Mobile Authentication and UX Problem of Cyrillic Alphabet Users
-Semyon Kuznetsov
 ** Transformation of Point Clouds into 3d Model
 Polina Loseva
 ** Evaluation of GUI based on search time for information objects
 Aleksei Vostrukh
-** Hybrid Message Passing Interface in High-Performance Computing
-Yongyu Chen
 ** Adaptive Learning in Computer Design of Ship Integrated Management Systems
 Hoang Kinh
-** Normal Mapping in 3d Graphic Engines Acceleration by Message Passing Interface
-Moeid Heidari
 ** Highly Specialized Professional Texts Converting to a Conceptual Series for Unskilled Users
 Ekaterina Mashina
+** Normal Mapping in 3d Graphic Engines Acceleration by Message Passing Interface
+Moeid Heidari
 ** Predicting of the Urban Space Organization and Determining Usage Scenarios
 Anna Avdyushina
