@@ -26,7 +26,7 @@ const generateProgram = async () => {
                                 <h2>${event.title}</h2>
                                 <div class="text-left">
                                     <span class="h4">Time: ${event.time}</span>
-                                    ${event.room ? `<span class="float-right"><a target="_blank" rel="noopener noreferrer" class="btn ${event.link ? "btn-info" : "btn-secondary disabled"}"  ${event.link ? `href=" ${event.link}"`: ""}> ${event.room} </a></span>` : ""}
+                                    ${event.room ? `<span class="float-right btn-sm mb-2"><a target="_blank" rel="noopener noreferrer" class="btn ${event.link ? "btn-info" : "btn-secondary disabled"}"  ${event.link ? `href=" ${event.link}"`: ""}> ${event.room} </a></span>` : ""}
                                 </div>
                                 ${event.chairman ? `<h4 class="text-left">Chairman: ${event.chairman}</h4>` : ""}
                                 ${event["vice-chairman"] ? `<h4 class="text-left">Vice-Chairman: ${event["vice-chairman"]}</h4>` : ""}
@@ -59,14 +59,14 @@ const generateProgram = async () => {
                                     ${event.title}
                                     ${event.lang ? `<div  data-toggle="tooltip" data-placement="top" title="${event.lang ? language[event.lang] : ''}" class="badge badge-info text-center">${event.lang}</div>` : ""}
                                 </h4>
-                                ${event.room ? `<div><a target="_blank" rel="noopener noreferrer" class="btn ${event.link ? "btn-info" : "btn-secondary disabled"}"  ${event.link ? `href=" ${event.link}"`: ""}> ${event.room} </a></div>` : ""}
+                                ${event.room ? `<div><a target="_blank" rel="noopener noreferrer" class="btn btn-sm mb-2 ${event.link ? "btn-info" : "btn-secondary disabled"}"  ${event.link ? `href=" ${event.link}"`: ""}> ${event.room} </a></div>` : ""}
                                 <div class="d-xs-block d-md-flex align-items-center justify-content-center">
-                                    <div class="text-center w-50">
+                                    <div class="text-center w-50 day">
                                         ${event.author ? `<h5 class="text-center">${event.author}</h5>` : ""}
                                         ${event.organization ? `<h5 class="text-center">${event.organization}</h5>` : ""}
                                         ${event.photo ? `<img src="img/${event.photo}" class="schedule-img my-2 img-fluid text-center" alt="Photo of ${event.author}"/>` : ""}
                                     </div>
-                                    ${event.annotation ? `<div class="ml-md-5 w-50 text-left">${event.annotation}</div>` : ""}
+                                    ${event.annotation ? `<div class="ml-md-5 w-50 text-left day">${event.annotation}</div>` : ""}
                                 </div>
                                 <br/>
                             </div>`
