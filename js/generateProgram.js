@@ -7,7 +7,6 @@ const generateProgram = async () => {
                                     <a id="timetableToggler" data-toggle="list" role="tab" href="#timetable" class="list-group-item list-group-item-secondary active">Schedule</a>
                                     ${buttons}
                                 </div>
-                                <div class="mt-2 text-center"><strong>Online conference - Preliminary version</strong></div>
                                 <div class="mt-2 small text-center">All times specified for the Moscow timezone (UTC+3)</div>
                                 `
 
