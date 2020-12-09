@@ -218,6 +218,7 @@
         "type": "Event",
         "title": "Closing ceremony",
         "lang": "ru+en",
+        "track": 1, "room": "Room A",
         "time": "17:30-18:00"
       }
     ]
