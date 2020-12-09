@@ -6,7 +6,7 @@
         "type": "Event",
         "title": "Opening ceremony",
         "time": "10:15-10:45",
-        "track": 1, "room": "Room A",
+        "track": 1, "room": "Room A", "link": "https://youtu.be/nZl0soFDjrg",
         "lang": "ru+en"
       },
 
@@ -18,7 +18,7 @@
         "annotation": "In this tutorial I will present an adaptive regularization scheme for optimizing a composite energy functionals arising in image analysis. The adaptive regularization scheme is designed to balance data fidelity and regularization depending on the current data fit during the iterative optimization, so that regularization is strongest initially and wanes as data fidelity improves. The adaptive regularization algorithm can be applied to a variety of imaging applications such as reconstruction, segmentation and registration.",
         "time": "11:00-11:45",
         "photo": "byungwoo.hong.png",
-        "track": 1, "room": "Room A",
+        "track": 1, "room": "Room A", "link": "https://youtu.be/nZl0soFDjrg",
         "lang": "en+ru"
       },
 
@@ -30,7 +30,7 @@
         "chairman": "Vasiliy Pinkevich, Vladimir Bogatyrev",
         "time": "12:00-13:30",
         "lang": "en",
-        "track": 1, "room": "Room A",
+        "track": 1, "room": "Room A", "link": "https://youtu.be/nZl0soFDjrg",
         "presentations": [{"lang": "en", "theme": "[10] Spatial-energy Model of a Wireless Sensor Network", "authors": "Tatyana Astakhova, Darya Kirilova and Mikhail Kolbanev", "time": "long"}, {"lang": "en", "theme": "[15] Logic Graphs: complete, semantic oriented and easy to learn visualization method for OWL DL language", "authors": "Ngoc Than Nguyen and Ildar Baimuratov", "time": "long"}, {"lang": "en", "theme": "[45] Evaluating Efficiency of Artificial Neural Networks for Solving Symmetric Cryptography Issues", "authors": "Denis Roenko", "time": "short"}, {"lang": "en", "theme": "[101] Algorithm for Persons Cross-identification Across Social Networks", "authors": "Irina Dmitrieva and Sergey Chuprov", "time": "short"}, {"lang": "en", "theme": "[85] Organization of UDP Transmissions Reservation in Real-Time Computer Networks", "authors": "Ilya Noskov and Vladimir Bogatyrev", "time": "short"}, {"lang": "en", "theme": "[48] Multimedia Data Model and Experimental Technique to Improve Human-Computer Graphic Interface", "authors": "Ekaterina Borevich, Serg Mescheryakov and Victor Yanchus", "time": "short"}, {"lang": "en", "theme": "[73] PROWN: Pattern Oriented Routing in Wireless Network: Concept & Challenges", "authors": "Rahul Johari, Riya Bhatia and Kanika Gupta", "time": "short"}, {"lang": "ru", "theme": "[60] Forecasting Network Exchange Time Series", "authors": "Aleksandr Moshnikov and Aleksandr Syrov", "time": "short"}]
       },
       {
@@ -39,7 +39,7 @@
         "chairman": "Alexey Platunov",
         "time": "12:00-13:30",
         "lang": "ru",
-        "track": 2, "room": "Room B",
+        "track": 2, "room": "Room B", "link": "https://youtu.be/ZJryFHUUP3Q",
         "presentations": [{"lang": "ru", "theme": "[59] Training laboratories with online access on the ITMO.cLAB platform", "authors": "Alexey Platunov, Arkady Kluchev, Vasiliy Pinkevich, Vladislav Kluchev and Maxim Kolchurin", "time": "long"}, {"lang": "ru", "theme": "[25] Integrating Smart Contracts into Smart Factory Elements' Informational Interaction Model", "authors": "Julia Lyakhovenko, Ilia Viksnin and Sergey Chuprov", "time": "long"}, {"lang": "ru", "theme": "[23] Informational Messages and Space Models Application in Smart Factory Concept", "authors": "Maria Usova, Ilya Viksnin and Sergey Chuprov", "time": "long"}, {"lang": "ru", "theme": "[16] A Two-phase Model of Information Interaction in a Heterogeneous Internet of Things Network at the Last Mile", "authors": "Anna Romanova, Mikhail Kolbanev and Natalya Verzun", "time": "short"}, {"lang": "ru", "theme": "[97] Method for Environmental Monitoring in the Incomplete Data Conditions", "authors": "Nikita Tursukov, Ilya Viksnin, Iuliia Kim and Evgenii Neverov", "time": "short"}, {"lang": "ru", "theme": "[98] Development of a Linear Actuator Controller For a Hand Prosthesis", "authors": "Pavel Rozhkin, Kirill Markin and Alexey Platunov", "time": "short"}, {"lang": "ru", "theme": "[110] Scalable Simulation Environment of Microcontrollers with Remote Access", "authors": "Sergei Bykovskii, Tatyana Prilutskaya and Elizaveta Kormilitsyna", "time": "short"}]
       },
 
@@ -53,7 +53,7 @@
         "organization": "GS Labs, Russia",
         "annotation": "We analyze the applicability of the term digitalization to modern television and justify  the concept of digitalization of digital media as a transformation of user experience towards control of converged media realm from new environment created by portable devices, voice assistants and emerging emotional interfaces.",
         "time": "14:00-14:30",
-        "track": 1, "room": "Room A",
+        "track": 1, "room": "Room A", "link": "https://youtu.be/nZl0soFDjrg",
         "photo": "photo_2020-12-03_18-32-33.jpg"
       },
 
@@ -62,7 +62,7 @@
         "title": "Artificial Intelligence and Machine Learning 1",
         "chairman": "Dmitry Mouromtsev",
         "time": "14:45-16:15",
-        "track": 1, "room": "Room A",
+        "track": 1, "room": "Room A", "link": "https://youtu.be/nZl0soFDjrg",
         "lang": "en",
         "presentations": [{"lang": "en", "theme": "[2] Raga Classification using Convolutional Neural Network", "authors": "Dr. Remya K. Sasi and Athul Krishnan", "time": "long"}, {"lang": "en", "theme": "[81] Directional and Qualitative Feature Classification for Speaker Diarization with Dual Microphone Arrays", "authors": "Sergei Astapov, Dmitry Popov and Vladimir Kabarov", "time": "long"}, {"lang": "en", "theme": "[51] Visual Objects Tracking on Road Sequences Using Information about Scene Perspective Transform", "authors": "Nikolay Nemcev and Nickolay Kozyrev", "time": "long"}, {"lang": "en", "theme": "[94] Comparative Analysis of Stochastic Optimization Methods", "authors": "Anton Changalidi", "time": "short"}, {"lang": "en", "theme": "[87] Research of Neural Network Algorithms in Reading Comprehension with Commonsense Reasoning Dataset (ReCoRD)", "authors": "Vyacheslav Olyunin, Alexey Platonov, Ilya Bykov and Sergey Milantev", "time": "short"}, {"lang": "en", "theme": "[89] Artificial Intelligence Methods Effectiveness Evaluation for Man-made Threats Detection at Critical Infrastructure Facilities", "authors": "Evgenii Neverov, Ilya Viksnin, Iuliia Kim and Nikita Tursukov", "time": "short"}, {"lang": "en", "theme": "[67] Revealing the Application of Steganography Algorithms to the Text Using Linguistic Identification Methods", "authors": "Alexander Khazagarov and Alisa A Vorobeva", "time": "short"}]
       },
@@ -82,7 +82,7 @@
         "time": "16:30-17:15",
         "tableTime": "16:30",
         "lang": "ru&en",
-        "track": 1, "room": "Room A",
+        "track": 1, "room": "Room A", "link": "https://youtu.be/nZl0soFDjrg",
         "presentations": [{"lang": "ru", "theme": "[5] Automated measurement system with sensor signal processing control", "authors": "Svetlana Kolmogorova", "time": "short"}, {"lang": "en", "theme": "[11] Using OpenMP to Optimize model training process in machine learning algorithms", "authors": "Omar Mohammed, Moeid Heidari and Alexey Paznikov", "time": "short"}, {"lang": "ru", "theme": "[38] Development of Algorithm for Improving Accuracy of Probability Coefficient of Threat Implementation in Personal Data Information Systems", "authors": "Sergey Verevkin, Ksenia Naumova, Tatiana Tatarnikova, Pavel Bogdanov and Ekaterina Kraeva", "time": "short"}, {"lang": "ru", "theme": "[54] Development of Means for Assessing the Level of Student Satisfaction with the Distance Learning Process through Video Conferencing", "authors": "Adelina Ismagilova, Sofia Sorokina and Oleg Basov", "time": "short"}]
       },
       {
@@ -101,7 +101,7 @@
         "author": "Anna Spiridonova",
         "time": "18:30-19:30",
         "lang": "en",
-        "track": 1, "room": "Room A",
+        "track": 1, "room": "Room A", "link": "https://youtu.be/nZl0soFDjrg",
         "annotation": "During the one-hour tour you will get acquainted with the main sightseeings of the city in a beautifulsunny day. We will start from the panoramic view of the city, then we will walk along Nevsky Prospekt, visit the Hermitage museum, ride along the rivers and canals, visit the main squares and architectural ensembles and the last point will be in Peterhof. You will get the complex feeling of the city: the resourse of Yandex maps gives us an opportunity to travel by balloons, by boats and by feet, also we will be able to come into some famous building and cathedrals.",
         "photo": "Piter2.jpg"
       }
