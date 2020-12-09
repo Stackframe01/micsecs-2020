@@ -155,29 +155,31 @@ Adelina Ismagilova, Sofia Sorokina and Oleg Basov
 * Student Colloquium
 ** Automation of Tool Wear Control on the Flexible Manufacturing System
 Tatiana Basova
-** Security Concerns of a Cloud Environment :en:
+** Security Concerns of a Cloud Environment :en:ok:
 Amit Sanger
 ** Technologies of modern template photolithography to create single and double layer PCBs: home version
 Alexandr Shchukin
-** UPUPUP: social network for maintaining long-term motivation and achieve goals
+** UPUPUP: social network for maintaining long-term motivation and achieve goals :ru:ok:
 Ekaterina Makarova
 ** User Profiling in Social Media
 Qi Yang
-** Hybrid MPI Programming in High-Performance Computing :en:
+** Hybrid MPI Programming in High-Performance Computing :en:ok:
 Yongyu Chen
 ** Synthesizing Sound for Art Projects
 Irina Zaguzina
 ** Mobile Authentication and UX Problem of Cyrillic Alphabet Users
 Semyon Kuznetsov
-** Methods for Improving the Quality of Building 3d Models in Photogrammetry
+** Methods for Improving the Quality of Building 3d Models in Photogrammetry :ru:ok:
 Angelina Prishchepa
 ** Improving UX of Visualizing Project Documentation by Virtual Reality
 Liza Volodina
 ** Framework for Processing Huge Amount of String Data
 Svetlana Podkolzina
+** Predicting of the Urban Space Organization and Determining Usage Scenarios :en:ok:
+Anna Avdyushina
 ** Virtual Reality Application for Training the Vestibular System
 Daria Plotnikova
-** Multiple Viewpoint Data Visualization in Clinical Medicine
+** Visualization Interdisciplinary Medical Data and their Perception :ru:ok:
 Daria Filippova
 ** Mobile Authentication and Cyrillic Alphabet
 Aleksandr Volosiuk
@@ -191,5 +193,3 @@ Hoang Kinh
 Ekaterina Mashina
 ** Normal Mapping in 3d Graphic Engines Acceleration by Message Passing Interface
 Moeid Heidari
-** Predicting of the Urban Space Organization and Determining Usage Scenarios
-Anna Avdyushina
