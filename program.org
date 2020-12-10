@@ -161,7 +161,6 @@ Alexandr Shchukin
 Anna Avdyushina
 ** Mobile Authentication and UX Problem of Cyrillic Alphabet Users :ru:ok:
 Semyon Kuznetsov
-
 ** Visualization Interdisciplinary Medical Data and their Perception :ru:ok:
 Daria Filippova
 ** Social Network for Maintaining Motivation UPUPUP :ru:ok:
@@ -172,10 +171,8 @@ Qi Yang
 Angelina Prishchepa
 ** Point Clouds Registration Method Using ICP Algorithm and Modified Hausdorff Distance :ok:
 Polina Loseva
-
 ** Security Concerns of a Cloud Environment :en:draft:
 Amit Sanger
-
 ** Hybrid MPI Programming in High-Performance Computing :en:ok:
 Yongyu Chen
 ** Synthesizing Sound for Art Projects
