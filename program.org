@@ -24,7 +24,7 @@ Aleksandr Khodos and Michail Panteleyev
 Dmitriy Zhdanov, German Gebel and Renat Narbekov
 ** <<35>> Prediction of Potentially Hazardous Coal Dust Concentration Level using Machine Learning Methods :AI:
 Iuliia Kim, Ilya Viksnin, Nikita Tursukov and Evgenii Neverov
-** <<63>> Neural Network Cascading as a Tool for Improving the Accuracy of a Specialized Forecasting System :AI:
+** <<63>> Neural Network Cascading as a Tool for Improving the Accuracy of a Specialized Forecasting System :AI:ru:en:
 Alexander Krutikov, Nataly Zhukova and Vasily Meltsov
 ** <<36>> Methods for detecting patterns in the routing cluster data of an automated monitoring system based on IoT technologies :AI:CS:ok:ru:
 Evgenii Milenin
@@ -153,38 +153,41 @@ Sergey Verevkin, Ksenia Naumova, Tatiana Tatarnikova, Pavel Bogdanov and Ekateri
 ** <<54>> Development of Means for Assessing the Level of Student Satisfaction with the Distance Learning Process through Video Conferencing :AI:CS:EDU:UX:
 Adelina Ismagilova, Sofia Sorokina and Oleg Basov
 * Student Colloquium
-** Automation of Tool Wear Control on the Flexible Manufacturing System
+** Automation of Tool Wear Control on the Flexible Manufacturing System :ru:ok:first:
 Tatiana Basova
-** Security Concerns of a Cloud Environment :en:ok:
-Amit Sanger
 ** Technologies of modern template photolithography to create single and double layer PCBs: home version
 Alexandr Shchukin
-** UPUPUP: social network for maintaining long-term motivation and achieve goals :ru:ok:
+** Predicting of the Urban Space Organization and Determining Usage Scenarios :en:ok:
+Anna Avdyushina
+** Mobile Authentication and UX Problem of Cyrillic Alphabet Users :ru:ok:
+Semyon Kuznetsov
+
+** Visualization Interdisciplinary Medical Data and their Perception :ru:ok:
+Daria Filippova
+** Social Network for Maintaining Motivation UPUPUP :ru:ok:
 Ekaterina Makarova
-** User Profiling in Social Media
+** SoMin.ai Personality-Driven Content Generation Platform :en:ok:
 Qi Yang
+** Methods for Improving the Quality of Building 3d Models in Photogrammetry :ru:ok:
+Angelina Prishchepa
+** Point Clouds Registration Method Using ICP Algorithm and Modified Hausdorff Distance :ok:
+Polina Loseva
+
+** Security Concerns of a Cloud Environment :en:draft:
+Amit Sanger
+
 ** Hybrid MPI Programming in High-Performance Computing :en:ok:
 Yongyu Chen
 ** Synthesizing Sound for Art Projects
 Irina Zaguzina
-** Mobile Authentication and UX Problem of Cyrillic Alphabet Users
-Semyon Kuznetsov
-** Methods for Improving the Quality of Building 3d Models in Photogrammetry :ru:ok:
-Angelina Prishchepa
 ** Improving UX of Visualizing Project Documentation by Virtual Reality
 Liza Volodina
 ** Framework for Processing Huge Amount of String Data
 Svetlana Podkolzina
-** Predicting of the Urban Space Organization and Determining Usage Scenarios :en:ok:
-Anna Avdyushina
-** Virtual Reality Application for Training the Vestibular System
+** Virtual Reality Application for Training the Vestibular System :ru-annotation:
 Daria Plotnikova
-** Visualization Interdisciplinary Medical Data and their Perception :ru:ok:
-Daria Filippova
 ** Mobile Authentication and Cyrillic Alphabet
 Aleksandr Volosiuk
-** Transformation of Point Clouds into 3d Model
-Polina Loseva
 ** Evaluation of GUI based on search time for information objects
 Aleksei Vostrukh
 ** Adaptive Learning in Computer Design of Ship Integrated Management Systems
