@@ -181,8 +181,6 @@ Irina Zaguzina
 Liza Volodina
 ** Framework for Processing Huge Amount of String Data
 Svetlana Podkolzina
-** Virtual Reality Application for Training the Vestibular System :ru-annotation:
-Daria Plotnikova
 ** Mobile Authentication and Cyrillic Alphabet
 Aleksandr Volosiuk
 ** Evaluation of GUI based on search time for information objects
@@ -193,3 +191,5 @@ Hoang Kinh
 Ekaterina Mashina
 ** Normal Mapping in 3d Graphic Engines Acceleration by Message Passing Interface
 Moeid Heidari
+** Virtual Reality Application for Training the Vestibular System :ru-annotation:
+Daria Plotnikova
