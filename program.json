@@ -117,7 +117,7 @@
         "organization": "Dell Technologies",
         "annotation": "На семинаре Павел Липский (Ведущий инженер-разработчик ПО в Dell Technologies) познакомит слушателей с концепцией потоков и open-source проектом Pravega. Павел расскажет об Apache Flink, компонентах и развертывании Pravega, а также покажет демо сервиса.",
         "time": "10:00-11:00",
-        "track": 1, "room": "Room A",
+        "track": 1, "room": "Room A", "link": "https://youtu.be/9qq5KJ7wmus",
         "lang": "ru"
       },
       {
@@ -127,7 +127,7 @@
         "organization": "Dell Technologies",
         "annotation": "На семинаре Павел Липский (Ведущий инженер-разработчик ПО в Dell Technologies) познакомит слушателей с концепцией потоков и open-source проектом Pravega. Павел расскажет об Apache Flink, компонентах и развертывании Pravega, а также покажет демо сервиса.",
         "time": "11:15-12:15",
-        "track": 1, "room": "Room A",
+        "track": 1, "room": "Room A", "link": "https://youtu.be/9qq5KJ7wmus",
         "lang": "ru"
       },
 
@@ -139,7 +139,7 @@
         "annotation": "Облачная лаборатория ITMO.cLAB это сервис для обеспечения дистанционного доступа студентов и преподавателей к разнообразному учебному лабораторному оборудованию из любой точки земного шара при помощи обычных ноутбуков, планшетов или смартфонов. С помощью ITMO.cLAB студенты получают доступ к реальному оборудованию и могут удаленно выполнять учебные задания в рамках лабораторных, курсовых, дипломных работ или просто заниматься своими исследованиями.",
         "time": "10:00-11:00",
         "photo": "kluchev_photo.jpg",
-        "track": 2, "room": "Room B",
+        "track": 2, "room": "Room B", "link": "https://youtu.be/W8qakHQnJU8",
         "lang": "ru"
       },
       {
@@ -150,7 +150,7 @@
         "time": "11:15-12:15",
         "photo": "klimov_photo.png",
         "annotation": "Системы автоматического распознавания речи, или ASR (Automatic Speech Recognition) на сегодняшний день получают всё большее распространение в таких сферах, как голосовые помошники и Интернет Вещей. Для исследования систем ASR был разработан виртуальный лабораторный комплекс ITMO.CVoA, предназначенная для комплексного изучения различных аспектов распознавания речи, таких как подготовка и зашумление входных данных, параметризация процесса распознавания, а также рассчёт метрик и сравнительный анализ полученных расшифровок.",
-        "track": 2, "room": "Room B",
+        "track": 2, "room": "Room B", "link": "https://youtu.be/W8qakHQnJU8",
         "lang": "ru"
       },
 
@@ -159,7 +159,7 @@
         "title": "Artificial Intelligence and Machine Learning 2",
         "chairman": "Igor Bessmertny",
         "time": "12:30-14:00",
-        "track": 1, "room": "Room A",
+        "track": 1, "room": "Room A", "link": "https://youtu.be/9qq5KJ7wmus",
         "lang": "ru",
         "presentations": [{"lang": "ru", "theme": "[34] Detection of Defective Speech Using Convolutional Neural Networks", "authors": "Mikhail Belenko, Nikita Burym and Pavel Balakshin", "time": "long"}, {"lang": "ru", "theme": "[93] Formation Recognition by Clustering-Based Method in Virtual Soccer", "authors": "Aleksandr Khodos and Michail Panteleyev", "time": "long"}, {"lang": "ru", "theme": "[53] Computer Vision Technologies at Hazardous Industrial Facilities", "authors": "Dmitriy Zhdanov, German Gebel and Renat Narbekov", "time": "long"}, {"lang": "ru", "theme": "[35] Prediction of Potentially Hazardous Coal Dust Concentration Level using Machine Learning Methods", "authors": "Iuliia Kim, Ilya Viksnin, Nikita Tursukov and Evgenii Neverov", "time": "short"}, {"lang": "ru", "theme": "[63] Neural Network Cascading as a Tool for Improving the Accuracy of a Specialized Forecasting System", "authors": "Alexander Krutikov, Nataly Zhukova and Vasily Meltsov", "time": "short"}, {"lang": "ru", "theme": "[36] Methods for detecting patterns in the routing cluster data of an automated monitoring system based on IoT technologies", "authors": "Evgenii Milenin", "time": "short"}, {"lang": "ru", "theme": "[26] Skin Lesion Analysis Using Ensemble of CNN with Dermoscopic Images and Metadata", "authors": "Sergey Milantev, Vyacheslav Olyunin, Ilya Bykov, Natalya Milanteva and Igor Bessmertny", "time": "short"}]
       },
@@ -170,7 +170,7 @@
         "chairman": "Vladimir Bogatyrev",
         "time": "12:30-14:00",
         "lang": "ru",
-        "track": 2, "room": "Room B",
+        "track": 2, "room": "Room B", "link": "https://youtu.be/W8qakHQnJU8",
         "presentations": [{"lang": "ru", "theme": "[40] Replication of Requests when Dividing Cluster Nodes Between Threads of Different Criticality to Delays in Queues", "authors": "Vladimir Bogatyrev, Stanislav Bogatyrev and Anatoy Bogatyrev", "time": "long"}, {"lang": "ru", "theme": "[80] Recording and Storage Traffic Management in Storage Systems", "authors": "Tatyana Tatarnikova, Ekaterina Poymanova and Ekaterina Kraeva", "time": "long"}, {"lang": "ru", "theme": "[62] Evaluation of Network Reliability and Element Importance Metrics", "authors": "Aleksandr Moshnikov", "time": "short"}, {"lang": "ru", "theme": "[21] Emotion Recognition Software based on Facial Expressions", "authors": "Darya Panarina and Pavel Balakshin", "time": "short"}, {"lang": "ru", "theme": "[75] Priority Serving of Heterogeneous Traffic with Replication of Waiting-Critical Requests\u00a0", "authors": "Vladimir Bogatyrev, Stanislav Bogatyrev and Anatoy Bogatyrev", "time": "short"}, {"lang": "ru", "theme": "[102] Target Algorithm Optimisation for a Custom Processor Unit in the ASIP", "authors": "Daniil Prohorov and Aleksandr Penskoi", "time": "short"}, {"lang": "ru", "theme": "[1] Cross-Cluster Redistribution with Replication of Heterogeneous Request Flow", "authors": "Vladimir Bogatyrev,\u00a0Anatoly Bogatyrev\u00a0and\u00a0Stanislav Bogatyrev", "time": "short"}, {"lang": "ru", "theme": "[6] Risk Analysis Method of Authentication Systems for Swarms of UAV", "authors": "Tran D. Khanh, Le D. Don and Komarov I. Ivanovich", "time": "short"}]
       },
       {
@@ -191,7 +191,7 @@
         "annotation": "Challenging Issues in Development and Integration of Modern Kinematics with Components and Images Obtained from Different Sources in Biomechanical Applications.",
         "time": "14:30-15:15",
         "photo": "gutman.jpg",
-        "track": 1, "room": "Room A",
+        "track": 1, "room": "Room A", "link": "https://youtu.be/9qq5KJ7wmus",
         "lang": "ru&en"
       },
 
@@ -201,7 +201,7 @@
         "chairman": "Pavel Balakshin",
         "time": "15:30-17:00",
         "lang": "en&ru",
-        "track": 1, "room": "Room A",
+        "track": 1, "room": "Room A", "link": "https://youtu.be/9qq5KJ7wmus",
         "presentations": [{"lang": "en", "theme": "[66] Detection of Toxic Comments in Russian Text Messages", "authors": "Darya Bogoradnikova, Olesia Makhnytkina and Anton Matveev", "time": "long"}, {"lang": "en", "theme": "[52] Application of Parametric Rectified Linear Unit into Speech Recognition Model", "authors": "Dr. Robin Singh Bhadoria, Atharva Nimbalkar, Ram Korde and\u00a0Varun Mishra", "time": "long"}, {"lang": "en", "theme": "[57] Researching Modern Chat Bots", "authors": "Uliana Muratova and Pavel Balakshin", "time": "short"}, {"lang": "en", "theme": "[78] Research of Voice Assistants Safety", "authors": "Nikita Burym, Mikhail Belenko and Pavel Balakshin", "time": "short"}, {"lang": "en", "theme": "[43] The Effectiveness of Using Bell Inequality Test for Information Retrieval in Arabic Texts", "authors": "Alaa Shaker and\u00a0Igor Bessmertny", "time": "short"}, {"lang": "en", "theme": "[91] On Continual Learning for Topic Classification of Texts", "authors": "Nikita Mamaev and Sergey Maslyukhin", "time": "short"}, {"lang": "en", "theme": "[95] Sentiment Analysis of Russian Text Using the Semantic Network", "authors": "Andrey Mileshin, Evgenij Tsopa, Serge Klimenkov and Aleksandr Slapoguzov", "time": "short"}, {"lang": "ru", "theme": "[70] Using of Deep Neural Networks for Yes/No Natural Questions Task", "authors": "Ilya Bykov, Alexey Platonov, Vyacheslav Olyunin and Sergey Milantev", "time": "short"}]
       },
       {
@@ -210,7 +210,7 @@
         "time": "15:30-17:00",
         "chairman": "Sergey Bikovsky",
         "lang": "ru",
-        "track": 2, "room": "Room B",
+        "track": 2, "room": "Room B", "link": "https://youtu.be/W8qakHQnJU8",
         "presentations": [{"lang": "ru", "theme": "[65] Design of Embedded and Cyber-Physical Systems using a Cross-Level Microarchitectural Patterns of the Computational Process Organization", "authors": "Vasiliy Pinkevich and Alexey Platunov", "time": "long"}, {"lang": "ru", "theme": "[92] Practical Comparison of High-Level Synthesis and Hardware Generation Frameworks: CPU Floating Point Unit Case", "authors": "Oleg Morozov and Alexander Antonov", "time": "long"}, {"lang": "ru", "theme": "[49] Panorama Stitching Method Using Sensor Fusion", "authors": "Aleksei Goncharov and Sergei Bykovskii", "time": "long"}, {"lang": "ru", "theme": "[86] Software Module for Unmanned Autonomous Vehicle's On-board Camera Faults Detection and Correction", "authors": "Egor Domnitsky, Vladimir Mikhailov, Evgeniy Zoloedov, Danila Alyukov, Sergey Chuprov, Egor Marinenkov and Ilia Viksnin", "time": "short"}, {"lang": "ru", "theme": "[108] One Approach To Construct Ambient Intelligence System\u2019s (AmIS) Models Based On Fog Platforms", "authors": "Saddam Abbas, Alexander Vodyaho, Vladimir Chernokulsky and Natalia Zhukova", "time": "short"}, {"lang": "ru", "theme": "[50] Optimization of Hardware Neural Networks Using Queuing Theory", "authors": "Konstantin Kormilitsyn and\u00a0Pavel Kustarev", "time": "short"}, {"lang": "ru", "theme": "[79] Method for Predicting the Result of Applications Submitted to Scientific Tenders from the Criteria for their Assessment", "authors": "Galina Markina, Olga Kuznetsova, Mikhail Shley and Tatiana Markina", "time": "short"}]
       },
 
@@ -218,7 +218,7 @@
         "type": "Event",
         "title": "Closing ceremony",
         "lang": "ru+en",
-        "track": 1, "room": "Room A",
+        "track": 1, "room": "Room A", "link": "https://youtu.be/9qq5KJ7wmus",
         "time": "17:30-18:00"
       }
     ]
